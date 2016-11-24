@@ -1,0 +1,905 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>三木市 [ 幼稚園の入園手続き ]</title><STYLE TYPE="text/css">
+<!--
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+.hidden {
+	display: none;
+}
+div#bodyWrap {
+	width: 870px;
+	margin: 0 auto;
+	padding: 0;
+}
+/*ヘッダー
+-----------------------------------------------------------*/
+p.siteID {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+/*ヘッダーのナビゲーション*/
+div#hdNaviWrap {
+	width: 462px;
+	/*background: #FFFFFF url(../images/hd_background.jpg) no-repeat; フォントの拡大・縮小有用背景*/
+	background: #FFFFFF url(../images/hd_background2.jpg) no-repeat;/*フォントの拡大・縮小無*/
+	font-size: 80%;
+	height: 66px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+div.hdNavi {
+	margin: 0 0 0 77px;
+	padding: 0;
+}
+div.hdNavi p {
+	margin: 9px 0 0 0;
+	padding: 0;
+	float: left;
+}
+.hdNavi p a {
+	margin: 0;
+	padding: 0 8px 0 0;
+	height: 24px;
+	text-indent: -9999pt;
+	display: block;
+}
+div.hdNavi p a.sitemap { width:120px; background: url(../images/hd_btn_sitemap.gif) no-repeat; text-decoration: none; }/*サイトマップ*/
+div.hdNavi p a.contact { width:120px; background: url(../images/hd_btn_contact.gif) no-repeat; text-decoration: none; }/*お問い合わせ*/
+div.hdNavi p a.english { width:120px; background: url(../images/hd_btn_english.gif) no-repeat; text-decoration: none; }/*English*/
+
+div.fontChange {
+	margin: 0 0 0 252px;
+	padding: 0;
+	clear: both;
+}
+div.fontChange p {
+	margin: 5px 3px 0 0;
+	padding: 0;
+	float: left;
+}
+div.fontChange p a {
+	margin: 0;
+	padding: 0;
+	height: 24px;
+	text-indent: -9999pt;
+	display: block;
+}
+div.fontChange p a.sizeB { width:80px; background: url(../images/hd_btn_size_b.gif) no-repeat; text-decoration: none; }/*フォントサイズ拡大*/
+div.fontChange p a.sizeM { width:80px; background: url(../images/hd_btn_size_m.gif) no-repeat; text-decoration: none; }/*フォントサイズリセット*/
+div.fontChange p a.fntChange { width:200px; background: url(../images/hd_btn_fntchange.gif) no-repeat; text-decoration: none; }/*フォントサイズを変更するには*/
+
+/*グローバルナビゲーション
+------------------------------------------------------------*/
+ul#glovalNavigation {
+	width: 862px;
+	margin: 0 0 0 4px;
+	padding: 0;
+	list-style: none;
+	clear: both;
+}
+ul#glovalNavigation li {
+	float: left;
+	margin: 3px 2px 0 0;
+	padding: 0;
+}
+ul#glovalNavigation li a {
+	margin: 0;
+	padding: 0;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+}
+ul#glovalNavigation li a.top { width:118px; background: url(../images/navi_top.gif) no-repeat; text-decoration: none; }/*トップページ*/
+ul#glovalNavigation li a.kurashi { width:118px; background: url(../images/navi_shimin.gif) no-repeat; text-decoration: none; }/*市民向け情報*/
+ul#glovalNavigation li a.mikicity { width:118px; background: url(../images/navi_mikicity.gif) no-repeat; text-decoration: none; }/*三木市について*/
+ul#glovalNavigation li a.gyosei { width:118px; background: url(../images/navi_gyosei.gif) no-repeat; text-decoration: none; }/*行政情報*/
+ul#glovalNavigation li a.jigyo { width:118px; background: url(../images/navi_jigyo.gif) no-repeat; text-decoration: none; }/*事業者向け情報*/
+ul#glovalNavigation li a.shisetsu { width:118px; background: url(../images/navi_shisetsu.gif) no-repeat; text-decoration: none; }/*施設ガイド*/
+ul#glovalNavigation li a.kanko { width:118px; background: url(../images/navi_bunka.gif) no-repeat; text-decoration: none; }/*文化・観光*/
+
+span.topOn {/*トップページ アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_top_on.gif) no-repeat;
+	
+}
+span.kurashiOn {/*市民向け情報 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_shimin_on.gif) no-repeat;
+	
+}
+span.mikiOn {/*三木市について アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_mikicity_on.gif) no-repeat;
+	
+}
+span.gyoseiOn {/*行政情報 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_gyosei_on.gif) no-repeat;
+	
+}
+span.jigyoOn {/*事業者向け情報 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_jigyo_on.gif) no-repeat;
+	
+}
+span.shisetsuOn {/*施設ガイド アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_shisetsu_on.gif) no-repeat;
+	
+}
+span.kankoOn {/*文化・観光 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_bunka_on.gif) no-repeat;
+	
+}
+
+/*サイト検索
+-----------------------------------------------------------*/
+form {
+	margin: 0;
+	padding: 0;
+}
+div.search {
+	margin: 0;
+	font-size: 80%;
+	padding: 7px 10px;
+	border-top: 5px solid #72A835;
+	text-align: right;
+	background: #FFFFFF url(../images/srch_background.gif) repeat-x;
+	clear: both;
+	vertical-align: top;
+}
+
+/*フッター
+-----------------------------------------------------------*/
+div#ftrNaviWrap {
+	width: 870px;
+	border-top: 4px solid #72A835;
+}
+ul.ftrNavi{
+	font-size: 80%;
+	background-color: #DAEDC9;
+	list-style-type: none;
+	margin: 0;
+	padding: 7px 0;
+	line-height: 1.0em;;
+}
+ul.ftrNavi li {
+	display: inline;
+	padding: 0 12px;
+	border-right: 1px solid #000000;
+}
+ul.ftrNavi2{
+	font-size: 80%;
+	background-color: #B8DA9D;
+	list-style-type: none;
+	margin: 0;
+	padding: 7px 0;
+	line-height: 1.0em
+}
+ul.ftrNavi2 li {
+	display: inline;
+	padding: 0 12px;
+	border-right: 1px solid #000000;
+}
+div#address {
+	padding: 12px 12px 4px 12px;
+}
+div#address p {
+	font-size: 75%;
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+p.copy {
+	font-size: 80%;
+	text-align: center;
+	background: #72A835;
+	color:#FFFFFF;
+	padding: 8px;
+	margin: 0 0 20px 0;
+	letter-spacing: 1px;
+}
+
+/*リンク　色設定
+-----------------------------------------------------------*/
+a { color: #0000FF; text-decoration: underline; }
+a:visited { color: #666699; text-decoration: underline; }
+a:hover, a:visited:hover { color: #FF0033; text-decoration: underline; }
+
+/*英語ページ
+-----------------------------------------------------------*/
+div#enHdNaviWrap {
+	width: 682px;
+	/*background: #FFFFFF url(../images/hd_background.jpg) no-repeat; フォントの拡大・縮小有用背景*/
+	background: #FFFFFF url(../images/en_hd_background.jpg) no-repeat;/*フォントの拡大・縮小無*/
+	font-size: 80%;
+	height: 66px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+div.enHdNavi {
+	margin: 0 0 0 553px;
+	padding: 0;
+}
+div.enHdNavi p {
+	margin: 9px 0 0 0;
+	padding: 0;
+	float: left;
+}
+.enHdNavi p a {
+	margin: 0;
+	padding: 0 8px 0 0;
+	height: 24px;
+	text-indent: -9999pt;
+	display: block;
+}
+div.enHdNavi p a.japanese { width:120px; background: url(../images/en_btn_japanese.gif) no-repeat; text-decoration: none; }/*Japanese*/
+
+ul#glovalNavigation li a.enTop { width:118px; background: url(../images/en_navi_top.gif) no-repeat; text-decoration: none; }/*英語トップページ*/
+ul#glovalNavigation li a.enMikicity { width:118px; background: url(../images/en_navi_profile.gif) no-repeat; text-decoration: none; }/**/
+ul#glovalNavigation li a.enShisetsu { width:118px; background: url(../images/en_navi_local.gif) no-repeat; text-decoration: none; }/**/
+ul#glovalNavigation li a.enKanko { width:118px; background: url(../images/en_navi_tourist.gif) no-repeat; text-decoration: none; }/**/
+
+span.enTopOn {/*トップページ アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_top_on.gif) no-repeat;
+	
+}
+span.enMikicityOn {
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_profile_on.gif) no-repeat;
+	
+}
+span.enShisetsuOn {
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_local_on.gif) no-repeat;
+	
+}
+span.enKankoOn {
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_tourist_on.gif) no-repeat;
+	
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	line-height: 100%;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+div#mainArea ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div#mainArea li {
+	padding: 0 0 11px 16px;
+	font-size: 80%;
+	line-height: 100%;
+	background: url(../images/arrow.gif) no-repeat;
+	/*border: 1px solid #F5F5F5;*/
+}
+.clear {
+	clear: both;
+}
+
+/*メインエリア左
+-----------------------------------------------------------------------*/
+div#leftColumn {/*レイアウト設定*/
+	width: 190px;
+	margin: 0;
+	padding: 0 10px 0 0;
+	float: left;
+}
+p.shigikai {
+	margin: 0;
+	padding: 0 0 2px 0;
+}
+p.phText {
+	margin: 9px 11px 4px 11px;
+	padding: 0;
+	font-size: 80%;
+}
+
+ul.lcLeft {
+	width: 90px;
+	float: left;
+}
+ul.lcRight {
+	width: 80px;
+	float: right;
+}
+
+/*■■■メニュー囲み枠設定■■■*/
+div.mayorMenuWrap {
+	margin: 0 0 10px 0;
+	padding: 8px 8px 0 8px;
+	background: #F4FBF8;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #56C78E;
+}
+div.kishaMenuWrap {
+	margin: 0 0 10px 0;
+	padding: 8px 8px 0 8px;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #2BA0E8;
+}
+div.pubHallWrap {
+	margin: 0 0 10px 0;
+	padding: 5px;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #D59E80;
+}
+div.fureaiWrap {
+	margin: 0 0 10px 0;
+	padding: 10px 8px 0 8px;
+	border:1px solid #D59E7F;
+	background: #FEF8E2;
+}
+div#denshiWrap {
+	margin: 0 0 16px 0;
+	padding: 0;
+	border: 1px solid #73A836;
+}
+
+div#denshiWrap ul {
+	margin: 7px 8px 0px 8px;
+}
+
+/*■■■見出し設定■■■*/
+.mayor a, .mayor a:hover {/*市長のふれあいページ*/
+	text-indent: -99999pt;
+	width: 190px;
+	height: 67px;
+	background: url(../images/top_mayor.jpg) no-repeat;
+	display: block;
+	text-decoration: none;
+}
+.pubHall {/*公民館のページ*/
+	text-indent: -99999pt;
+	width: 190px;
+	height: 30px;
+	background: url(../images/top_title_pub_hall.gif) no-repeat;	
+}
+.kisha {/*記者会見*/
+	color: #2CA0E8;
+	border: 1px solid #2BA0E8;
+	background: #E9F4F8;
+	padding: 7px 10px;
+}
+.denshi {/*電子広聴・電子行政*/
+	color: #73A836;
+	border-bottom: 1px solid #C1D9A4;
+	background: #FEE2CB;
+	padding: 7px 10px;
+}
+
+
+/*メインエリア中央
+-----------------------------------------------------------------------*/
+div#centerColumn {/*レイアウト設定*/
+	width: 394px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+h3 {
+	margin: 0;
+	padding: 7px 8px;
+	font-size: 80%;
+	color: #73A836;
+	border-bottom: 1px solid #73A836;
+	background: #E8F1DE;
+}
+
+div#topicsList {
+	min-height: 90px;
+	_height: 132px;/*WinIE用*/
+}
+div#topicsList ul {
+	margin: 14px 10px 5px 10px;
+	padding: 0;
+	list-style-type: none;
+}
+div#topicsList li {
+	padding: 0 0 11px 16px;
+	background: url(../images/list_mark_red.gif) 0px 2px no-repeat;
+}
+
+p.newList {
+	margin:-19px 30px 10px 0;
+	text-align:right;
+	font-size: 65%;
+}
+
+dl#kurashiMenuLeft {
+	width:180px;
+	float: left;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/*■■■メニュー囲み枠設定■■■*/
+div.kurashiMenuWrap {
+	margin: 0 0 15px 0;
+	padding: 4px;
+	border: 1px solid #FB8B75;
+}
+div.lifeEve {
+	margin: 0;
+	padding: 9px 4px 1px 19px;
+	background: #E8F1DC;
+}
+
+div.lifeEve p img {
+	margin: 0 10px 6px 0;	
+}
+div#kurashiMenu dl {
+	margin: 11px 5px 0 5px;
+}
+div#kurashiMenu dt {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+div#kurashiMenu dd {
+	margin: 0 0 17px 0;
+	padding: 0;
+	font-size: 80%;
+}
+
+/*■■■見出し設定■■■*/
+.topics {/*トピックス*/
+	text-indent: -99999pt;
+	width: 394px;
+	height: 25px;
+	background: url(../images/top_title_topics.gif) no-repeat;	
+}
+.new {/*新着情報*/
+	text-indent: -99999pt;
+	width: 394px;
+	height: 25px;
+	background: url(../images/top_title_new.gif) no-repeat;	
+}
+.kurashino {/*くらしの情報*/
+	text-indent: -99999pt;
+	width: 394px;
+	height: 34px;
+	background: url(../images/top_title_kurashi.gif) no-repeat;
+	margin-top: 5px;	
+}
+
+
+/*メインエリア右
+-----------------------------------------------------------------------*/
+div#rightColumn {/*レイアウト設定*/
+	width: 266px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.burari {
+	margin: 4px 3px;
+}
+
+ul.rcLeft {
+	width: 110px;
+	float: left;
+}
+ul.rcRight {
+	width: 120px;
+	float: right;
+}
+
+div.pfBanner {
+	margin: 0;
+	padding: 0;
+}
+div.pfBanner p {
+	margin: 0 0 11px 0;
+	padding: 0;
+}
+
+/*■■■メニュー囲み枠設定■■■*/
+div#culWrap {
+	margin: 0 0 10px 0;
+	padding: 1px;
+	border: 1px solid #FBB000;
+}
+div#culWrap ul {
+	margin: 21px 10px 18px 10px;
+}
+div#infoWrap {
+	margin: 0 0 14px 0;
+	padding: 0;
+	border: 1px solid #73A836;
+}
+div#infoWrap ul {
+	margin: 21px 0 0 10px;
+	_margin: 21px 0 0 5px;/*WinIE用*/
+}
+
+
+/*■■■見出し設定■■■*/
+.cul {/*文化・観光*/
+	text-indent: -99999pt;
+	width: 266px;
+	height: 34px;
+	background: url(../images/top_title_kanko.gif) no-repeat;	
+}
+.info {/*三木市からのお知らせ・募集情報*/
+	color: #73A836;
+	border-bottom: 1px solid #C1D9A4;
+	background: #FEFBE2;
+	padding: 7px 10px;
+}
+
+/*広告エリア
+-----------------------------------------------------------------------*/
+div.ad {
+	margin: 0 0 15px 0;
+	padding: 4px 1px 1px 4px;
+	background: #F5F5F5;
+}
+div.ad p {
+	margin: 0;
+	padding: 0;
+}
+div.ad p img {
+	margin: 0 3px 3px 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+
+#VIEW TABLE {
+  height:auto;
+  width:auto;
+  background-color:transparent;
+  border-style:none;
+  border-color:transparent;
+  border-top-width:midium;
+  border-right-width:midium;
+  border-bottom-width:midium;
+  border-left-width:midium;
+  font-weight:normal;
+  font-style:nomal;
+}
+
+#VIEW TH {
+  height:auto;
+  width:auto;
+  background-color:transparent;
+  border-style:none;
+  border-color:transparent;
+  border-top-width:midium;
+  border-right-width:midium;
+  border-bottom-width:midium;
+  border-left-width:midium;
+  font-weight:normal;
+  font-style:nomal;
+}
+
+#VIEW TD {
+  height:auto;
+  width:auto;
+  background-color:transparent;
+  border-style:none;
+  border-color:transparent;
+  border-top-width:midium;
+  border-right-width:midium;
+  border-bottom-width:midium;
+  border-left-width:midium;
+  font-weight:normal;
+  font-style:nomal;
+}
+-->
+</STYLE>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+document._domino_target = "_self";
+function _doClick(v, o, t) {
+  var returnValue = false;
+  var url="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a?OpenDocument&Click=" + v;
+  if (o.href != null) {
+    o.href = url;
+    returnValue = true;
+  } else {
+    if (t == null)
+      t = document._domino_target;
+    window.open(url, t);
+  }
+  return returnValue;
+}
+// -->
+</script>
+</head>
+<body text="#000000" bgcolor="#FFFFFF">
+
+<form action=""></FORM><style type="text/css">
+<!--
+body { margin: 0;padding: 0;font-size: 100%; }
+.hidden { display: none; }
+div#ie { text-align:center;}
+div#bodyWrap { width: 870px;margin: 0 auto;padding: 0; }
+/*ヘッダー -----------------------------------------------------------*/
+p.siteID { margin: 0;padding: 0;float: left; }
+/*ヘッダーのナビゲーション*/
+div#hdNaviWrap { width: 462px;background: #FFFFFF url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_background2.jpg) no-repeat;font-size: 80%;height: 66px;float: right;margin: 0;padding: 0;}
+div.hdNavi { margin: 0 0 0 77px;padding: 0; }
+div.hdNavi p { margin: 9px 0 0 0;padding: 0;float: left; }
+div.hdNavi p a {margin: 0;padding: 0 8px 0 0;height: 24px;text-indent: -9999pt;display: block; text-decoration: none; }
+div.hdNavi p a.sitemap { width:120px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_sitemap.gif) no-repeat; text-decoration: none; }/*サイトマップ*/
+div.hdNavi p a.contact { width:120px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_contact.gif) no-repeat; text-decoration: none; }/*お問い合わせ*/
+div.hdNavi p a.english { width:120px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_english.gif) no-repeat; text-decoration: none; }/*English*/
+div.fontChange { margin: 0 0 0 252px;padding: 0;clear: both; }
+div.fontChange p { margin: 5px 3px 0 0;padding: 0;float: left; }
+div.fontChange p a { margin: 0;padding: 0;height: 24px;text-indent: -9999pt;display: block; }
+div.fontChange p a.sizeB { width:80px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_size_b.gif) no-repeat; }/*フォントサイズ拡大*/
+div.fontChange p a.sizeM { width:80px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_size_m.gif) no-repeat; }/*フォントサイズリセット*/
+div.fontChange p a.fntChange { width:200px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_fntchange.gif) no-repeat; }/*フォントサイズを変更するには*/
+/*グローバルナビゲーション------------------------------------------------------------*/
+ul#glovalNavigation { width: 862px;margin: 0 0 0 4px;padding: 0;list-style: none;clear: both; }
+ul#glovalNavigation li { float: left;margin: 3px 2px 0 0;padding: 0; }
+ul#glovalNavigation li a { margin: 0;padding: 0;height: 34px;text-indent: -9999pt;display: block; text-decoration: none; }
+ul#glovalNavigation li a.top { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_top.gif) no-repeat; text-decoration: none; }/*トップページ*/
+ul#glovalNavigation li a.kurashi { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shimin.gif) no-repeat; text-decoration: none; }/*市民向け情報*/
+ul#glovalNavigation li a.mikicity { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_mikicity.gif) no-repeat; text-decoration: none; }/*三木市について*/
+ul#glovalNavigation li a.gyosei { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_gyosei.gif) no-repeat; text-decoration: none; }/*行政情報*/
+ul#glovalNavigation li a.jigyo { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_jigyo.gif) no-repeat; text-decoration: none; }/*事業者向け情報*/
+ul#glovalNavigation li a.shisetsu { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shisetsu.gif) no-repeat; text-decoration: none; }/*施設ガイド*/
+ul#glovalNavigation li a.kanko { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_bunka.gif) no-repeat; text-decoration: none;}/*文化・観光*/
+span.topOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_top_on.gif) no-repeat; }
+span.kurashiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shimin_on.gif) no-repeat;	}
+span.mikiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_mikicity_on.gif) no-repeat; }
+span.gyoseiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_gyosei_on.gif) no-repeat; }
+span.jigyoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_jigyo_on.gif) no-repeat; }
+span.shisetsuOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shisetsu_on.gif) no-repeat; }
+span.kankoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_bunka_on.gif) no-repeat; }
+/*サイト検索-----------------------------------------------------------*/
+form { margin: 0;padding: 0; }
+div.search { margin: 0;font-size: 80%;padding: 7px 10px;border-top: 5px solid #72A835;text-align: right;background: #FFFFFF url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/srch_background.gif) repeat-x;clear: both;vertical-align: top; }
+/*リンク　色設定
+-----------------------------------------------------------*/
+a { color: #0000FF; text-decoration: underline; }
+a:visited { color: #666699; text-decoration: underline; }
+a:hover, a:visited:hover { color: #FF0033; text-decoration: underline; }
+-->
+</style>
+</head>
+<body>
+<div id="ie">
+	<div id="bodyWrap"><!-- WinIEセンタリング用タグ -->
+<!-- ここから【グローバルナビゲーション】 -->
+		<div id="header">
+			<p class="siteID"><a href="http://www.city.miki.lg.jp/index.html"><img src="/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_siteid.jpg" alt="三木市　三木市は「日本一美しいまち」をめざします。" width="408" height="66" border="0" style="margin: 0; padding: 0; "></a></p>
+			<div id="hdNaviWrap">
+				<div class="hdNavi">
+					<p><a href="http://www.city.miki.lg.jp/sitemap.html" class="sitemap">サイトマップ</a></p>
+					<p><a href="http://www.city.miki.lg.jp/contact.html" class="contact">お問い合わせ</a></p>
+					<p><a href="http://www.city.miki.lg.jp/english/index.html" class="english">English</a></p>
+				</div>
+				<div class="fontChange">
+					<p><a href="http://www.city.miki.lg.jp/fontsize.html" class="fntChange">文字サイズを変更するには</a></p>
+				</div>
+			</div><!-- end hdNaviWrap -->
+		</div><!-- end header -->
+		
+		<ul id="glovalNavigation">
+			<li><span class="topOn"><a href="http://www.city.miki.lg.jp/index3.html">トップページ</a></span></li>
+			<li><a href="http://www.city.miki.lg.jp/shimin/index.html" class="kurashi">市民向け情報</a></li>
+			<li><a href="http://www.city.miki.lg.jp/profile/index.html" class="mikicity">三木市について</a></li>
+			<li><a href="http://www.city.miki.lg.jp/gyosei/index.html" class="gyosei">行政情報</a></li>
+			<li><a href="http://www.city.miki.lg.jp/jigyosha/index.html" class="jigyo">事業者向け情報</a></li>
+			<li><a href="http://www.city.miki.lg.jp/shisetsu/index.html" class="shisetsu">施設ガイド</a></li>
+			<li><a href="http://www.city.miki.lg.jp/bunka/index.html" class="kanko">文化・観光</a></li>
+		</ul>
+<!-- おわり【グローバルナビゲーション】 -->
+		<hr class="hidden"><!-- For notcss browser -->
+<!-- ここから【サイト内検索】 -->
+		<div class="search">
+			<form method="post" action="http://www2.city.miki.lg.jp/Srch/SrchHTML.nsf/Srch?SearchView&SearchMax=100&Start=1&Count=100" name="Search">
+				サイト内検索 ： <INPUT size=50 name=Query> <input type="submit" value="検 索">
+			</form>
+		</div>
+<!-- おわり【サイト内検索】 -->
+		<hr class="hidden"><!-- For notcss browser -->
+	</div><!-- end bodyWrap -->
+</div><!-- end ie --><!-- おわり WinIEセンタリング用タグ -->
+<TABLE cellSpacing=0 cellPadding=0 width=800 align=center border=0><tr><td align=right>更新日 : 04/01/2015</td></tr></table>
+<TABLE cellSpacing=0 cellPadding=0 width=640 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=bottom colSpan=3 height=30>　</TD></TR>
+  <TR>
+    <TD vAlign=bottom width=14 bgColor=#57a479 height=25>　</TD>
+    <TD width=370 bgColor=#cbffe1>&nbsp;<B><FONT size="3">こども未来部　就学前教育・保育課</FONT></B></TD>
+    <TD align=right width=256 bgColor=#cbffe1><FONT size=2>　<IMG height="13" hspace="2" src="/miki.nsf/icon_arow.gif" width="13" align="absMiddle"><A 
+      href="http://www2.city.miki.lg.jp/miki.nsf/doc/31BB8CEFBEF7D80649257CAD002D7873?OpenDocument">課の新着情報</A>　<IMG height="13" hspace="2" src="/miki.nsf/icon_arow.gif" width="13" align="absMiddle"><A 
+      href="http://www2.city.miki.lg.jp/">各課のページ</A>　
+</FONT></TD></TR>
+  <TR>
+    <TD vAlign=bottom colSpan=3 height=10>　</TD></TR></TBODY></TABLE><div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="216" bgcolor="#FFFFFF" rowspan="2" valign="middle"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.A60?OpenElement&amp;FieldElemFormat=gif" width="149" height="38" alt="教育と文化"></td><td width="216" rowspan="2" valign="middle"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></td><td width="88" rowspan="2" valign="middle"><div align="right"><a href="http://www.city.miki.lg.jp/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.134A?OpenElement&amp;FieldElemFormat=gif" width="45" height="42" alt="TOP " border="0"></a></div></td><td width="117" valign="middle"><div align="right"><a href="/miki.nsf/799d23c85d2c4a4b49256afd004c1459/778756e41cc0e57649256c4f00204761?OpenDocument"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.3B6?OpenElement&amp;FieldElemFormat=gif" width="91" height="32" alt="部門別へ戻る" border="0"></a></div></td></tr>
+
+<tr valign="top"><td width="117" valign="middle"><div align="right"><a href="../benri70?OpenPage"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.186C?OpenElement&amp;FieldElemFormat=gif" width="91" height="32" alt="便利帖へ戻る" border="0"></a></div></td></tr>
+
+<tr valign="top"><td width="639" bgcolor="#0000FF" colspan="4" valign="middle"><font size="5" color="#FFFFFF">■</font><b><font size="5" color="#FFFFFF">幼稚園の入園手続き</font></b><font size="4">　　</font><font color="#FFFFFF">&lt;711&gt;　</font><br>
+<font color="#FFFFFF">　　　　</font><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.2100?OpenElement&amp;FieldElemFormat=gif" width="38" height="63" alt="トライアングルをならす女の子"><font color="#FFFFFF">　　</font><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.2722?OpenElement&amp;FieldElemFormat=gif" width="42" height="60" alt="カスタネットをならす男の子"><font color="#FFFFFF">　　　　　就学前教育・保育課　　　　　　　　　　　　　　　　　　</font><br>
+　　　　</td></tr>
+</table>
+</div><div align="center">
+<table border="1">
+<tr valign="top"><td width="636" bgcolor="#FFFFC2" valign="middle"><font size="4"><br>
+　 </font><b><font size="4">「幼稚園」は学校教育法に基づく『学校』です。</font></b><br>
+<br>
+<b><font size="4">　 「幼稚園教育要領」（文部科学省告示）に基づいて、遊びを大切にした教育を行っています。　</font></b><br>
+<b><font size="4">　 さまざまな遊びを通して、うまく人とかかわれるようになったり、言葉が豊かになったり、自然の美しさや不思議さなどに気付いたりすることで、小学校以降の学習基盤をつくっています。</font></b><br>
+<b><font size="4">　</font></b><br>
+<b><font size="4">　市役所・よかわ支所・市内各公民館・三木市立教育センター・総合保健福祉センターにパンフレット</font></b><b><font size="4" color="#008000">『遊びをとおして学ぶ三木市立幼稚園』</font></b><b><font size="4">がありますので、ご覧ください。</font></b><br>
+<br>
+<b><font size="6" color="#FF0041">　</font></b><b><font size="5" color="#FF0041">三木市立幼稚園では、２年保育（４歳児保育、５歳児保育）を実施しています。</font></b><br>
+<b><font size="5" color="#FF0041">　募集時期以降の入園も随時受け付けます。</font></b><div align="center"><br>
+<font size="4">　</font><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.32F4?OpenElement&amp;FieldElemFormat=gif" width="53" height="47" alt="男の園児"><b><font size="4">◆◆◆</font></b><b><font size="4" color="#008000">　</font></b><b><font size="5" color="#0062E1">５歳児の募集</font></b><b><font size="4">　◆◆◆　</font></b></div><div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="630">　
+<table border="1">
+<tr valign="top"><td width="170" bgcolor="#FFE1DC"><b><font face="明朝">入園資格</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　市内在住で満５歳の幼児</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#FFE1DC"><b><font face="明朝">通園区域</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　小学校区に準じます。</font><br>
+<font face="明朝">（ただし、志染小・口吉川小・豊地小学校区は三木幼稚園、自由が丘東小学校区は自由が丘幼稚園、別所小・平田小学校区は三樹幼稚園、中吉川小・東吉川小・上吉川小・みなぎ台小学校区はよかわ幼稚園となります。）</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#FFE1DC"><b><font face="明朝">保育料・給食費</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　保育料　月額　６，１００円×１２ヵ月</font><br>
+<font face="明朝">　給食費　月額　３，６００円</font><br>
+<font face="明朝">　諸費(園により異なります。)　　　</font><br>
+<font face="明朝">【平成２７年度実績】</font><br>
+<font face="明朝">　保育料軽減</font><br>
+<font face="明朝">　平成２６年４月から三木市独自の施策として、下記の通り保育料の</font><br>
+<font face="明朝">　軽減を行っています。</font><br>
+<font face="明朝">　※園児の保育料、入園料及び給食費の１／２</font><br>
+<font face="明朝">　　（給食費は定額をお支払いただき、１／２相当分を保育料から軽</font><br>
+<font face="明朝">　　　　減します。)　　</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#FFE1DC"><b><font face="明朝">申込の交付・受付</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　居住する通園区域内の市立幼稚園で行います。</font><br>
+<font face="明朝">【参考】　</font><br>
+<font face="明朝">　《平成２８年度募集》</font><br>
+<font face="明朝">　　　平成２７年１０月２３日～１１月６日日(土曜・日曜を除きます)</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#FFE1DC"><b><font face="明朝">募集要項など</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　「５歳児募集要項」と「入園申込」は、市内各幼稚園にあります。</font><br>
+<font face="明朝">　印鑑持参の上、直接各幼稚園へ申し込んでください。</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#FFE1DC"><b><font face="明朝">保育時間</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　概ね　８：３０～１４：００　（週５日制）</font><br>
+<font face="明朝">　週５回給食･･･年間１６０回程度</font></td></tr>
+</table>
+<br>
+　</td></tr>
+</table>
+</div><div align="center"><b><font size="4">　　　　　◆◆◆　</font></b><b><font size="4" color="#C20000">４歳児の募集</font></b><b><font size="4">　◆◆◆　</font></b><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.520A?OpenElement&amp;FieldElemFormat=gif" width="54" height="85" alt="女の園児"></div><div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="630"><b><font face="明朝">※＜４歳児通園区域表(下表)＞に示す６園のみ</font></b>
+<table border="1">
+<tr valign="top"><td width="170" bgcolor="#C2EFFF"><b><font face="明朝">入園資格</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　市内在住で満４歳の幼児</font><br>
+<font face="明朝">※在家庭児が対象のため、認可保育所（園）・私立幼稚園・その他認可外保育施設に入園を申し込んでいる場合は、入園の資格がありません。</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#C2EFFF"><b><font face="明朝">保育料・給食費</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　保育料　月額　９，１００円×１２ヵ月</font><br>
+<font face="明朝">　給食費　月額　３，６００円</font><br>
+<font face="明朝">　諸費(園により異なります。）　　　</font><br>
+<font face="明朝">【平成２７年度実績】</font><br>
+<font face="明朝">　保育料軽減</font><br>
+<font face="明朝">　平成２６年４月から三木市独自の施策として、下記の通り保育料の</font><br>
+<font face="明朝">　軽減を行っています。</font><br>
+<font face="明朝">　※園児の保育料、入園料及び給食費の１／２</font><br>
+<font face="明朝">　　（給食費は定額をお支払いただき、１／２相当分を保育料から軽</font><br>
+<font face="明朝">　　　　減します。)　　</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#C2EFFF"><b><font face="明朝">申込の交付・受付</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　通園区域内の各４歳児学級設置幼稚園</font><br>
+<font face="明朝">（三樹・三木・緑が丘東・自由が丘・広野・よかわ幼稚園）で行います。</font><br>
+<font face="明朝">【参考】</font><br>
+<font face="明朝">　《平成２８年度募集》</font><br>
+<font face="明朝">　　　平成２７年１</font><font face="明朝">０月２３日～１１月６日</font><font face="明朝">(土曜・日曜を除きます)</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#C2EFFF"><b><font face="明朝">募集要項など</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　「４歳児募集要項」と「入園申込」は、市内各４歳児学級設置園にあります。印鑑持参の上、直接各４歳児学級設置園へ申し込んでください。</font><br>
+<font face="明朝">　※４歳児学級設置園については、下記「４歳児通園区域表」をご覧ください。</font></td></tr>
+
+<tr valign="top"><td width="170" bgcolor="#C2EFFF"><b><font face="明朝">保育時間</font></b></td><td width="454" bgcolor="#FFFFFF"><font face="明朝">　概ね　８：３０～１４：００　（週５日制）</font><br>
+<font face="明朝">　概ね　週５回給食･･･年間１６０回程度</font></td></tr>
+</table>
+<br>
+<b><font color="#800000" face="明朝">＜４歳児通園区域表＞</font></b><b><font face="明朝">　</font></b>
+<table border="1">
+<tr valign="top"><td width="132" bgcolor="#FFFF7F"><div align="center"><font face="明朝">４歳児学級設置園</font></div></td><td width="296" bgcolor="#FFFF7F"><div align="center"><font face="明朝">通園区域</font></div></td><td width="113" bgcolor="#FFFF7F"><div align="center"><font face="明朝"> 電話番号</font></div></td></tr>
+
+<tr valign="top"><td width="132" bgcolor="#FFFFFF"><font face="明朝"> 三樹幼稚園</font></td><td width="296" bgcolor="#FFFFFF"><font face="明朝"> 三樹･平田･別所幼稚園の通園区域</font></td><td width="113" bgcolor="#FFFFFF"><div align="center"><font face="明朝">８２－４３２７</font></div></td></tr>
+
+<tr valign="top"><td width="132" bgcolor="#FFFFFF"><font face="明朝"> 三木幼稚園</font></td><td width="296" bgcolor="#FFFFFF" valign="middle"><font face="明朝"> 三木幼稚園の通園区域</font></td><td width="113" bgcolor="#FFFFFF"><div align="center"><font face="明朝">８２－９０１２</font></div></td></tr>
+
+<tr valign="top"><td width="132" bgcolor="#FFFFFF"><font face="明朝"> 緑が丘東幼稚園</font></td><td width="296" bgcolor="#FFFFFF"><font face="明朝"> 緑が丘・緑が丘東幼稚園の通園区域</font></td><td width="113" bgcolor="#FFFFFF"><div align="center"><font face="明朝">８５－８５００</font></div></td></tr>
+
+<tr valign="top"><td width="132" bgcolor="#FFFFFF"><font face="明朝"> 自由が丘幼稚園</font></td><td width="296" bgcolor="#FFFFFF"><font face="明朝"> 自由が丘・自由が丘東幼稚園の通園区域</font></td><td width="113" bgcolor="#FFFFFF"><div align="center"><font face="明朝">８５－１２００</font></div></td></tr>
+
+<tr valign="top"><td width="132" bgcolor="#FFFFFF"><font face="明朝"> 広野幼稚園</font></td><td width="296" bgcolor="#FFFFFF"><font face="明朝"> 広野幼稚園の通園区域</font></td><td width="113" bgcolor="#FFFFFF"><div align="center"><font face="明朝">８４－０７７７</font></div></td></tr>
+
+<tr valign="top"><td width="132" bgcolor="#FFFFFF"><font face="明朝"> よかわ幼稚園</font></td><td width="296" bgcolor="#FFFFFF"><font face="明朝"> よかわ幼稚園の通園区域</font></td><td width="113" bgcolor="#FFFFFF"><div align="center"><font face="明朝">７３－１１７１</font></div></td></tr>
+</table>
+<font face="明朝">　</font></td></tr>
+</table>
+</div><br>
+<hr width="100%" size="7" align="left"><div align="center"><b><font size="4">◆◆◆　途中入園等について　◆◆◆</font></b></div><br>
+<font face="明朝">　なお、入園募集時期以降に三木市に転入された方は、市民課窓口で住所変更の手続きを済ませた後、</font><font color="#0000FF" face="明朝">各幼稚園でお申し込みください。</font><br>
+<font face="明朝">　入園資格等については、上表の入園資格欄をご確認ください。</font><div align="center"><br>
+<b><font size="4">◆◆◆　入園申込様式　◆◆◆</font></b><br>
+<br>
+　幼稚園への入園申込の様式はこちら　<a style="display: inline-block; text-align: center" href="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/$FILE/%E4%B8%89%E6%9C%A8%E5%B8%82_%E5%B9%BC%E7%A8%9A%E5%9C%92%E7%94%B3%E8%BE%BC%E6%9B%B8.pdf" title="三木市_幼稚園申込書.pdf"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a/Body/0.73DA?OpenElement&amp;FieldElemFormat=gif" width="138" height="34" alt="三木市_幼稚園申込書.pdf" border="0"><span style="display: block">三木市_幼稚園申込書.pdf</span></a><br>
+</div></td></tr>
+</table>
+</div><div align="center">
+<table border="1">
+<tr valign="top"><td width="130" bgcolor="#008040" rowspan="2" valign="middle"><div align="center"><font color="#FFFFFF">お問い合せ先</font></div></td><td width="221" bgcolor="#8CFFFF" rowspan="2" valign="middle"><div align="center">教育委員会　就学前教育・保育課</div></td><td width="71" bgcolor="#008040" valign="middle"><div align="center"><font color="#FFFFFF">ＴＥＬ</font></div></td><td width="188" bgcolor="#8CFFFF" valign="middle"><div align="center">0794-82-2000<br>
+(内線3544）</div></td></tr>
+
+<tr valign="top"><td width="71" bgcolor="#008040" valign="middle"><div align="center"><font color="#FFFFFF">E-mail</font></div></td><td width="188" bgcolor="#8CFFFF" valign="middle"><a href="mailto:shugakuzen@city.miki.lg.jp">shugakuzen<u>@city.miki.lg.jp</u></a></td></tr>
+</table>
+</div>
+<BR>
+<BR>
+<CENTER><FONT size="-1">Copyright(c)1996-<SCRIPT language=JavaScript>
+//<!--Start//
+Tag   = new Date();
+Jahr = Tag.getFullYear(); 
+document.write(Jahr); 
+// --></SCRIPT>. Miki city. All rights reserved.</FONT>
+</CENTER><NOSCRIPT><FORM></form>
+</body>
+</html>

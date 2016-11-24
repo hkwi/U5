@@ -40,7 +40,7 @@ def 兵庫県():
 			yield a.get("href")
 
 @task("281000")
-def kobe_1():
+def 兵庫県_神戸市_1():
 	# 神戸市
 	# 新制度施設一覧
 	hit = False
@@ -52,7 +52,7 @@ def kobe_1():
 	assert hit
 
 @task("281000")
-def kobe_2():
+def 兵庫県_神戸市_2():
 	# 神戸市
 	# 新制度申し込み状況
 	hit = False
@@ -64,7 +64,7 @@ def kobe_2():
 	assert hit
 
 @task("281000")
-def kobe_3():
+def 兵庫県_神戸市_3():
 	# 神戸市
 	# 認可外施設一覧
 	hit = False
@@ -76,7 +76,7 @@ def kobe_3():
 	assert hit
 
 @task("281000")
-def kobe_4():
+def 兵庫県_神戸市_4():
 	# 神戸市
 	# 施設一覧 HTML
 	url = "http://www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html"
@@ -86,7 +86,7 @@ def kobe_4():
 			yield a.get("href")
 
 @task("282014")
-def himeji():
+def 兵庫県_姫路市():
 	# 姫路市
 	# 施設一覧 HTML
 	for a in get("http://www.city.himeji.lg.jp/s50/_25179/_8980.html").cssselect("#mainArea a"):
@@ -221,7 +221,7 @@ def 兵庫県_宝塚市():
 	# 兵庫県 宝塚市
 	# 幼稚園
 	yield "http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1000552.html"
-	# 保育
+	# 保育所
 	for a in get("http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1000540.html").cssselect("#pagebody a"):
 		if "一覧" in a.text:
 			yield a.get("href")
@@ -229,7 +229,10 @@ def 兵庫県_宝塚市():
 @task("282154")
 def 兵庫県_三木市():
 	# 兵庫県 三木市
-	pass
+	# 幼稚園
+	yield "http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a?OpenDocument"
+	# 保育所
+	yield "http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272?OpenDocument"
 
 @task("282162")
 def 兵庫県_高砂市():
@@ -269,12 +272,20 @@ def 兵庫県_三田市():
 @task("282201")
 def 兵庫県_加西市():
 	# 兵庫県 加西市
-	pass
+	# 幼稚園
+	yield "http://www.city.kawanishi.hyogo.jp/kodomo/9780/youchien_ichiran.html"
+	# 保育所
+	yield "http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html"
 
 @task("282219")
 def 兵庫県_篠山市():
 	# 兵庫県 篠山市
-	pass
+	# 幼稚園
+	yield "http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-2.html"
+	# 保育所
+	yield "http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/childbirth/post-9.html"
+	# こども園
+	yield "http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-8.html"
 
 @task("282227")
 def 兵庫県_養父市():

@@ -1,0 +1,1089 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>三木市 [ 保育所・認定こども園等 ]</title><STYLE TYPE="text/css">
+<!--
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+.hidden {
+	display: none;
+}
+div#bodyWrap {
+	width: 870px;
+	margin: 0 auto;
+	padding: 0;
+}
+/*ヘッダー
+-----------------------------------------------------------*/
+p.siteID {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+/*ヘッダーのナビゲーション*/
+div#hdNaviWrap {
+	width: 462px;
+	/*background: #FFFFFF url(../images/hd_background.jpg) no-repeat; フォントの拡大・縮小有用背景*/
+	background: #FFFFFF url(../images/hd_background2.jpg) no-repeat;/*フォントの拡大・縮小無*/
+	font-size: 80%;
+	height: 66px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+div.hdNavi {
+	margin: 0 0 0 77px;
+	padding: 0;
+}
+div.hdNavi p {
+	margin: 9px 0 0 0;
+	padding: 0;
+	float: left;
+}
+.hdNavi p a {
+	margin: 0;
+	padding: 0 8px 0 0;
+	height: 24px;
+	text-indent: -9999pt;
+	display: block;
+}
+div.hdNavi p a.sitemap { width:120px; background: url(../images/hd_btn_sitemap.gif) no-repeat; text-decoration: none; }/*サイトマップ*/
+div.hdNavi p a.contact { width:120px; background: url(../images/hd_btn_contact.gif) no-repeat; text-decoration: none; }/*お問い合わせ*/
+div.hdNavi p a.english { width:120px; background: url(../images/hd_btn_english.gif) no-repeat; text-decoration: none; }/*English*/
+
+div.fontChange {
+	margin: 0 0 0 252px;
+	padding: 0;
+	clear: both;
+}
+div.fontChange p {
+	margin: 5px 3px 0 0;
+	padding: 0;
+	float: left;
+}
+div.fontChange p a {
+	margin: 0;
+	padding: 0;
+	height: 24px;
+	text-indent: -9999pt;
+	display: block;
+}
+div.fontChange p a.sizeB { width:80px; background: url(../images/hd_btn_size_b.gif) no-repeat; text-decoration: none; }/*フォントサイズ拡大*/
+div.fontChange p a.sizeM { width:80px; background: url(../images/hd_btn_size_m.gif) no-repeat; text-decoration: none; }/*フォントサイズリセット*/
+div.fontChange p a.fntChange { width:200px; background: url(../images/hd_btn_fntchange.gif) no-repeat; text-decoration: none; }/*フォントサイズを変更するには*/
+
+/*グローバルナビゲーション
+------------------------------------------------------------*/
+ul#glovalNavigation {
+	width: 862px;
+	margin: 0 0 0 4px;
+	padding: 0;
+	list-style: none;
+	clear: both;
+}
+ul#glovalNavigation li {
+	float: left;
+	margin: 3px 2px 0 0;
+	padding: 0;
+}
+ul#glovalNavigation li a {
+	margin: 0;
+	padding: 0;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+}
+ul#glovalNavigation li a.top { width:118px; background: url(../images/navi_top.gif) no-repeat; text-decoration: none; }/*トップページ*/
+ul#glovalNavigation li a.kurashi { width:118px; background: url(../images/navi_shimin.gif) no-repeat; text-decoration: none; }/*市民向け情報*/
+ul#glovalNavigation li a.mikicity { width:118px; background: url(../images/navi_mikicity.gif) no-repeat; text-decoration: none; }/*三木市について*/
+ul#glovalNavigation li a.gyosei { width:118px; background: url(../images/navi_gyosei.gif) no-repeat; text-decoration: none; }/*行政情報*/
+ul#glovalNavigation li a.jigyo { width:118px; background: url(../images/navi_jigyo.gif) no-repeat; text-decoration: none; }/*事業者向け情報*/
+ul#glovalNavigation li a.shisetsu { width:118px; background: url(../images/navi_shisetsu.gif) no-repeat; text-decoration: none; }/*施設ガイド*/
+ul#glovalNavigation li a.kanko { width:118px; background: url(../images/navi_bunka.gif) no-repeat; text-decoration: none; }/*文化・観光*/
+
+span.topOn {/*トップページ アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_top_on.gif) no-repeat;
+	
+}
+span.kurashiOn {/*市民向け情報 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_shimin_on.gif) no-repeat;
+	
+}
+span.mikiOn {/*三木市について アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_mikicity_on.gif) no-repeat;
+	
+}
+span.gyoseiOn {/*行政情報 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_gyosei_on.gif) no-repeat;
+	
+}
+span.jigyoOn {/*事業者向け情報 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_jigyo_on.gif) no-repeat;
+	
+}
+span.shisetsuOn {/*施設ガイド アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_shisetsu_on.gif) no-repeat;
+	
+}
+span.kankoOn {/*文化・観光 アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/navi_bunka_on.gif) no-repeat;
+	
+}
+
+/*サイト検索
+-----------------------------------------------------------*/
+form {
+	margin: 0;
+	padding: 0;
+}
+div.search {
+	margin: 0;
+	font-size: 80%;
+	padding: 7px 10px;
+	border-top: 5px solid #72A835;
+	text-align: right;
+	background: #FFFFFF url(../images/srch_background.gif) repeat-x;
+	clear: both;
+	vertical-align: top;
+}
+
+/*フッター
+-----------------------------------------------------------*/
+div#ftrNaviWrap {
+	width: 870px;
+	border-top: 4px solid #72A835;
+}
+ul.ftrNavi{
+	font-size: 80%;
+	background-color: #DAEDC9;
+	list-style-type: none;
+	margin: 0;
+	padding: 7px 0;
+	line-height: 1.0em;;
+}
+ul.ftrNavi li {
+	display: inline;
+	padding: 0 12px;
+	border-right: 1px solid #000000;
+}
+ul.ftrNavi2{
+	font-size: 80%;
+	background-color: #B8DA9D;
+	list-style-type: none;
+	margin: 0;
+	padding: 7px 0;
+	line-height: 1.0em
+}
+ul.ftrNavi2 li {
+	display: inline;
+	padding: 0 12px;
+	border-right: 1px solid #000000;
+}
+div#address {
+	padding: 12px 12px 4px 12px;
+}
+div#address p {
+	font-size: 75%;
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+p.copy {
+	font-size: 80%;
+	text-align: center;
+	background: #72A835;
+	color:#FFFFFF;
+	padding: 8px;
+	margin: 0 0 20px 0;
+	letter-spacing: 1px;
+}
+
+/*リンク　色設定
+-----------------------------------------------------------*/
+a { color: #0000FF; text-decoration: underline; }
+a:visited { color: #666699; text-decoration: underline; }
+a:hover, a:visited:hover { color: #FF0033; text-decoration: underline; }
+
+/*英語ページ
+-----------------------------------------------------------*/
+div#enHdNaviWrap {
+	width: 682px;
+	/*background: #FFFFFF url(../images/hd_background.jpg) no-repeat; フォントの拡大・縮小有用背景*/
+	background: #FFFFFF url(../images/en_hd_background.jpg) no-repeat;/*フォントの拡大・縮小無*/
+	font-size: 80%;
+	height: 66px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+div.enHdNavi {
+	margin: 0 0 0 553px;
+	padding: 0;
+}
+div.enHdNavi p {
+	margin: 9px 0 0 0;
+	padding: 0;
+	float: left;
+}
+.enHdNavi p a {
+	margin: 0;
+	padding: 0 8px 0 0;
+	height: 24px;
+	text-indent: -9999pt;
+	display: block;
+}
+div.enHdNavi p a.japanese { width:120px; background: url(../images/en_btn_japanese.gif) no-repeat; text-decoration: none; }/*Japanese*/
+
+ul#glovalNavigation li a.enTop { width:118px; background: url(../images/en_navi_top.gif) no-repeat; text-decoration: none; }/*英語トップページ*/
+ul#glovalNavigation li a.enMikicity { width:118px; background: url(../images/en_navi_profile.gif) no-repeat; text-decoration: none; }/**/
+ul#glovalNavigation li a.enShisetsu { width:118px; background: url(../images/en_navi_local.gif) no-repeat; text-decoration: none; }/**/
+ul#glovalNavigation li a.enKanko { width:118px; background: url(../images/en_navi_tourist.gif) no-repeat; text-decoration: none; }/**/
+
+span.enTopOn {/*トップページ アクティブ*/
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_top_on.gif) no-repeat;
+	
+}
+span.enMikicityOn {
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_profile_on.gif) no-repeat;
+	
+}
+span.enShisetsuOn {
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_local_on.gif) no-repeat;
+	
+}
+span.enKankoOn {
+	width: 139px;
+	height: 34px;
+	text-indent: -9999pt;
+	display: block;
+	background: url(../images/en_navi_tourist_on.gif) no-repeat;
+	
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	line-height: 100%;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+div#mainArea ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div#mainArea li {
+	padding: 0 0 11px 16px;
+	font-size: 80%;
+	line-height: 100%;
+	background: url(../images/arrow.gif) no-repeat;
+	/*border: 1px solid #F5F5F5;*/
+}
+.clear {
+	clear: both;
+}
+
+/*メインエリア左
+-----------------------------------------------------------------------*/
+div#leftColumn {/*レイアウト設定*/
+	width: 190px;
+	margin: 0;
+	padding: 0 10px 0 0;
+	float: left;
+}
+p.shigikai {
+	margin: 0;
+	padding: 0 0 2px 0;
+}
+p.phText {
+	margin: 9px 11px 4px 11px;
+	padding: 0;
+	font-size: 80%;
+}
+
+ul.lcLeft {
+	width: 90px;
+	float: left;
+}
+ul.lcRight {
+	width: 80px;
+	float: right;
+}
+
+/*■■■メニュー囲み枠設定■■■*/
+div.mayorMenuWrap {
+	margin: 0 0 10px 0;
+	padding: 8px 8px 0 8px;
+	background: #F4FBF8;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #56C78E;
+}
+div.kishaMenuWrap {
+	margin: 0 0 10px 0;
+	padding: 8px 8px 0 8px;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #2BA0E8;
+}
+div.pubHallWrap {
+	margin: 0 0 10px 0;
+	padding: 5px;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #D59E80;
+}
+div.fureaiWrap {
+	margin: 0 0 10px 0;
+	padding: 10px 8px 0 8px;
+	border:1px solid #D59E7F;
+	background: #FEF8E2;
+}
+div#denshiWrap {
+	margin: 0 0 16px 0;
+	padding: 0;
+	border: 1px solid #73A836;
+}
+
+div#denshiWrap ul {
+	margin: 7px 8px 0px 8px;
+}
+
+/*■■■見出し設定■■■*/
+.mayor a, .mayor a:hover {/*市長のふれあいページ*/
+	text-indent: -99999pt;
+	width: 190px;
+	height: 67px;
+	background: url(../images/top_mayor.jpg) no-repeat;
+	display: block;
+	text-decoration: none;
+}
+.pubHall {/*公民館のページ*/
+	text-indent: -99999pt;
+	width: 190px;
+	height: 30px;
+	background: url(../images/top_title_pub_hall.gif) no-repeat;	
+}
+.kisha {/*記者会見*/
+	color: #2CA0E8;
+	border: 1px solid #2BA0E8;
+	background: #E9F4F8;
+	padding: 7px 10px;
+}
+.denshi {/*電子広聴・電子行政*/
+	color: #73A836;
+	border-bottom: 1px solid #C1D9A4;
+	background: #FEE2CB;
+	padding: 7px 10px;
+}
+
+
+/*メインエリア中央
+-----------------------------------------------------------------------*/
+div#centerColumn {/*レイアウト設定*/
+	width: 394px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+h3 {
+	margin: 0;
+	padding: 7px 8px;
+	font-size: 80%;
+	color: #73A836;
+	border-bottom: 1px solid #73A836;
+	background: #E8F1DE;
+}
+
+div#topicsList {
+	min-height: 90px;
+	_height: 132px;/*WinIE用*/
+}
+div#topicsList ul {
+	margin: 14px 10px 5px 10px;
+	padding: 0;
+	list-style-type: none;
+}
+div#topicsList li {
+	padding: 0 0 11px 16px;
+	background: url(../images/list_mark_red.gif) 0px 2px no-repeat;
+}
+
+p.newList {
+	margin:-19px 30px 10px 0;
+	text-align:right;
+	font-size: 65%;
+}
+
+dl#kurashiMenuLeft {
+	width:180px;
+	float: left;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/*■■■メニュー囲み枠設定■■■*/
+div.kurashiMenuWrap {
+	margin: 0 0 15px 0;
+	padding: 4px;
+	border: 1px solid #FB8B75;
+}
+div.lifeEve {
+	margin: 0;
+	padding: 9px 4px 1px 19px;
+	background: #E8F1DC;
+}
+
+div.lifeEve p img {
+	margin: 0 10px 6px 0;	
+}
+div#kurashiMenu dl {
+	margin: 11px 5px 0 5px;
+}
+div#kurashiMenu dt {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+div#kurashiMenu dd {
+	margin: 0 0 17px 0;
+	padding: 0;
+	font-size: 80%;
+}
+
+/*■■■見出し設定■■■*/
+.topics {/*トピックス*/
+	text-indent: -99999pt;
+	width: 394px;
+	height: 25px;
+	background: url(../images/top_title_topics.gif) no-repeat;	
+}
+.new {/*新着情報*/
+	text-indent: -99999pt;
+	width: 394px;
+	height: 25px;
+	background: url(../images/top_title_new.gif) no-repeat;	
+}
+.kurashino {/*くらしの情報*/
+	text-indent: -99999pt;
+	width: 394px;
+	height: 34px;
+	background: url(../images/top_title_kurashi.gif) no-repeat;
+	margin-top: 5px;	
+}
+
+
+/*メインエリア右
+-----------------------------------------------------------------------*/
+div#rightColumn {/*レイアウト設定*/
+	width: 266px;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.burari {
+	margin: 4px 3px;
+}
+
+ul.rcLeft {
+	width: 110px;
+	float: left;
+}
+ul.rcRight {
+	width: 120px;
+	float: right;
+}
+
+div.pfBanner {
+	margin: 0;
+	padding: 0;
+}
+div.pfBanner p {
+	margin: 0 0 11px 0;
+	padding: 0;
+}
+
+/*■■■メニュー囲み枠設定■■■*/
+div#culWrap {
+	margin: 0 0 10px 0;
+	padding: 1px;
+	border: 1px solid #FBB000;
+}
+div#culWrap ul {
+	margin: 21px 10px 18px 10px;
+}
+div#infoWrap {
+	margin: 0 0 14px 0;
+	padding: 0;
+	border: 1px solid #73A836;
+}
+div#infoWrap ul {
+	margin: 21px 0 0 10px;
+	_margin: 21px 0 0 5px;/*WinIE用*/
+}
+
+
+/*■■■見出し設定■■■*/
+.cul {/*文化・観光*/
+	text-indent: -99999pt;
+	width: 266px;
+	height: 34px;
+	background: url(../images/top_title_kanko.gif) no-repeat;	
+}
+.info {/*三木市からのお知らせ・募集情報*/
+	color: #73A836;
+	border-bottom: 1px solid #C1D9A4;
+	background: #FEFBE2;
+	padding: 7px 10px;
+}
+
+/*広告エリア
+-----------------------------------------------------------------------*/
+div.ad {
+	margin: 0 0 15px 0;
+	padding: 4px 1px 1px 4px;
+	background: #F5F5F5;
+}
+div.ad p {
+	margin: 0;
+	padding: 0;
+}
+div.ad p img {
+	margin: 0 3px 3px 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+
+#VIEW TABLE {
+  height:auto;
+  width:auto;
+  background-color:transparent;
+  border-style:none;
+  border-color:transparent;
+  border-top-width:midium;
+  border-right-width:midium;
+  border-bottom-width:midium;
+  border-left-width:midium;
+  font-weight:normal;
+  font-style:nomal;
+}
+
+#VIEW TH {
+  height:auto;
+  width:auto;
+  background-color:transparent;
+  border-style:none;
+  border-color:transparent;
+  border-top-width:midium;
+  border-right-width:midium;
+  border-bottom-width:midium;
+  border-left-width:midium;
+  font-weight:normal;
+  font-style:nomal;
+}
+
+#VIEW TD {
+  height:auto;
+  width:auto;
+  background-color:transparent;
+  border-style:none;
+  border-color:transparent;
+  border-top-width:midium;
+  border-right-width:midium;
+  border-bottom-width:midium;
+  border-left-width:midium;
+  font-weight:normal;
+  font-style:nomal;
+}
+-->
+</STYLE>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+document._domino_target = "_self";
+function _doClick(v, o, t) {
+  var returnValue = false;
+  var url="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272?OpenDocument&Click=" + v;
+  if (o.href != null) {
+    o.href = url;
+    returnValue = true;
+  } else {
+    if (t == null)
+      t = document._domino_target;
+    window.open(url, t);
+  }
+  return returnValue;
+}
+// -->
+</script>
+</head>
+<body text="#000000" bgcolor="#FFFFFF">
+
+<form action=""></FORM><style type="text/css">
+<!--
+body { margin: 0;padding: 0;font-size: 100%; }
+.hidden { display: none; }
+div#ie { text-align:center;}
+div#bodyWrap { width: 870px;margin: 0 auto;padding: 0; }
+/*ヘッダー -----------------------------------------------------------*/
+p.siteID { margin: 0;padding: 0;float: left; }
+/*ヘッダーのナビゲーション*/
+div#hdNaviWrap { width: 462px;background: #FFFFFF url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_background2.jpg) no-repeat;font-size: 80%;height: 66px;float: right;margin: 0;padding: 0;}
+div.hdNavi { margin: 0 0 0 77px;padding: 0; }
+div.hdNavi p { margin: 9px 0 0 0;padding: 0;float: left; }
+div.hdNavi p a {margin: 0;padding: 0 8px 0 0;height: 24px;text-indent: -9999pt;display: block; text-decoration: none; }
+div.hdNavi p a.sitemap { width:120px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_sitemap.gif) no-repeat; text-decoration: none; }/*サイトマップ*/
+div.hdNavi p a.contact { width:120px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_contact.gif) no-repeat; text-decoration: none; }/*お問い合わせ*/
+div.hdNavi p a.english { width:120px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_english.gif) no-repeat; text-decoration: none; }/*English*/
+div.fontChange { margin: 0 0 0 252px;padding: 0;clear: both; }
+div.fontChange p { margin: 5px 3px 0 0;padding: 0;float: left; }
+div.fontChange p a { margin: 0;padding: 0;height: 24px;text-indent: -9999pt;display: block; }
+div.fontChange p a.sizeB { width:80px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_size_b.gif) no-repeat; }/*フォントサイズ拡大*/
+div.fontChange p a.sizeM { width:80px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_size_m.gif) no-repeat; }/*フォントサイズリセット*/
+div.fontChange p a.fntChange { width:200px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_btn_fntchange.gif) no-repeat; }/*フォントサイズを変更するには*/
+/*グローバルナビゲーション------------------------------------------------------------*/
+ul#glovalNavigation { width: 862px;margin: 0 0 0 4px;padding: 0;list-style: none;clear: both; }
+ul#glovalNavigation li { float: left;margin: 3px 2px 0 0;padding: 0; }
+ul#glovalNavigation li a { margin: 0;padding: 0;height: 34px;text-indent: -9999pt;display: block; text-decoration: none; }
+ul#glovalNavigation li a.top { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_top.gif) no-repeat; text-decoration: none; }/*トップページ*/
+ul#glovalNavigation li a.kurashi { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shimin.gif) no-repeat; text-decoration: none; }/*市民向け情報*/
+ul#glovalNavigation li a.mikicity { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_mikicity.gif) no-repeat; text-decoration: none; }/*三木市について*/
+ul#glovalNavigation li a.gyosei { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_gyosei.gif) no-repeat; text-decoration: none; }/*行政情報*/
+ul#glovalNavigation li a.jigyo { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_jigyo.gif) no-repeat; text-decoration: none; }/*事業者向け情報*/
+ul#glovalNavigation li a.shisetsu { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shisetsu.gif) no-repeat; text-decoration: none; }/*施設ガイド*/
+ul#glovalNavigation li a.kanko { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_bunka.gif) no-repeat; text-decoration: none;}/*文化・観光*/
+span.topOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_top_on.gif) no-repeat; }
+span.kurashiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shimin_on.gif) no-repeat;	}
+span.mikiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_mikicity_on.gif) no-repeat; }
+span.gyoseiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_gyosei_on.gif) no-repeat; }
+span.jigyoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_jigyo_on.gif) no-repeat; }
+span.shisetsuOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shisetsu_on.gif) no-repeat; }
+span.kankoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_bunka_on.gif) no-repeat; }
+/*サイト検索-----------------------------------------------------------*/
+form { margin: 0;padding: 0; }
+div.search { margin: 0;font-size: 80%;padding: 7px 10px;border-top: 5px solid #72A835;text-align: right;background: #FFFFFF url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/srch_background.gif) repeat-x;clear: both;vertical-align: top; }
+/*リンク　色設定
+-----------------------------------------------------------*/
+a { color: #0000FF; text-decoration: underline; }
+a:visited { color: #666699; text-decoration: underline; }
+a:hover, a:visited:hover { color: #FF0033; text-decoration: underline; }
+-->
+</style>
+</head>
+<body>
+<div id="ie">
+	<div id="bodyWrap"><!-- WinIEセンタリング用タグ -->
+<!-- ここから【グローバルナビゲーション】 -->
+		<div id="header">
+			<p class="siteID"><a href="http://www.city.miki.lg.jp/index.html"><img src="/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/hd_siteid.jpg" alt="三木市　三木市は「日本一美しいまち」をめざします。" width="408" height="66" border="0" style="margin: 0; padding: 0; "></a></p>
+			<div id="hdNaviWrap">
+				<div class="hdNavi">
+					<p><a href="http://www.city.miki.lg.jp/sitemap.html" class="sitemap">サイトマップ</a></p>
+					<p><a href="http://www.city.miki.lg.jp/contact.html" class="contact">お問い合わせ</a></p>
+					<p><a href="http://www.city.miki.lg.jp/english/index.html" class="english">English</a></p>
+				</div>
+				<div class="fontChange">
+					<p><a href="http://www.city.miki.lg.jp/fontsize.html" class="fntChange">文字サイズを変更するには</a></p>
+				</div>
+			</div><!-- end hdNaviWrap -->
+		</div><!-- end header -->
+		
+		<ul id="glovalNavigation">
+			<li><span class="topOn"><a href="http://www.city.miki.lg.jp/index3.html">トップページ</a></span></li>
+			<li><a href="http://www.city.miki.lg.jp/shimin/index.html" class="kurashi">市民向け情報</a></li>
+			<li><a href="http://www.city.miki.lg.jp/profile/index.html" class="mikicity">三木市について</a></li>
+			<li><a href="http://www.city.miki.lg.jp/gyosei/index.html" class="gyosei">行政情報</a></li>
+			<li><a href="http://www.city.miki.lg.jp/jigyosha/index.html" class="jigyo">事業者向け情報</a></li>
+			<li><a href="http://www.city.miki.lg.jp/shisetsu/index.html" class="shisetsu">施設ガイド</a></li>
+			<li><a href="http://www.city.miki.lg.jp/bunka/index.html" class="kanko">文化・観光</a></li>
+		</ul>
+<!-- おわり【グローバルナビゲーション】 -->
+		<hr class="hidden"><!-- For notcss browser -->
+<!-- ここから【サイト内検索】 -->
+		<div class="search">
+			<form method="post" action="http://www2.city.miki.lg.jp/Srch/SrchHTML.nsf/Srch?SearchView&SearchMax=100&Start=1&Count=100" name="Search">
+				サイト内検索 ： <INPUT size=50 name=Query> <input type="submit" value="検 索">
+			</form>
+		</div>
+<!-- おわり【サイト内検索】 -->
+		<hr class="hidden"><!-- For notcss browser -->
+	</div><!-- end bodyWrap -->
+</div><!-- end ie --><!-- おわり WinIEセンタリング用タグ -->
+<TABLE cellSpacing=0 cellPadding=0 width=800 align=center border=0><tr><td align=right>更新日 : 10/31/2016</td></tr></table>
+<TABLE cellSpacing=0 cellPadding=0 width=640 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=bottom colSpan=3 height=30>　</TD></TR>
+  <TR>
+    <TD vAlign=bottom width=14 bgColor=#57a479 height=25>　</TD>
+    <TD width=370 bgColor=#cbffe1>&nbsp;<B><FONT size="3">こども未来部　就学前教育・保育課</FONT></B></TD>
+    <TD align=right width=256 bgColor=#cbffe1><FONT size=2>　<IMG height="13" hspace="2" src="/miki.nsf/icon_arow.gif" width="13" align="absMiddle"><A 
+      href="http://www2.city.miki.lg.jp/miki.nsf/doc/31BB8CEFBEF7D80649257CAD002D7873?OpenDocument">課の新着情報</A>　<IMG height="13" hspace="2" src="/miki.nsf/icon_arow.gif" width="13" align="absMiddle"><A 
+      href="http://www2.city.miki.lg.jp/">各課のページ</A>　
+</FONT></TD></TR>
+  <TR>
+    <TD vAlign=bottom colSpan=3 height=10>　</TD></TR></TBODY></TABLE><div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="216" bgcolor="#FFFFFF" rowspan="2" valign="middle"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.A52?OpenElement&amp;FieldElemFormat=gif" width="152" height="47" alt="福祉ガイド"></td><td width="216" rowspan="2" valign="middle">　<img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.11B6?OpenElement&amp;FieldElemFormat=gif" width="52" height="68"></td><td width="88" rowspan="2" valign="middle"><div align="right"><a href="http://www.city.miki.lg.jp"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.1A2A?OpenElement&amp;FieldElemFormat=gif" width="45" height="42" alt="TOP " border="0"></a></div></td><td width="117" valign="middle"><div align="right"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/9dc6de6a751000ce49256c600009dd88?OpenDocument"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.3A8?OpenElement&amp;FieldElemFormat=gif" width="91" height="32" alt="部門別へ戻る" border="0"></a></div></td></tr>
+
+<tr valign="top"><td width="117" valign="middle"><div align="right"><a href="../benri30?OpenPage"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.1F4C?OpenElement&amp;FieldElemFormat=gif" width="91" height="32" alt="便利帖へ戻る" border="0"></a></div></td></tr>
+
+<tr valign="top"><td width="639" bgcolor="#0000FF" colspan="4" valign="middle"><font size="4" color="#FFFFFF">■</font><b><font size="4" color="#FFFFFF">保育所・認定こども園等</font></b>　　　<font color="#FFFFFF">&lt;310&gt;　　　　　　　　　　　　　　　児童・母子福祉</font></td></tr>
+</table>
+</div><div align="center">
+<table border="1">
+<tr valign="top"><td width="1208" bgcolor="#FFFFC8" valign="middle"><font size="5" color="#0000FF" face="HGP創英角ﾎﾟｯﾌﾟ体"> </font><div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="757"><div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="718"><div align="center"><font size="5" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font><br>
+<font size="5" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体"> </font><b><font size="6" color="#0000FF" face="HGS創英角ﾎﾟｯﾌﾟ体">三木市の保育所</font></b><font size="6" color="#0000FF" face="HGP創英角ﾎﾟｯﾌﾟ体"> ・認定こども園等   </font><font color="#00A000" face="HGS創英角ﾎﾟｯﾌﾟ体">          </font><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.2C34?OpenElement&amp;FieldElemFormat=gif" width="41" height="28"></div></td></tr>
+
+<tr valign="top"><td width="718"><font size="5" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　   　　　　　　　</font><br>
+<font size="5" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　 　　 　　　　　　　              　　　　　 　　　　　　　　　　　　　　　　　　　　　　         </font></td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■保育施設について■　　　</font></b>
+<p><font size="2" face="ＭＳ Ｐゴシック">　　　　 　　　　　　　　　　　　　　</font><font face="ＭＳ Ｐゴシック">　　</font><font size="2" face="ＭＳ Ｐゴシック">　　　　　　　　</font><font face="ＭＳ Ｐゴシック">　　　　 　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><font face="ＭＳ Ｐゴシック">保育施設は、様々な理由のために、昼間家庭で保育できないお子さんを、保護者にかわって保育する児童福祉施設です。 市内には認定こども園が１２か所、公立保育所が３か所、小規模保育施設が１か所があります。</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　</font></td></tr>
+
+<tr valign="top"><td width="718"><div align="center"><font size="5" color="#00C200" face="HGP創英角ﾎﾟｯﾌﾟ体">☆</font><font size="5" color="#00E100" face="HGP創英角ﾎﾟｯﾌﾟ体">三木市の保育所・認定こども園等☆　　</font><font color="#00E100" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　平成２８年４月１日現在</font><br>
+<font color="#00E100" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　 　　　　　 　　　　　　</font></div></td></tr>
+
+<tr valign="top"><td width="718"><div align="center">
+<table border="1">
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><b><font size="2" face="ＭＳ Ｐゴシック">施設名</font></b></td><th width="32" bgcolor="#FFE0FF" valign="middle"><b><font size="2" face="ＭＳ Ｐゴシック">HP</font></b></th><td width="163" bgcolor="#FFE0FF" valign="middle"><b><font size="2" face="ＭＳ Ｐゴシック">所在地</font></b></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><b><font size="2" face="ＭＳ Ｐゴシック">電話番号</font></b></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><b><font size="2" face="ＭＳ Ｐゴシック">FAX番号</font></b></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><b><font size="2" face="ＭＳ Ｐゴシック">設置主体</font></b></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><b><font size="2" face="ＭＳ Ｐゴシック">開設年月</font></b></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="center"><b><font size="2" face="ＭＳ Ｐゴシック">定員</font></b></div></td></tr>
+
+<tr valign="top"><td width="714" bgcolor="#FFE0FF" colspan="8"><b><font size="2" face="ＭＳ Ｐゴシック">保育所</font></b></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/1uenomaru.pdf"><font size="2" face="ＭＳ Ｐゴシック">三木市立上の丸保育所</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www2.city.miki.lg.jp/miki.nsf/b2221151c6a1fb1f49256b0e00421644/00ccd15c43dc0a2a49256c5e00326e50?OpenDocument"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.42E2?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">上の丸町５－４５</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-6020</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">兼用</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">三木市</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S45.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">９０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/2shijimi.pdf"><font size="2" face="ＭＳ Ｐゴシック">三木市立志染保育所</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/56d5b7f8cbc16b7f49256c5e00318466?OpenDocument"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.496C?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">志染町吉田８２４</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">83-5660</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">兼用</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">三木市</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S56.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">７５</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/3yokawa.pdf"><font size="2" face="ＭＳ Ｐゴシック">三木市吉川保育所</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/44d85d915a60b1ca4925719c0016c983?OpenDocument"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.4F3E?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">吉川町山の上２１２－１</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">７3-0096</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">兼用</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">三木市</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S44.5</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">９０</font></div></td></tr>
+
+<tr valign="top"><td width="714" bgcolor="#FFE0FF" colspan="8"><b><font size="2" face="ＭＳ Ｐゴシック">認定こども園（幼保連携型）</font></b></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/22261E4A85870BC149256F3300246BCC/$FILE/27%E5%90%89%E5%B7%9D.pdf"></a><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/4bessho.pdf"><font size="2" face="ＭＳ Ｐゴシック">三木市立別所認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www.miki.ed.jp/ns/besshokodomoen/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.56E8?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">別所町巴７３</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-7278</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">兼用</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">三木市</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S51.5</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１００</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/5shinwa.pdf"><font size="2" face="ＭＳ Ｐゴシック">神和認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://shinwa-ns.com/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.5B48?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">加佐八幡本１７６－１</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-7363</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-7369</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)神和福祉会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S46.8</font></div></td><td width="31" bgcolor="#FFE0FF"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１４０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/6angel.pdf"><font size="2" face="ＭＳ Ｐゴシック">エンゼル認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www.ans.co.jp/n/enzerukodomoen/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.6056?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">大村１０６７－３４９</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-2946</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">83-5520</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)釜城会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S47.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１６５</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/7ichiryuen.pdf"><font size="2" face="ＭＳ Ｐゴシック">一粒園認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www.ichiryuen.com/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.64AA?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">本町１丁目５-１４</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-6990</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">82-8659</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)一粒園</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S47.6</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">７０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/8seishin.pdf"><font size="2" face="ＭＳ Ｐゴシック">清心認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">緑が丘町東２丁目５－１</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">84-0811</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">84-1170</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)正志会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S48.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１８０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/9hirono.pdf"><font size="2" face="ＭＳ Ｐゴシック">ひろの認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www.miki-n-hirono.sakura.ne.jp/pc/top/index.html"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.6BE8?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">志染町広野１丁目２１６</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">85-2995</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">85-9417</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)しじみ福祉会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S48.11</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１８０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/10haba.pdf"><font size="2" face="ＭＳ Ｐゴシック">羽場認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">福井３丁目１９１８－２９</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">83-3815</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">83-3830</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)羽場福祉会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S50.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１４０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/11ebisu.pdf"><font size="2" face="ＭＳ Ｐゴシック">えびす認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www.ebisu-hoikuen.ed.jp/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.72FA?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">宿原９－１</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">83-3247</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">83-8178</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)えびす福祉会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S52.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１８０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/12izumi.pdf"><font size="2" face="ＭＳ Ｐゴシック">いずみ認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">口吉川町大島８５４</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">88-0811</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">60-1019</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)白水会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S53.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">８５</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/13jiyuugaoka.pdf"><font size="2" face="ＭＳ Ｐゴシック">自由ヶ丘認定こども園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">志染町中自由が丘３丁目９９</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">85-3650</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">85-3655</font></div></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">(社福)自由ヶ丘福祉会</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S54.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１３０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/14akebono.pdf"><font size="2" face="ＭＳ Ｐゴシック">あけぼの認定こども園</font></a></td><td width="32" bgcolor="#FFE0FF"><div align="center"><a href="http://shinsei-fukushikai.or.jp/index.html"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.7DC2?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></div></td><td width="163" bgcolor="#FFE0FF"><font size="2" face="ＭＳ Ｐゴシック">志染町井上６８４</font></td><td width="70" bgcolor="#FFE0FF"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">87-3222</font></div></td><td width="70" bgcolor="#FFE0FF"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">兼用</font></div></td><td width="119" bgcolor="#FFE0FF"><font size="2" face="ＭＳ Ｐゴシック">(社福)真生福祉会</font></td><td width="60" bgcolor="#FFE0FF"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S55.4</font></div></td><td width="31" bgcolor="#FFE0FF"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１２０</font></div></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" rowspan="2"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/15rinden.pdf"><font size="2" face="ＭＳ Ｐゴシック">りんでん認定こども園</font></a></td><td width="32" bgcolor="#FFE0FF" rowspan="2"><div align="center"><a href="http://rinden-miki.sakura.ne.jp/"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.856E?OpenElement&amp;FieldElemFormat=gif" width="15" height="14" border="0"></a></div></td><td width="163" bgcolor="#FFE0FF" rowspan="2"><font size="2" face="ＭＳ Ｐゴシック">緑が丘町西４丁目１４－３</font></td><td width="70" bgcolor="#FFE0FF" rowspan="2"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">85-7838</font></div></td><td width="70" bgcolor="#FFE0FF" rowspan="2"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">85-7819</font></div></td><td width="119" bgcolor="#FFE0FF" rowspan="2"><font size="2" face="ＭＳ Ｐゴシック">（学）りんでん学園</font></td><td width="60" bgcolor="#FFE0FF" rowspan="2"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">S47.4</font></div></td><td width="31" bgcolor="#FFE0FF" rowspan="2"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１５０</font></div></td></tr>
+
+<tr></tr>
+
+<tr valign="top"><td width="714" bgcolor="#FFE0FF" colspan="8"><b><font face="ＭＳ Ｐゴシック">小規模保育施設（A型）</font></b></td></tr>
+
+<tr valign="top"><td width="169" bgcolor="#FFE0FF" valign="middle"><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/16shintetsu.pdf"><font size="2" face="ＭＳ Ｐゴシック">しんてつ・みどりがおか保育園</font></a></td><th width="32" bgcolor="#FFE0FF" valign="middle"><a href="http://www.shintetsu.co.jp/life/hoiku/index.html"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/0.8C72?OpenElement&amp;FieldElemFormat=gif" width="15" height="13" border="0"></a></th><td width="163" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">緑が丘町本町１丁目６－１</font></td><td width="70" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">89-8551</font></div></td><td width="70" bgcolor="#FFE0FF" valign="middle"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></td><td width="119" bgcolor="#FFE0FF" valign="middle"><font size="2" face="ＭＳ Ｐゴシック">（株）神戸電鉄</font></td><td width="60" bgcolor="#FFE0FF" valign="middle"><div align="center"><font size="2" face="ＭＳ Ｐゴシック">H27.4</font></div></td><td width="31" bgcolor="#FFE0FF" valign="middle"><div align="right"><font size="2" face="ＭＳ Ｐゴシック">１９</font></div></td></tr>
+</table>
+</div><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　 　　　　　　　 　　　　　　</font><br>
+<font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　 　　　　　　　 　　　　</font><br>
+<font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　　　　　　　　　　</font><br>
+<font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　 　 　 　 　 　 　　</font></td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■入園申込に必要な書類について■</font></b>
+<p><b><font size="2" color="#0000FF" face="ＭＳ Ｐゴシック">　　　　　　　　　　　　 　　　　　　　 　　　　　　　　　 　　　　　</font></b></td></tr>
+
+<tr valign="top"><td width="718"><font face="ＭＳ Ｐゴシック">ご家庭によりご提出いただく書類が異なります。窓口で家庭状況の聞き取りをさせていただき、必要な書類をお渡ししますので、</font><b><font face="ＭＳ Ｐゴシック">就学前教育・保育課</font></b><font face="ＭＳ Ｐゴシック">（市役所５F）または</font><b><font face="ＭＳ Ｐゴシック">吉川支所市民生活課</font></b><font face="ＭＳ Ｐゴシック">までお越しください。　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　 　　　　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　　　　　 　 　 　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　　　　 　 　 　 　　　 　 　　　　　　　　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　 　 　　　　　　　 　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■入園申込受付について■</font></b>
+<p><font size="2" face="ＭＳ Ｐゴシック">　　　　　　　　 　　　　　　　 　　　　　　　　 　　　　　 　　　　　 　　　　　　　　　　　　 　　　　　　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><font face="ＭＳ Ｐゴシック">・平成２８年度の入園申込は、</font><b><font face="ＭＳ Ｐゴシック">就学前教育・保育課</font></b><font face="ＭＳ Ｐゴシック">もしくは</font><b><font face="ＭＳ Ｐゴシック">吉川支所市民生活課</font></b><font face="ＭＳ Ｐゴシック">で随時受け付けています。</font>
+<p><font face="ＭＳ Ｐゴシック">・入園申込は、希望月の</font><b><font face="ＭＳ Ｐゴシック">前月１０日</font></b><font face="ＭＳ Ｐゴシック">が締め切りです。</font>
+<p><font face="ＭＳ Ｐゴシック">・平成２９年度の入園申込についての詳細は、</font><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/916b8301793af4914925803e000eeb48?OpenDocument"><font face="ＭＳ Ｐゴシック">広報みき１０月号</font></a><font face="ＭＳ Ｐゴシック">または下記の「認定こども園・保育所等</font>
+<p><font face="ＭＳ Ｐゴシック">　（２・３号認定）入園のご案内」をご覧ください。</font>
+<p><font face="ＭＳ Ｐゴシック">・１号認定での入園をご希望の方は、</font><b><font face="ＭＳ Ｐゴシック">就学前教育・保育課</font></b><font face="ＭＳ Ｐゴシック">までお問い合わせください。</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　　 　　　　　　　　　 　　　　 　　　　 　　　　 　</font>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　 　　　　　　　　</font>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　 　　　　 　　　　 　　　　 　　　　　</font>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　 　　　　　　 　　　　　　　　 　　　　　　　　　　　 　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体"> </font><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■保育の必要性の認定について■</font></b><br>
+<font size="2" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　 　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　</font><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">  　　　　　　 　　　 　　　　 　　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718">保育所や幼稚園、認定こども園等の利用を希望される児童は、「保育の必要性の認定」を受けていただく必要があります。<br>
+<br>
+　　　　○３つの認定区分に分かれます。<div align="center">
+<table border="1">
+<tr valign="top"><td width="52" valign="middle"><div align="center"><font size="2">種類</font></div></td><td width="60" valign="middle"><div align="center"><font size="2">認定内容</font></div></td><td width="55" valign="middle"><font size="2">年齢区別</font></td><td width="148" valign="middle"><font size="2">利用できる施設</font></td><td width="200" valign="middle"><font size="2">保護者等の状況</font></td></tr>
+
+<tr valign="top"><td width="52" valign="middle"><div align="center"><font size="2">１号認定</font></div></td><td width="60" valign="middle"><font size="2">教育標準</font>
+<p><font size="2">時間認定</font></td><td width="55" valign="middle"><font size="2">満３歳</font>
+<p><font size="2">以上</font></td><td width="148" valign="middle"><font size="2">幼稚園（公立は４歳児以上）</font>
+<p><font size="2">認定こども園</font></td><td width="200" valign="middle"><font size="2">児童が３歳児以上で、幼稚園や認定こども園などで教育を希望される場合</font></td></tr>
+
+<tr valign="top"><td width="52" valign="middle"><div align="center"><font size="2">２号認定</font></div></td><td width="60" valign="middle"><font size="2">保育認定</font></td><td width="55" valign="middle"><font size="2">満３歳</font>
+<p><font size="2">以上</font></td><td width="148" valign="middle"><font size="2">保育所</font>
+<p><font size="2">認定こども園</font></td><td width="200" valign="middle"><font size="2">児童が満３歳以上で、保育の認定基準に該当し、保育所や認定こども園などで保育を希望する場合</font></td></tr>
+
+<tr valign="top"><td width="52" valign="middle"><div align="center"><font size="2">３号認定</font></div></td><td width="60" valign="middle"><font size="2">保育認定</font></td><td width="55" valign="middle"><font size="2">満３歳</font>
+<p><font size="2">未満</font></td><td width="148" valign="middle"><font size="2">保育所</font>
+<p><font size="2">認定こども園</font>
+<p><font size="2">小規模保育施設</font></td><td width="200" valign="middle"><font size="2">児童が満３歳未満で、保育の認定基準に該当し、保育所や認定こども園などで保育を希望する場合</font></td></tr>
+</table>
+</div>　　　　　　　　　　<br>
+　　　　○保育の必要量に応じた区分<br>
+　　　　　　２号・３号認定を受ける方は、保育の必要量によって、以下のとおり区分されます。<div align="center">
+<table border="1">
+<tr valign="top"><td width="82" valign="middle"><font size="2">利用区分</font></td><td width="310" valign="middle"><font size="2">区分内容</font></td><td width="160" valign="middle"><font size="2">利用可能時間</font></td></tr>
+
+<tr valign="top"><td width="82" valign="middle"><font size="2">保育標準時間</font></td><td width="310" valign="middle"><font size="2">フルタイム勤務（１２０時間以上／月）の方が利用できる区分</font></td><td width="160" valign="middle"><font size="2">１１時間／日　（７時～１８時）</font></td></tr>
+
+<tr valign="top"><td width="82" valign="middle"><font size="2">保育短時間</font></td><td width="310" valign="middle"><font size="2">パートタイム勤務（４８時間以上１２０時間未満／月）の方が利用できる区分</font></td><td width="160" valign="middle"><font size="2">８時間／日　（８時～１６時）</font></td></tr>
+</table>
+</div>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　 　　　　 　　　　　　 　 　　　　　　　 　　　　　　　</font>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　 　 　 　　　　　　 　 　　　　 　 　 　　　　　　　　　 　 　 　　　 　　　　　　　　　 　　　　　　　　　　　　　 　　　　 </font>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　　　　　 　　　　　 </font></td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■保育の認定基準について（２・３号認定の方）■</font></b><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">                  　　　　　　　　　　 　　　　　　　　　　　　 　　　　　 　　</font><font size="2" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　</font><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　</font><font size="2" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　 　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718">小学校入学前までの児童で、両親いずれも（両親と別居している場合には児童の面倒を見ている者）が次のいずれかの事情にある場合、保育の認定を受けることができます。<br>
+<div align="center"><br>
+
+<table border="1">
+<tr valign="top"><td width="99" valign="middle"><font size="2">要件</font></td><td width="382" valign="middle"><font size="2">内容</font></td><td width="104" valign="middle"><font size="2">入所可能期間</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(1)</font><font size="2">就労等</font></td><td width="382" valign="middle"><font size="2" face="Century">(</font><font size="2">家庭外労働）児童の保護者が家庭の外で仕事をすることが通常なので、その児童の保育ができない場合</font>
+<p><font size="2" face="Century">(</font><font size="2">家庭内労働）児童の保護者が家庭で日常の家事以外の仕事をすることが通常なので、その児童の保育ができない場合</font></td><td width="104" valign="middle"><font size="2">就労期間内</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(2)</font><font size="2">妊娠・出産</font></td><td width="382" valign="middle"><font size="2">児童の保護者が出産の前後のため、その児童の保育ができない場合（産前産後おおむね３カ月ずつ）</font></td><td width="104" valign="middle"><font size="2">出産月を除く産前産後とも３カ月ずつ</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(3)</font><font size="2">疾病･障害</font></td><td width="382" valign="middle"><font size="2">児童の保護者が病気、負傷、心身に障害があったりするので、その児童の保育ができない場合</font></td><td width="104" valign="middle"><font size="2">診断書に記載の通院および療養期間</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(4)</font><font size="2">介護等</font></td><td width="382" valign="middle"><font size="2">児童の家庭に介護が必要な高齢者や、長期にわたる病人、心身に障害のある人、小児慢性疾患に伴う看護が必要な兄弟姉妹がおり、保護者がいつもその同居又は長期入院・入所している親族の介護・看護にあたっているため、その児童の保育ができない場合</font></td><td width="104" valign="middle"><font size="2">入院・通院期間、介護が必要な期間</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(5)</font><font size="2">災害復旧</font></td><td width="382" valign="middle"><font size="2">火災や、風水害や、地震などの災害があり、家庭を失ったり、住居を破損したため、その復旧の間、児童の保育ができない場合</font></td><td width="104" valign="middle"><font size="2">復旧完了まで</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(6)</font><font size="2">求職活動</font></td><td width="382" valign="middle"><font size="2">児童の親が求職活動（起業準備を含む）を行っているため、その児童の保育ができない場合</font></td><td width="104" valign="middle"><font size="2">３カ月</font></td></tr>
+
+<tr valign="top"><td width="99"><font size="2" face="Century">(7)</font><font size="2">就学</font></td><td width="382" valign="middle"><font size="2">児童の親が就学（職業訓練校等における職業訓練を含む）のため、その児童の保育ができない場合</font></td><td width="104" valign="middle"><font size="2">通学期間内</font></td></tr>
+</table>
+</div>　　　　　　　　　　　 　　　　　　　 　　　　 　　　　 <br>
+　　　 　　　　　　　　　　　 　　　　 　　　　　　　 　　　 　　　　　　　<br>
+<br>
+　　　 　　　　　　　　 　 　 　 　　　　　　　　　　　　　　　　<br>
+　　　　　　　　 　　　　　　　 　 　 　　　　　　　　　　  　　 　 </td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■利用者負担額（保育料）の決定について■</font></b><br>
+<font size="2" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　　　　　 　　　</font><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">                　　　　　 　　　　　　　 　　　　　　 　　　　　　 　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><font face="ＭＳ Ｐゴシック">利用者負担額は、保護者の市民税所得割額（世帯の合計）により決定します。</font>
+<p>
+<p><font size="4" face="ＭＳ Ｐゴシック">　　　　　　　　</font><a style="display: inline-block; text-align: center" href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/28futangaku.002.pdf/28futangaku.pdf" title="28futangaku.pdf"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/1.1582?OpenElement&amp;FieldElemFormat=gif" width="88" height="34" border="0"><span style="display: block">28futangaku.pdf</span></a>
+<p><font size="2" face="ＭＳ Ｐゴシック">※ご覧いただくには、「Acrobat Reader」というソフトが必要ですが無料で</font><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html"><font size="2" face="ＭＳ Ｐゴシック">ダウンロード</font></a><font size="2" face="ＭＳ Ｐゴシック">できます。</font>
+<p><b><font size="4" color="#0000E0" face="ＭＳ Ｐゴシック">　　　　　　</font></b>
+<p><b><font size="4" color="#0000E0" face="ＭＳ Ｐゴシック">　　　　　 　　　　　　　　　 　　　 　　　　　　　 　　　 　　　　　　　 　　　　　</font></b>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　 　　 　　 　　 　　　　　　　 　　　　</font>
+<p><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　 　　　　　　　 　　 　　 　　 　　 　　 　　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></td></tr>
+
+<tr valign="top"><td width="718"><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体"> </font><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■利用者負担額軽減のお知らせ■</font></b><br>
+<font size="2" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">                                　　　　　　　　　　 　</font></td></tr>
+
+<tr valign="top"><td width="718"><font face="ＭＳ Ｐゴシック">平成２５年度から三木市独自の施策として、児童の月額利用者負担額を軽減しています。</font><br>
+<font face="ＭＳ Ｐゴシック">所得制限等条件がありますので、詳しくは「平成２９年度　認定こども園・保育所等（２号・３号認定）入園のご案内」をご覧ください。</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　 　　　 　　　 　　　 　　　 　　　　　　　　　　 　　　 　　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　 　　　 　　　 　　　 　　　 　　　 　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　 　　　 　　　　　　 　　　　　 　　　　 　 　　　　　　 　　　　　　 　　　　　 　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""></td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■未婚一人親にかかる利用者負担額の支援について■</font></b><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　 　　　 　　　　　　　　　　　 　　　　　　　　　　　　 　　 　　　　　　　 　　　　　　 　　 　　　　　　　　　　　　　　　　　　　　</font><br>
+<font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font><font color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体">　　　　　　　　　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="718"><font face="ＭＳ Ｐゴシック">婚姻歴のないひとり親に対し、税制上の優遇措置である「寡婦（夫）控除」を「みなし適用」し、利用者負担額の見直しを行います。該当の方は、就学前教育・保育課へご相談のうえ、申し出てください。</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　申請書様式　⇒　　　</font><a style="display: inline-block; text-align: center" href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/%E3%81%BF%E3%81%AA%E3%81%97%E5%AF%A1%E5%A9%A6%EF%BC%88%E5%A4%AB%EF%BC%89%E6%8E%A7%E9%99%A4%E9%81%A9%E7%94%A8%E7%94%B3%E5%87%BA%E6%9B%B8.pdf" title="みなし寡婦（夫）控除適用申出書.pdf"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/1.2960?OpenElement&amp;FieldElemFormat=gif" width="221" height="48" border="0"></a>
+<p><font face="ＭＳ Ｐゴシック">※　「寡婦（夫）控除」を控除額に加算し、税額を再算出します。算定後、利用者負担額階層に変更がない場合もありますので、ご了承ください。</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　 　　 　　 　　 　　 　　 　　 　　 　　 　　 　　 　　 　　　</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　 　　　 　　　　　　　　 　　　　　 　　　　　　　　 　　　　　 </font></td></tr>
+
+<tr valign="top"><td width="718"><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■平成２９年度認定こども園・保育所等（２・３号認定）入園のご案内（PDF)■</font></b><font face="ＭＳ Ｐゴシック">　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　</font><br>
+<font face="ＭＳ Ｐゴシック">　　　　詳しい案内はこちらをクリック ⇒ 　</font><a style="display: inline-block; text-align: center" href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/29annai.pdf" title="29annai.pdf"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/1.3402?OpenElement&amp;FieldElemFormat=gif" width="65" height="34" alt="29annai.pdf" border="0"><span style="display: block">29annai.pdf</span></a>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font>
+<p><b><font color="#0000FF" face="ＭＳ Ｐゴシック">■入園申込書・現況届の添付書類の様式（ダウンロードできます）■</font></b><br>
+<b><font color="#0000FF" face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font></b>
+<table border="1">
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　入園申込用添付書類　　　　　　　　　　　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　１　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki01)Kinmu_H28-29.pdf"><font face="ＭＳ Ｐゴシック">勤務証明書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　２　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki02)Jiei_H28-29.pdf"><font face="ＭＳ Ｐゴシック">自営証明書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　３　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki03)Jiei-Tetsudai_H28-29.pdf"><font face="ＭＳ Ｐゴシック">自営手伝い証明書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　４　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki04)Nougyou_H28-29.pdf"><font face="ＭＳ Ｐゴシック">農業証明書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　５　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki05)Naishoku_H28-29.pdf"><font face="ＭＳ Ｐゴシック">内職証明書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　６　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki06)Moushitate_H28-29.pdf"><font face="ＭＳ Ｐゴシック">申立書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　７　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki07)Kyushoku_H28-29.pdf"><font face="ＭＳ Ｐゴシック">求職活動・勤務予定申告書</font></a></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　８　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki08)KaigoKango_H28-29.pdf"><font face="ＭＳ Ｐゴシック">看護・介護・疾病・障がい申告書</font></a><font face="ＭＳ Ｐゴシック">　　</font></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　現況届用添付書類</font></td></tr>
+
+<tr valign="top"><td width="339"><font face="ＭＳ Ｐゴシック">　　９　</font><a href="/miki.nsf/image/4090B2565376515C49257FD5000F9272/$FILE/(Youshiki10)Hoikuyouken_H28-29.pdf"><font face="ＭＳ Ｐゴシック">保育要件証明書（継続用）</font></a></td></tr>
+</table>
+<font face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　</font>
+<p><b><font color="#0000FF" face="ＭＳ Ｐゴシック">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font></b><br>
+<b><font color="#0000FF" face="ＭＳ Ｐゴシック">■希望の園への入園を待つ児童数　地区別内訳（PDF)■</font></b><br>
+<font face="ＭＳ Ｐゴシック">　　　　　　　　　</font>
+<p><font face="ＭＳ Ｐゴシック">　　　　　　　　　　</font><a style="display: inline-block; text-align: center" href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/nyuenmachi28_10_1.pdf" title="nyuenmachi28_10_1.pdf"><img src="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/Body/1.4C14?OpenElement&amp;FieldElemFormat=gif" width="124" height="34" alt="nyuenmachi28_10_1.pdf" border="0"><span style="display: block">nyuenmachi28_10_1.pdf</span></a><font face="ＭＳ Ｐゴシック">　　</font></td></tr>
+</table>
+</div><div align="center"><br>
+</div><font color="#00A000">　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</font></td></tr>
+</table>
+</div>　</td></tr>
+</table>
+</div><div align="center">
+<table border="1">
+<tr valign="top"><td width="130" bgcolor="#008040" rowspan="2" valign="middle"><div align="center"><font color="#FFFFFF">お問い合わせ先</font></div></td><td width="221" bgcolor="#8CFFFF" rowspan="2" valign="middle">　市役所　就学前教育・保育課<br>
+　教育・保育認定グループ</td><td width="71" bgcolor="#008040" valign="middle"><div align="center"><font color="#FFFFFF">ＴＥＬ</font></div></td><td width="188" bgcolor="#8CFFFF" valign="middle"><div align="center">0794-82-2000</div></td></tr>
+
+<tr valign="top"><td width="71" bgcolor="#008040" valign="middle"><div align="center"><font color="#FFFFFF">E-mail</font></div></td><td width="188" bgcolor="#8CFFFF" valign="middle"><div align="center"><a href="mailto:shugakuzen@city.miki.lg.jp">shugakuzen@city.miki.lg.jp</a></div></td></tr>
+</table>
+</div>　<br>
+                     <br>
+<br>
+<font size="5" color="#0000FF" face="HGP創英角ﾎﾟｯﾌﾟ体">                 </font><font size="5" color="#00A000" face="HGP創英角ﾎﾟｯﾌﾟ体"> </font>
+<BR>
+<BR>
+<CENTER><FONT size="-1">Copyright(c)1996-<SCRIPT language=JavaScript>
+//<!--Start//
+Tag   = new Date();
+Jahr = Tag.getFullYear(); 
+document.write(Jahr); 
+// --></SCRIPT>. Miki city. All rights reserved.</FONT>
+</CENTER><NOSCRIPT><FORM><hr>
+<table>
+<tr><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/13jiyuugaoka.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+13jiyuugaoka.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/12izumi.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+12izumi.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/11ebisu.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+11ebisu.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/10haba.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+10haba.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/9hirono.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+9hirono.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/8seishin.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+8seishin.pdf</a></td></tr>
+</table>
+
+<table>
+<tr><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/7ichiryuen.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+7ichiryuen.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/6angel.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+6angel.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/5shinwa.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+5shinwa.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/4bessho.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+4bessho.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/3yokawa.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+3yokawa.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/2shijimi.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+2shijimi.pdf</a></td></tr>
+</table>
+
+<table>
+<tr><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/1uenomaru.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+1uenomaru.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/16shintetsu.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+16shintetsu.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/15rinden.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+15rinden.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/14akebono.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+14akebono.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki01)Kinmu_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki01)Kinmu_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki03)Jiei-Tetsudai_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki03)Jiei-Tetsudai_H28-29.pdf</a></td></tr>
+</table>
+
+<table>
+<tr><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki02)Jiei_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki02)Jiei_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki07)Kyushoku_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki07)Kyushoku_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki10)Hoikuyouken_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki10)Hoikuyouken_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki05)Naishoku_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki05)Naishoku_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki04)Nougyou_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki04)Nougyou_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki03)Jiei-Tetsudai_H28-29.002.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki03)Jiei-Tetsudai_H28-29.002.pdf</a></td></tr>
+</table>
+
+<table>
+<tr><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki02)Jiei_H28-29.002.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki02)Jiei_H28-29.002.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki06)Moushitate_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki06)Moushitate_H28-29.pdf</a></td><td align="center"><a href="/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272/$FILE/(Youshiki08)KaigoKango_H28-29.pdf"><img src="/icons/fileatt.gif" border="0" alt="ファイル添付アイコン"><br>
+(Youshiki08)KaigoKango_H28-29.pdf</a></td></tr>
+</table>
+</form>
+</body>
+</html>
