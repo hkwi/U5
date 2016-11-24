@@ -3,6 +3,7 @@ import logging
 import re
 import itertools
 import lxml.html
+import requests
 
 tasks = []
 def task(code):
@@ -22,10 +23,21 @@ def task(code):
 	return proc
 
 def get(url):
-	h = lxml.html.parse(url)
-	r = h.getroot()
+	try:
+		h = lxml.html.parse(url)
+		r = h.getroot()
+	except IOError:
+		r = lxml.html.document_fromstring(requests.get(url).text, base_url=url)
+	
 	r.make_links_absolute()
 	return r
+
+@task("280003")
+def 兵庫県():
+	# 兵庫県
+	for a in get("https://web.pref.hyogo.lg.jp/kf11/hw10_000000006.html").cssselect("#col_main a"):
+		if re.match(r"https://web.pref.hyogo.lg.jp/kf11/documents/.*.pdf", a.get("href", "")):
+			yield a.get("href")
 
 @task("281000")
 def kobe_1():
@@ -181,22 +193,38 @@ def toyooka():
 @task("282103")
 def 兵庫県_加古川市():
 	# 兵庫県 加古川市
-	pass
+	# 市立幼稚園
+	yield "http://www.city.kakogawa.lg.jp/mokutekibetsudesagasu/nyuen_nyugaku/shiritsuyochien/1415759229773.html"
+	# 保育施設
+	yield "http://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/hoikuka/kosodate_kyoiku/1415865043681.html"
+	# 認可外保育施設は兵庫県へ
+	# 私立幼稚園？
 
 @task("282120")
 def 兵庫県_赤穂市():
 	# 兵庫県 赤穂市
-	pass
+	# 幼稚園
+	yield "http://www.city.ako.lg.jp/kanko/kyoiku/yochien/"
+	# 保育所
+	yield "https://www.city.ako.lg.jp/edu/kodomo/nursery_handbook.html"
 
 @task("282138")
 def 兵庫県_西脇市():
 	# 兵庫県 西脇市
-	pass
+	# 幼稚園
+	yield "http://www.city.nishiwaki.lg.jp/lifescenemokutekibetsudesagasu/gakoen/1359271828205.html"
+	# 保育所・こども園
+	yield "http://www.city.nishiwaki.lg.jp/lifescenemokutekibetsudesagasu/gakoen/hoikusyo/1475192591439.html"
 
 @task("282146")
 def 兵庫県_宝塚市():
 	# 兵庫県 宝塚市
-	pass
+	# 幼稚園
+	yield "http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1000552.html"
+	# 保育
+	for a in get("http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1000540.html").cssselect("#pagebody a"):
+		if "一覧" in a.text:
+			yield a.get("href")
 
 @task("282154")
 def 兵庫県_三木市():
