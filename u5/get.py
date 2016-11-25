@@ -237,17 +237,23 @@ def 兵庫県_三木市():
 @task("282162")
 def 兵庫県_高砂市():
 	# 兵庫県 高砂市
-	pass
+	yield "http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html"
 
 @task("282171")
 def 兵庫県_川西市():
 	# 兵庫県 川西市
-	pass
+	# 幼稚園
+	yield "http://www.city.kawanishi.hyogo.jp/kodomo/9780/youchien_ichiran.html"
+	# 保育所
+	yield "http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html"
 
 @task("282189")
 def 兵庫県_小野市():
 	# 兵庫県 小野市
-	pass
+	# 幼稚園
+	yield "http://www.city.ono.hyogo.jp/1/8/43/8/4/2/"
+	# 保育所
+	yield "http://www.city.ono.hyogo.jp/1/8/13/4/1/"
 
 @task("282197")
 def 兵庫県_三田市():
@@ -290,42 +296,57 @@ def 兵庫県_篠山市():
 @task("282227")
 def 兵庫県_養父市():
 	# 兵庫県 養父市
-	pass
+	yield "http://www.city.yabu.hyogo.jp/3691.htm"
 
 @task("282235")
 def 兵庫県_丹波市():
 	# 兵庫県 丹波市
-	pass
+	# 幼稚園
+	yield "http://www.city.tamba.hyogo.jp/site/kosodate/youtienbosyuannai.html"
+	# 保育所
+	yield "http://www.city.tamba.hyogo.jp/site/kosodate/hoikusyo-list.html"
 
 @task("282243")
 def 兵庫県_南あわじ市():
 	# 兵庫県 南あわじ市
-	pass
+	yield "http://www.city.minamiawaji.hyogo.jp/soshiki/kosodate/hoikusho.html"
 
 @task("282251")
 def 兵庫県_朝来市():
 	# 兵庫県 朝来市
-	pass
+	for a in get("http://www.city.asago.hyogo.jp/category/1-3-2-2-0.html").cssselect("#main_naka a"):
+		if "一覧" in a.text or re.match(".*年度.*募集.*", a.text):
+			yield a.get("href")
 
 @task("282260")
 def 兵庫県_淡路市():
 	# 兵庫県 淡路市
-	pass
+	# 保育所
+	for a in get("http://www.city.awaji.lg.jp/life/2/20/77/").cssselect("#main_body a"):
+		if "保育所" in a.text:
+			for a2 in get(a.get("href")).cssselect("#main_body a"):
+				if "一覧" in a2.text:
+					yield a2.get("href")
 
 @task("282278")
 def 兵庫県_宍粟市():
 	# 兵庫県 宍粟市
-	pass
+	yield "http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html"
 
 @task("282286")
 def 兵庫県_加東市():
 	# 兵庫県 加東市
-	pass
+	# こども園・保育所
+	yield "http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html"
+	# 幼稚園
+	yield "http://www.city.kato.lg.jp/kurashi/kosodate/1457747773920.html"
 
 @task("282294")
 def 兵庫県_たつの市():
 	# 兵庫県 たつの市
-	pass
+	for a in get("http://www.city.tatsuno.lg.jp/kurashi/ninshin/index.html").cssselect("#tmp_contents a"):
+		if re.match("幼稚園・保育所・(認定)?こども園", a.text):
+			yield a.get("href")
 
 @task("283011")
 def 兵庫県_猪名川町():
