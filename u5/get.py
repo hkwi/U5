@@ -8,14 +8,17 @@ import requests
 tasks = []
 def task(code):
 	def proc(func):
-		def wrap():
+		def wrap(**kwargs):
 			try:
 				gen = func()
 				if gen is None:
 					return iter([])
 				for url in gen:
 					assert url
-					yield url
+					if kwargs.get("with_code"):
+						yield url, code
+					else:
+						yield url
 			except:
 				logging.error("code %s" % code, exc_info=True)
 		tasks.append(wrap)
