@@ -4,6 +4,7 @@ import re
 import itertools
 import lxml.html
 import requests
+import pdftableextract as pte
 
 tasks = []
 def task(code):
@@ -12,13 +13,8 @@ def task(code):
 			try:
 				gen = func()
 				if gen is None:
-					return iter([])
-				for url in gen:
-					assert url
-					if kwargs.get("with_code"):
-						yield url, code
-					else:
-						yield url
+					gen = iter([])
+				return gen
 			except:
 				logging.error("code %s" % code, exc_info=True)
 		tasks.append(wrap)
@@ -35,10 +31,18 @@ def get(url):
 	r.make_links_absolute()
 	return r
 
+class Css(object):
+	def __init__(self, pattern):
+		self.pattern = pattern
+	
+	def get(self, url):
+		return get(url).cssselect(self.pattern)
+
 @task("280003")
 def 兵庫県():
 	# 兵庫県
-	for a in get("https://web.pref.hyogo.lg.jp/kf11/hw10_000000006.html").cssselect("#col_main a"):
+	sel = Css("#col_main a")
+	for a in sel.get("https://web.pref.hyogo.lg.jp/kf11/hw10_000000006.html"):
 		if re.match(r"https://web.pref.hyogo.lg.jp/kf11/documents/.*.pdf", a.get("href", "")):
 			yield a.get("href")
 
@@ -47,7 +51,8 @@ def 兵庫県_神戸市_1():
 	# 神戸市
 	# 新制度施設一覧
 	hit = False
-	for a in get("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_02.html").cssselect("#contents a"):
+	sel = Css("#contents a")
+	for a in sel.get("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_02.html"):
 		if re.match(r"https?://www.city.kobe.lg.jp/child/grow/shinseido/.*\.pdf", a.get("href", "")):
 			yield a.get("href")
 			hit = True
@@ -59,7 +64,8 @@ def 兵庫県_神戸市_2():
 	# 神戸市
 	# 新制度申し込み状況
 	hit = False
-	for a in get("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_03.html").cssselect("#contents a"):
+	sel = Css("#contents a")
+	for a in sel.get("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_03.html"):
 		if re.match(r"https?://www.city.kobe.lg.jp/child/grow/nursery/img/.*\.pdf", a.get("href", "")):
 			yield a.get("href")
 			hit = True
@@ -174,19 +180,20 @@ def aioi():
 def toyooka():
 	# 豊岡市
 	ct = 0
-	for a in get("http://www.city.toyooka.lg.jp/www/genre/0000000000000/1000000001207/index.html").cssselect("#contentsInner a"):
+	sel = Css("#contentsInner a")
+	for a in sel.get("http://www.city.toyooka.lg.jp/www/genre/0000000000000/1000000001207/index.html"):
 		if a.text == "保育所":
-			for a2 in get(a.get("href","")).cssselect("#contentsInner a"):
+			for a2 in sel.get(a.get("href","")):
 				if "一覧" in a2.text:
-					for a3 in get(a2.get("href","")).cssselect("#contentsInner a"):
+					for a3 in sel.get(a2.get("href","")):
 						if "一覧" in a3.text:
 							yield a3.get("href")
 							ct += 1
 		elif a.text == "幼稚園":
-			for a2 in get(a.get("href","")).cssselect("#contentsInner a"):
+			for a2 in sel.get(a.get("href","")):
 				# 市立幼稚園（私立は存在しない？）
 				if "入園するとき" in a2.text:
-					for a3 in get(a2.get("href","")).cssselect("#contentsInner a"):
+					for a3 in sel.get(a2.get("href","")):
 						if "一覧" in a3.text:
 							yield a3.get("href")
 							ct += 1
@@ -225,7 +232,8 @@ def 兵庫県_宝塚市():
 	# 幼稚園
 	yield "http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1000552.html"
 	# 保育所
-	for a in get("http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1000540.html").cssselect("#pagebody a"):
+	sel = Css("#pagebody a")
+	for a in sel.get("http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1000540.html"):
 		if "一覧" in a.text:
 			yield a.get("href")
 
@@ -325,9 +333,10 @@ def 兵庫県_朝来市():
 def 兵庫県_淡路市():
 	# 兵庫県 淡路市
 	# 保育所
-	for a in get("http://www.city.awaji.lg.jp/life/2/20/77/").cssselect("#main_body a"):
+	sel = Css("#main_body a")
+	for a in sel.get("http://www.city.awaji.lg.jp/life/2/20/77/"):
 		if "保育所" in a.text:
-			for a2 in get(a.get("href")).cssselect("#main_body a"):
+			for a2 in sel.get(a.get("href")):
 				if "一覧" in a2.text:
 					yield a2.get("href")
 
@@ -347,7 +356,8 @@ def 兵庫県_加東市():
 @task("282294")
 def 兵庫県_たつの市():
 	# 兵庫県 たつの市
-	for a in get("http://www.city.tatsuno.lg.jp/kurashi/ninshin/index.html").cssselect("#tmp_contents a"):
+	sel = Css("#tmp_contents a")
+	for a in sel.get("http://www.city.tatsuno.lg.jp/kurashi/ninshin/index.html"):
 		if re.match("幼稚園・保育所・(認定)?こども園", a.text):
 			yield a.get("href")
 
