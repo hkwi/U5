@@ -5,6 +5,9 @@ import itertools
 import lxml.html
 import requests
 import pdftableextract as pte
+import contextlib
+import rdflib
+import warnings
 
 tasks = []
 def task(code):
@@ -13,8 +16,12 @@ def task(code):
 			try:
 				gen = func()
 				if gen is None:
-					gen = iter([])
-				return gen
+					return iter([])
+				
+				res = list(gen)
+				if not res:
+					warnings.warn("code %s emit nothing" % code)
+				return iter(res)
 			except:
 				logging.error("code %s" % code, exc_info=True)
 		tasks.append(wrap)
@@ -38,13 +45,75 @@ class Css(object):
 	def get(self, url):
 		return get(url).cssselect(self.pattern)
 
+@contextlib.contextmanager
+def meta(filename):
+	g = rdflib.Graph()
+	if os.path.exists(filename):
+		g.load(_meta, format="turtle")
+	yield g
+	with open(filename, "wb") as w:
+		g.serialize(destination=w, format="turtle")
+
+class Fs(object):
+	def __init__(self, url):
+		self.url = url
+	
+	@property
+	def path(self):
+		pc = urlparse(self.url)
+		return pc.netloc + pc.path
+	
+	@property
+	def local(self):
+		return "docs/" + self.path
+	
+	@property
+	def remote(self):
+		return "http://hkwi.github.com/kcsl/" + self.path
+
+
+NS1 = rdflib.Namespace("https://hkwi.github.io/U5/scheme#")
+
+def wget(url, meta_filename="docs/meta.ttl"):
+	fs = Fs(url)
+	with meta(meta_filename) as g:
+		lm = g.value(rdflib.URIRef(url), NS1["last-modified"])
+		
+		fp = None
+		if os.path.exists(fs.local) and lm:
+			fp = requests.get(url, headers={"If-Modified-Since":lm})
+			if fp.status_code == 304: # xxx: not modified
+				return fs.local
+		
+		if fp is None:
+			fp = requests.get(url)
+		
+		if not fp.ok:
+			logging.error("wget failed: %s" % url)
+			return None
+		
+		logging.info("downloading %s" % url)
+		os.makedirs(os.path.dirname(fs.local), exist_ok=True)
+		with open(fs.local, "wb") as w:
+			for data in fp:
+				w.write(data)
+		
+		g.set((rdflib.URIRef(url), NS1["mirror"], rdflib.URIRef(fs.remote)))
+		lm = fp.headers.get("last-modified")
+		if lm:
+			g.set((rdflib.URIRef(url), NS1["last-modified"], rdflib.Literal(lm)))
+	
+	return fs.local
+
+
 @task("280003")
 def 兵庫県():
 	# 兵庫県
-	sel = Css("#col_main a")
+	sel = Css(".col_main a")
 	for a in sel.get("https://web.pref.hyogo.lg.jp/kf11/hw10_000000006.html"):
 		if re.match(r"https://web.pref.hyogo.lg.jp/kf11/documents/.*.pdf", a.get("href", "")):
 			yield a.get("href")
+			#pdftable(wget(a.get("href")))
 
 @task("281000")
 def 兵庫県_神戸市_1():
@@ -108,10 +177,11 @@ def 兵庫県_姫路市():
 def amagasaki():
 	# 尼崎市
 	# 施設一覧
-	for a in get("http://www.city.amagasaki.hyogo.jp/kosodate/hoikusyo/index.html").cssselect("#content a"):
-		if "保育施設" in a.text:
-			for a2 in get(a.get("href")).cssselect("#content a"):
-				if a2.text and "一覧" in a2.text:
+	sel = Css("#content a")
+	for a in sel.get("http://www.city.amagasaki.hyogo.jp/kosodate/hoikusyo/index.html"):
+		if "保育施設" in a.text_content():
+			for a2 in sel.get(a.get("href")):
+				if "一覧" in a2.text_content():
 					yield a2.get("href")
 
 @task("282031")
@@ -325,8 +395,9 @@ def 兵庫県_南あわじ市():
 @task("282251")
 def 兵庫県_朝来市():
 	# 兵庫県 朝来市
-	for a in get("http://www.city.asago.hyogo.jp/category/1-3-2-2-0.html").cssselect("#main_naka a"):
-		if "一覧" in a.text or re.match(".*年度.*募集.*", a.text):
+	sel = Css(".main_naka a")
+	for a in get("http://www.city.asago.hyogo.jp/category/1-3-2-2-0.html"):
+		if "一覧" in a.text_content() or re.match(".*年度.*募集.*", a.text_content()):
 			yield a.get("href")
 
 @task("282260")
@@ -420,7 +491,7 @@ def 兵庫県_香美町():
 def 兵庫県_新温泉町():
 	# 兵庫県 新温泉町
 	# http://www.town.shinonsen.hyogo.jp/d1w_reiki/420901010043000000MH/420901010043000000MH/420901010043000000MH.html
-	yield "www.town.shinonsen.hyogo.jp/d1w_reiki/420901010043000000MH/420901010043000000MH/420901010043000000MH_j.html"
+	yield "http://www.town.shinonsen.hyogo.jp/d1w_reiki/420901010043000000MH/420901010043000000MH/420901010043000000MH_j.html"
 
 if __name__=="__main__":
 	for url in itertools.chain(*[t() for t in tasks]):
