@@ -421,12 +421,22 @@ def 兵庫県_上郡町():
 @task("285013")
 def 兵庫県_佐用町():
 	# 兵庫県 佐用町
-	pass
+	sel = Css("#main a")
+	tsel = Css("#main_left table")
+	# 保育園
+	for a in sel.get("https://www.town.sayo.lg.jp/cms-sypher/www/life/result.jsp?life_genre=002"):
+		if "保育園" in a.text_content():
+			for tb in tsel.wget(a.get("href")):
+				yield tbtable(tb)
 
 @task("285854")
 def 兵庫県_香美町():
 	# 兵庫県 香美町
-	pass
+	tsel = Css(".TopMain2 table")
+	for tb in tsel.wget("http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html"):
+		yield tbtable(tb)
+	for tb in tsel.wget("http://www.town.mikata-kami.lg.jp/www/contents/1147853811765/index.html"):
+		yield tbtable(tb)
 
 @task("285862")
 def 兵庫県_新温泉町():
