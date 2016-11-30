@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
 all:
-	wget -N -x -i <(python3 -m u5.get)
+	wget -P docs -N -x -i <(python3 -m u5.__main__)
 
 

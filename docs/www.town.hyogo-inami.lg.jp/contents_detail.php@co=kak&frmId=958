@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>稲美町立幼稚園・小学校・中学校一覧 | 稲美町ホームページ</title>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/toolbox.js"></script>
+<script type="text/javascript" src="js/objects.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="css/molecule_view.css" media="screen,print" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="css/ie70.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie80.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie90.css" media="screen,print" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<link href="css/img/favicon.ico" rel="shortcut icon" />
+</head>
+<body id="body" class="inbody inkiji" onload="getCookie();">
+<a name="pagetop" id="pagetop" class="anchor" tabindex="-1"><img src="images/clearspacer.gif" alt="ページの先頭です" width="1" height="1" /></a>
+<div class="all">
+<div class="design">
+
+<!-- ▼▼▼▼▼ヘッダ▼▼▼▼▼ -->
+<div id="head" class="clear">
+<div id="head_upper" class="clear">
+<h1 class="logo"><a href="http://www.town.hyogo-inami.lg.jp/index.php"><img src="design_img/head_id.gif" alt="稲美町公式ホームページ" width="500" height="35" /></a></h1>
+<a href="#HONBUN" style="float:left"><img src="images/clearspacer.gif" alt="共通メニュー等をスキップして本文へ" width="1" height="1" /></a>
+<ul id="head_links"><li><a href="http://www.town.hyogo-inami.lg.jp/sitemap.php"><img src="cmsfiles/menu_img/menu-2.gif" alt="サイトマップ" width="90" height="22" /></a></li></ul>
+<div id="head_right" class="clear">
+<div id="head_obi" class="clear">
+ <div class="font_size"><p><img src="images/font_size.gif" alt="文字サイズ" width="72" height="14" /></p><ul><li><a href="javascript:textSizeReset();"><img src="css/img/font_h1.gif" alt="標準" /></a></li><li><a href="javascript:textSizeUp();"><img src="css/img/font_k2.gif" alt="拡大" /></a></li></ul><noscript><p class="noscript">文字サイズ>変更機能を利用するにはJavaScript（アクティブスクリプト）を有効にしてください。JavaScript（アクティブスクリプト） を無効のまま文字>サイズを変更する場合には、ご利用のブラウザの表示メニューから文字サイズを変更してください。</p></noscript></div>
+<form action="http://www.town.hyogo-inami.lg.jp/contents_search.php" method="post" id="search" name="search"><input type="text" id="search_box" name="txtKey" value="" title="検索キーワード" /><input type="image" src="images/head_src.gif" id="search_button" name="search_button" alt="サイト内検索" /></form>
+</div>
+</div>
+</div>
+<div id="navi"><ul class="clear">
+<li><a href="http://www.town.hyogo-inami.lg.jp/" lang="en" xml:lang="en" onmouseover="change_image('menu901',902)" onfocus="change_image('menu901',902)" onmouseout="change_image('menu901',901)" onblur="change_image('menu901',901)"><img src="cmsfiles/menu_img/menu-20.gif" alt="HOME" width="165" height="40" id="menu901" name="menu901" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=1-0-0-0-0" onmouseover="change_image('menu903',904)" onfocus="change_image('menu903',904)" onmouseout="change_image('menu903',903)" onblur="change_image('menu903',903)"><img src="cmsfiles/menu_img/menu-22.gif" alt="くらし" width="165" height="40" id="menu903" name="menu903" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=4-0-0-0-0" onmouseover="change_image('menu905',906)" onfocus="change_image('menu905',906)" onmouseout="change_image('menu905',905)" onblur="change_image('menu905',905)"><img src="cmsfiles/menu_img/menu-23.gif" alt="まちの情報" width="165" height="40" id="menu905" name="menu905" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=2-0-0-0-0" onmouseover="change_image('menu907',908)" onfocus="change_image('menu907',908)" onmouseout="change_image('menu907',907)" onblur="change_image('menu907',907)"><img src="cmsfiles/menu_img/menu-24.gif" alt="行政情報" width="165" height="40" id="menu907" name="menu907" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=3-0-0-0-0" onmouseover="change_image('menu909',910)" onfocus="change_image('menu909',910)" onmouseout="change_image('menu909',909)" onblur="change_image('menu909',909)"><img src="cmsfiles/menu_img/menu-25.gif" alt="事業者の方へ" width="165" height="40" id="menu909" name="menu909" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/soshiki_list.php" onmouseover="change_image('menu911',912)" onfocus="change_image('menu911',912)" onmouseout="change_image('menu911',911)" onblur="change_image('menu911',911)"><img src="cmsfiles/menu_img/menu-26.gif" alt="各課のページ" width="165" height="40" id="menu911" name="menu911" /></a></li></ul></div>
+</div>
+<a id="HONBUN" class="anchor" name="HONBUN" tabindex="-1"><img src="images/clearspacer.gif" alt="" width="1" height="1" /></a>
+<!-- ▲▲▲▲▲ヘッダ▲▲▲▲▲ -->
+<!-- ▼▼▼▼▼メイン▼▼▼▼▼ -->
+<ul id="pankuzu" class="clear">
+<li><a lang="en" xml:lang="en" href="/">HOME</a></li>
+<li><a href="soshiki_list.php">各課のページ</a></li>
+<li><a href="soshiki_view.php?so_cd1=8&amp;so_cd2=1&amp;so_cd3=0&amp;so_cd4=0&amp;so_cd5=0">教育課</a></li>
+<li><a href="soshiki_view.php?so_cd1=8&amp;so_cd2=1&amp;so_cd3=0&amp;so_cd4=0&amp;so_cd5=0&amp;bn_cd=16">稲美町立幼稚園・小学校・中学校一覧</a></li>
+</ul>
+<div class="main_naka">
+<h1>稲美町立幼稚園・小学校・中学校一覧</h1>
+<p class="syosai_hiduke">[2010年12月7日]</p>
+</div>
+</div>
+
+<div class="waku">
+<div class="clear">
+<div id="mol_contents" class="mol_contents"><h2>稲美町立幼稚園・小学校・中学校一覧</h2><div class="mol_textblock"><p>　　　稲美町立の幼稚園、小学校、中学校の所在地・電話番号の一覧です。（●印をクリックすると園学校のホームページにアクセスします。）</p></div><div class="mol_tableblock"><table width="607" border="1" cellspacing="0" cellpadding="0" summary="いなみちょうりつようちえんいちらん"><caption>稲美町立幼稚園</caption><colgroup span="1"><col width="121" span="1" /><col width="76" span="1" /><col width="149" span="1" /><col width="163" span="1" /><col width="98" span="1" /></colgroup><tbody><tr><th align="center" rowspan="1" colspan="1" scope="col">幼稚園名</th><th align="center" rowspan="1" colspan="1" scope="col">郵便番号</th><th align="center" rowspan="1" colspan="1" scope="col">住所</th><th align="center" rowspan="1" colspan="1" scope="col">電話番号</th><th align="center" rowspan="1" colspan="1" scope="col">ホームページ</th></tr><tr><td rowspan="1" colspan="1">加古幼稚園</td><td rowspan="1" colspan="1">675-1105</td><td rowspan="1" colspan="1">稲美町加古7900</td><td rowspan="1" colspan="1">079-492-0429</td><td align="center" rowspan="1" colspan="1"><a href="http://www.bb.banban.jp/kakoyou/">●</a></td></tr><tr><td rowspan="1" colspan="1">母里幼稚園</td><td rowspan="1" colspan="1">675-1104</td><td rowspan="1" colspan="1">稲美町野寺114-5</td><td rowspan="1" colspan="1">079-495-0411</td><td align="center" rowspan="1" colspan="1"><a href="http://www.bb.banban.jp/moriyou/">●</a></td></tr><tr><td rowspan="1" colspan="1">天満幼稚園</td><td rowspan="1" colspan="1">675-1122</td><td rowspan="1" colspan="1">稲美町中村470</td><td rowspan="1" colspan="1">079-492-0420</td><td align="center" rowspan="1" colspan="1"><a href="http://www.bb.banban.jp/tenmayou/">●</a></td></tr><tr><td rowspan="1" colspan="1">天満南幼稚園</td><td rowspan="1" colspan="1">675-1112</td><td rowspan="1" colspan="1">稲美町六分一632-1</td><td rowspan="1" colspan="1">079-492-1100</td><td align="center" rowspan="1" colspan="1"><a href="http://www.bb.banban.jp/minamiyou/">●</a>　</td></tr><tr><td rowspan="1" colspan="1">天満東幼稚園</td><td rowspan="1" colspan="1">675-1113</td><td rowspan="1" colspan="1">稲美町岡1498-1</td><td rowspan="1" colspan="1">079-495-1919</td><td align="center" rowspan="1" colspan="1"><a href="http://www.bb.banban.jp/higasiyou/">●</a></td></tr></tbody></table></div><div class="mol_tableblock"><table width="607" border="1" cellspacing="0" cellpadding="0" summary="いなみちょうりつしょうがっこういちらん"><caption>稲美町立小学校</caption><colgroup span="1"><col width="121" span="1" /><col width="76" span="1" /><col width="149" span="1" /><col width="163" span="1" /><col width="98" span="1" /></colgroup><tbody><tr><th align="center" rowspan="1" colspan="1" scope="row">小学校名</th><th align="center" rowspan="1" colspan="1" scope="row">郵便番号</th><th align="center" rowspan="1" colspan="1" scope="row">住所</th><th align="center" rowspan="1" colspan="1" scope="row">電話番号</th><th align="center" rowspan="1" colspan="1" scope="row">ホームページ</th></tr><tr><td rowspan="1" colspan="1">加古小学校</td><td rowspan="1" colspan="1">675-1105</td><td rowspan="1" colspan="1">稲美町加古2316</td><td rowspan="1" colspan="1">079-492-0007</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~kako-es/">●</a></td></tr><tr><td rowspan="1" colspan="1">母里小学校</td><td rowspan="1" colspan="1">675-1104</td><td rowspan="1" colspan="1">稲美町野寺88-1</td><td rowspan="1" colspan="1">079-495-0024</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~mori-es/">●</a></td></tr><tr><td rowspan="1" colspan="1">天満小学校</td><td rowspan="1" colspan="1">675-1115</td><td rowspan="1" colspan="1">稲美町国岡538</td><td rowspan="1" colspan="1">079-492-0300</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~tenma-es/">●</a></td></tr><tr><td rowspan="1" colspan="1">天満南小学校</td><td rowspan="1" colspan="1">675-1124</td><td rowspan="1" colspan="1">稲美町森安81</td><td rowspan="1" colspan="1">079-492-6168</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~tenmaminami-es/">●</a></td></tr><tr><td rowspan="1" colspan="1">天満東小学校</td><td rowspan="1" colspan="1">675-1113</td><td rowspan="1" colspan="1">稲美町岡1500</td><td rowspan="1" colspan="1">079-492-4371</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~tenmahigashi-es/">●</a></td></tr></tbody></table></div><div class="mol_tableblock"><table width="607" border="1" cellspacing="0" cellpadding="0" summary="いなみちょうりつちゅうがっこういちらん"><caption>稲美町立中学校</caption><colgroup span="1"><col width="121" span="1" /><col width="76" span="1" /><col width="149" span="1" /><col width="163" span="1" /><col width="98" span="1" /></colgroup><tbody><tr><th align="center" rowspan="1" colspan="1" scope="col">中学校名</th><th align="center" rowspan="1" colspan="1" scope="col">郵便番号</th><th align="center" rowspan="1" colspan="1" scope="col">住所</th><th align="center" rowspan="1" colspan="1" scope="col">電話番号</th><th align="center" rowspan="1" colspan="1" scope="col">ホームページ</th></tr><tr><td rowspan="1" colspan="1">稲美中学校</td><td rowspan="1" colspan="1">675-1113</td><td rowspan="1" colspan="1">稲美町岡2075-1</td><td rowspan="1" colspan="1">079-492-4400～4401</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~inami-jh/">●</a></td></tr><tr><td rowspan="1" colspan="1">稲美北中学校</td><td rowspan="1" colspan="1">675-1105</td><td rowspan="1" colspan="1">稲美町加古4269</td><td rowspan="1" colspan="1">079-492-0201～0202</td><td align="center" rowspan="1" colspan="1"><a href="http://www.inami.ed.jp/~inamikita-jh/">●</a></td></tr></tbody></table></div><div class="mol_textblock">　　　　　　稲美町立の園・学校ホームページはガイドラインに基づき作成されています。</div><div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>稲美町立学校・園ホームページ作成ガイドライン（PDFファイル）</strong></p><ul><li><a href="./cmsfiles/contents/0000000/958/hpguidelines.pdf"><img width="22" height="24" class="icon" alt="pdf" src="images/pdf.gif" /> (ファイル名:hpguidelines.pdf サイズ:246.76 KB)</a></li></ul></div></div>
+</div>
+</div>
+<img src="images/clearspacer.gif" alt="" width="100%" height="1" />
+
+<div class="design">
+<div class="main_naka">
+<!-- ▼▼▼▼▼アンケート領域▼▼▼▼▼ -->
+<div class="syosai_qa">
+<div class="syosai_qa2">
+<form class="form" name="mdb" action="https://www.town.hyogo-inami.lg.jp/evaluation/evaluation.cgi" method="post">
+<h2>ご意見をお聞かせください</h2>
+<div>
+<ul><li><fieldset><legend>このページは役に立ちましたか？</legend>
+<p><span><input type="radio" name="ans1" id="ans12" value="2" checked="checked" /><input type="hidden" name="ans1_2_text" value="役に立った" /><label for="ans12">役に立った</label></span>
+<span><input type="radio" name="ans1" id="ans11" value="1" /><input type="hidden" name="ans1_1_text" value="まあまあ役に立った" /><label for="ans11">まあまあ役に立った</label></span>
+<span><input type="radio" name="ans1" id="ans10" value="0" /><input type="hidden" name="ans1_0_text" value="どちらともいえない" /><label for="ans10">どちらともいえない</label></span>
+<span><input type="radio" name="ans1" id="ans1-1" value="-1" /><input type="hidden" name="ans1_-1_text" value="あまり役に立たなかった" /><label for="ans1-1">あまり役に立たなかった</label></span>
+<span><input type="radio" name="ans1" id="ans1-2" value="-2" /><input type="hidden" name="ans1_-2_text" value="役に立たなかった" /><label for="ans1-2">役に立たなかった</label></span>
+</p>
+</fieldset>
+</li>
+<li>
+<fieldset>
+<legend>このページは見つけやすかったですか？</legend>
+<p><span><input type="radio" name="ans2" id="ans22" value="2" checked="checked" /><input type="hidden" name="ans2_2_text" value="見つけやすかった" /><label for="ans22">見つけやすかった</label></span>
+<span><input type="radio" name="ans2" id="ans21" value="1" /><input type="hidden" name="ans2_1_text" value="まあまあ見つけやすかった" /><label for="ans21">まあまあ見つけやすかった</label></span>
+<span><input type="radio" name="ans2" id="ans20" value="0" /><input type="hidden" name="ans2_0_text" value="どちらともいえない" /><label for="ans20">どちらともいえない</label></span>
+<span><input type="radio" name="ans2" id="ans2-1" value="-1" /><input type="hidden" name="ans2_-1_text" value="やや見つけにくかった" /><label for="ans2-1">やや見つけにくかった</label></span>
+<span><input type="radio" name="ans2" id="ans2-2" value="-2" /><input type="hidden" name="ans2_-2_text" value="見つけにくかった " /><label for="ans2-2">見つけにくかった </label></span>
+</p>
+</fieldset>
+</li>
+</ul>
+</div>
+<p><label for="opinion">このページに関してのご意見がありましたらご記入ください。</label></p>
+<p>（注意）お答えが必要なお問合せは、直接担当部署へお願いいたします（こちらではお受けできません）。</p>
+<textarea name="ans3" id="opinion" rows="3" cols="100"></textarea>
+<div class="qa_button">
+<input type="hidden" name="mode" value="check" />
+<input type="hidden" name="con" value="958" />
+<input type="submit" value="送信" />
+</div>
+</form>
+</div>
+</div>
+<!-- ▲▲▲▲▲アンケート領域▲▲▲▲▲ -->
+
+<div class="syosai_sonota">
+<h2>お問い合わせ</h2>
+稲美町 教育委員会・教育政策部 教育課<br />
+電話: （教育係）079-492-9149　ファックス: 079-492-6962<br />
+E-mail: kyouiku@town.hyogo-inami.lg.jp
+</div>
+<hr />
+<div id="route_box">
+<p class="bold"><strong>稲美町立幼稚園・小学校・中学校一覧への別ルート</strong></p>
+<ul class="route clear">
+<li><a lang="en" xml:lang="en" href="/">HOME</a></li>
+<li><a href="category_list.php?frmCd=1-0-0-0-0">くらし</a></li>
+<li><a href="category_list.php?frmCd=1-2-0-0-0">「目的」で探す</a></li>
+<li><a href="category_list.php?frmCd=1-2-10-0-0">教育・生涯学習</a></li>
+<li><a href="category_list.php?frmCd=1-2-10-5-0">教育委員会</a></li>
+</ul>
+</div>
+</div>
+<!-- ▲▲▲▲▲メイン▲▲▲▲▲ -->
+
+<!-- ▼▼▼▼▼フッタ▼▼▼▼▼ -->
+<div id="foot">
+<p id="foot_modori">[<a href="#pagetop">ページの先頭へ戻る</a>]</p>
+<ul id="foot_link"><li><a href="http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&amp;frmId=295">ホームページについて</a></li><li><a href="http://www.town.hyogo-inami.lg.jp/contents_detail.php?frmId=745">個人情報の取り扱い</a></li><li><a href="http://www.town.hyogo-inami.lg.jp/contents_detail.php?frmId=294">著作権・リンク等</a></li><li><a href="http://www.town.hyogo-inami.lg.jp/rss_list.php">RSS配信一覧</a></li></ul><div id="foot_id" class="clear">
+<address class="adress1"><span class="bold"><strong>稲美町</strong></span> <span class="small">法人番号: 4000020283819　〒675-1115　兵庫県加古郡稲美町国岡1-1</span></address>
+<address class="small adress2">電話: 079-492-1212　ファックス: 079-492-5162</address></div><p style="padding:0 0 0 10px;">開庁時間：午前8時30分から午後5時15分まで</p><p style="padding:0 0 0 10px;">【<a href="contents_detail.php?frmId=335">稲美町アクセス</a>】</p>
+<address id="foot_copy" lang="en" xml:lang="en">Copyright (C) INAMI All Rights Reserved.</address>
+</div>
+<!-- ▲▲▲▲▲フッタ▲▲▲▲▲ -->
+</div>
+</div>
+</body>
+</html>

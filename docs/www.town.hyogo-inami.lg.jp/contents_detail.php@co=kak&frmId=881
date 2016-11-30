@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keywords" content="保育,申込" />
+<title>保育所について | 稲美町ホームページ</title>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/toolbox.js"></script>
+<script type="text/javascript" src="js/objects.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="css/molecule_view.css" media="screen,print" />
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="css/ie70.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie80.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="css/ie90.css" media="screen,print" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<link href="css/img/favicon.ico" rel="shortcut icon" />
+</head>
+<body id="body" class="inbody inkiji" onload="getCookie();">
+<a name="pagetop" id="pagetop" class="anchor" tabindex="-1"><img src="images/clearspacer.gif" alt="ページの先頭です" width="1" height="1" /></a>
+<div class="all">
+<div class="design">
+
+<!-- ▼▼▼▼▼ヘッダ▼▼▼▼▼ -->
+<div id="head" class="clear">
+<div id="head_upper" class="clear">
+<h1 class="logo"><a href="http://www.town.hyogo-inami.lg.jp/index.php"><img src="design_img/head_id.gif" alt="稲美町公式ホームページ" width="500" height="35" /></a></h1>
+<a href="#HONBUN" style="float:left"><img src="images/clearspacer.gif" alt="共通メニュー等をスキップして本文へ" width="1" height="1" /></a>
+<ul id="head_links"><li><a href="http://www.town.hyogo-inami.lg.jp/sitemap.php"><img src="cmsfiles/menu_img/menu-2.gif" alt="サイトマップ" width="90" height="22" /></a></li></ul>
+<div id="head_right" class="clear">
+<div id="head_obi" class="clear">
+ <div class="font_size"><p><img src="images/font_size.gif" alt="文字サイズ" width="72" height="14" /></p><ul><li><a href="javascript:textSizeReset();"><img src="css/img/font_h1.gif" alt="標準" /></a></li><li><a href="javascript:textSizeUp();"><img src="css/img/font_k2.gif" alt="拡大" /></a></li></ul><noscript><p class="noscript">文字サイズ>変更機能を利用するにはJavaScript（アクティブスクリプト）を有効にしてください。JavaScript（アクティブスクリプト） を無効のまま文字>サイズを変更する場合には、ご利用のブラウザの表示メニューから文字サイズを変更してください。</p></noscript></div>
+<form action="http://www.town.hyogo-inami.lg.jp/contents_search.php" method="post" id="search" name="search"><input type="text" id="search_box" name="txtKey" value="" title="検索キーワード" /><input type="image" src="images/head_src.gif" id="search_button" name="search_button" alt="サイト内検索" /></form>
+</div>
+</div>
+</div>
+<div id="navi"><ul class="clear">
+<li><a href="http://www.town.hyogo-inami.lg.jp/" lang="en" xml:lang="en" onmouseover="change_image('menu901',902)" onfocus="change_image('menu901',902)" onmouseout="change_image('menu901',901)" onblur="change_image('menu901',901)"><img src="cmsfiles/menu_img/menu-20.gif" alt="HOME" width="165" height="40" id="menu901" name="menu901" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=1-0-0-0-0" onmouseover="change_image('menu903',904)" onfocus="change_image('menu903',904)" onmouseout="change_image('menu903',903)" onblur="change_image('menu903',903)"><img src="cmsfiles/menu_img/menu-22.gif" alt="くらし" width="165" height="40" id="menu903" name="menu903" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=4-0-0-0-0" onmouseover="change_image('menu905',906)" onfocus="change_image('menu905',906)" onmouseout="change_image('menu905',905)" onblur="change_image('menu905',905)"><img src="cmsfiles/menu_img/menu-23.gif" alt="まちの情報" width="165" height="40" id="menu905" name="menu905" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=2-0-0-0-0" onmouseover="change_image('menu907',908)" onfocus="change_image('menu907',908)" onmouseout="change_image('menu907',907)" onblur="change_image('menu907',907)"><img src="cmsfiles/menu_img/menu-24.gif" alt="行政情報" width="165" height="40" id="menu907" name="menu907" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/category_list.php?frmCd=3-0-0-0-0" onmouseover="change_image('menu909',910)" onfocus="change_image('menu909',910)" onmouseout="change_image('menu909',909)" onblur="change_image('menu909',909)"><img src="cmsfiles/menu_img/menu-25.gif" alt="事業者の方へ" width="165" height="40" id="menu909" name="menu909" /></a></li><li><a href="http://www.town.hyogo-inami.lg.jp/soshiki_list.php" onmouseover="change_image('menu911',912)" onfocus="change_image('menu911',912)" onmouseout="change_image('menu911',911)" onblur="change_image('menu911',911)"><img src="cmsfiles/menu_img/menu-26.gif" alt="各課のページ" width="165" height="40" id="menu911" name="menu911" /></a></li></ul></div>
+</div>
+<a id="HONBUN" class="anchor" name="HONBUN" tabindex="-1"><img src="images/clearspacer.gif" alt="" width="1" height="1" /></a>
+<!-- ▲▲▲▲▲ヘッダ▲▲▲▲▲ -->
+<!-- ▼▼▼▼▼メイン▼▼▼▼▼ -->
+<ul id="pankuzu" class="clear">
+<li><a lang="en" xml:lang="en" href="/">HOME</a></li>
+<li><a href="soshiki_list.php">各課のページ</a></li>
+<li><a href="soshiki_view.php?so_cd1=2&amp;so_cd2=2&amp;so_cd3=0&amp;so_cd4=0&amp;so_cd5=0">地域福祉課</a></li>
+<li><a href="soshiki_view.php?so_cd1=2&amp;so_cd2=2&amp;so_cd3=0&amp;so_cd4=0&amp;so_cd5=0&amp;bn_cd=7">保育所</a></li>
+</ul>
+<div class="main_naka">
+<h1>保育所について</h1>
+<p class="syosai_hiduke">[2016年9月5日]</p>
+</div>
+</div>
+
+<div class="waku">
+<div class="clear">
+<div id="mol_contents" class="mol_contents">
+<div class="mol_textblock"><p>稲美町には公立の保育所はありませんが、私立の認可保育所が4園あります。</p><p>また、平成28（2016）年7月1日より新しく認可となる事業所内保育事業所「いなみ虹保育園」が開所します。</p><p>詳しくは各園に直接おたずねいただくか、下記のPDFファイルをご覧ください。</p><p>また、町外の保育所に預けたい場合や保育料等については、稲美町役場地域福祉課までお問い合わせください。</p></div>
+<h2>認可保育所</h2>
+<div class="mol_textblock"><p>保育所の位置は、いなみMAPで確認してください。<a href="http://www.town.hyogo-inami.lg.jp/map/map2.html">いなみMAPへのリンクはこちらから。</a></p></div>
+<div class="mol_tableblock"><table border="1" cellspacing="0" cellpadding="0" summary="認可保育所一覧"><caption>認可保育所一覧</caption><colgroup><col /><col /><col /><col /><col /><col span="2" /><col /></colgroup><tbody><tr><td>名称</td><td>所在地</td><td>電話</td><td>定員</td><td>休所日</td><td>延長保育</td><td>一時預かり</td><td>病児・病後児保育</td></tr><tr><td>バンビ第一保育園</td><td>稲美町森安29番地</td><td>079-492-0304</td><td>120人</td><td rowspan="5">日曜日<br />    国民の休日<br />    祝日<br />    年末年始</td><td>－</td><td>〇</td><td>－</td></tr><tr><td>バンビ第二保育園</td><td>稲美町岡916番地の1</td><td>079-492-4140</td><td>120人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>母里保育園</td><td>稲美町野寺95番地の5</td><td>079-495-2343</td><td>120人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>加古保育園</td><td>稲美町加古2314番地の3</td><td>079-492-4810</td><td>60人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>いなみ虹保育園<br />    （平成28（2016）年7月1日開所）</td><td>稲美町国安1256番地</td><td>079-441-8423<br />    （社会福祉法人日の出福祉会　法人本部）</td><td>19人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td colspan="8">※いなみ虹保育園の定員のうち、地域枠は5名となります。（地域枠とは、従業員以外の方の入所定員枠）</td></tr></tbody></table></div>
+<div class="mol_textblock"><p>【備考】</p><ul><li>「延長保育」とは、11時間以上開所しており、さらに30分から4時間程度までの通常保育時間とは別に延長して保育することです。通常保育とは別に料金がかかりますのでご注意ください。</li><li>「一時預かり」とは、両親の病気や入院、災害、事故等により、緊急・一時的に家庭での保育ができないときや、保護者の育児疲れ解消等の私的な理由などに対応して、一時的に保育することです。</li><li>「病児・病後児保育」とは、町内に在住し、保育所に通っている乳幼児や小学校低学年の子どもが、病気または病気回復期のため集団生活が困難な時期に、看護師、保育士により一時的に子どもを預かり保育することです。</li></ul><p> </p><p>この他、詳細については次の「保育所詳細ダウンロード」でご確認ください。</p></div>
+<div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>保育所詳細ダウンロード</strong></p><ul><li><a href="./cmsfiles/contents/0000000/881/banbi1.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />バンビ第一保育園について (ファイル名：banbi1.pdf  サイズ：303.15KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/banbi2.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />バンビ第二保育園について (ファイル名：banbi2.pdf  サイズ：297.88KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/mori.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />母里保育園について (ファイル名：mori.pdf  サイズ：286.83KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/kako.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />加古保育園について (ファイル名：kako.pdf  サイズ：303.59KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/inaminiji.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />いなみ虹保育園について (ファイル名：inaminiji.pdf  サイズ：311.42KB)</a></li></ul></div>
+</div>
+</div>
+</div>
+<img src="images/clearspacer.gif" alt="" width="100%" height="1" />
+
+<div class="design">
+<div class="main_naka">
+<!-- ▼▼▼▼▼アンケート領域▼▼▼▼▼ -->
+<div class="syosai_qa">
+<div class="syosai_qa2">
+<form class="form" name="mdb" action="https://www.town.hyogo-inami.lg.jp/evaluation/evaluation.cgi" method="post">
+<h2>ご意見をお聞かせください</h2>
+<div>
+<ul><li><fieldset><legend>このページは役に立ちましたか？</legend>
+<p><span><input type="radio" name="ans1" id="ans12" value="2" checked="checked" /><input type="hidden" name="ans1_2_text" value="役に立った" /><label for="ans12">役に立った</label></span>
+<span><input type="radio" name="ans1" id="ans11" value="1" /><input type="hidden" name="ans1_1_text" value="まあまあ役に立った" /><label for="ans11">まあまあ役に立った</label></span>
+<span><input type="radio" name="ans1" id="ans10" value="0" /><input type="hidden" name="ans1_0_text" value="どちらともいえない" /><label for="ans10">どちらともいえない</label></span>
+<span><input type="radio" name="ans1" id="ans1-1" value="-1" /><input type="hidden" name="ans1_-1_text" value="あまり役に立たなかった" /><label for="ans1-1">あまり役に立たなかった</label></span>
+<span><input type="radio" name="ans1" id="ans1-2" value="-2" /><input type="hidden" name="ans1_-2_text" value="役に立たなかった" /><label for="ans1-2">役に立たなかった</label></span>
+</p>
+</fieldset>
+</li>
+<li>
+<fieldset>
+<legend>このページは見つけやすかったですか？</legend>
+<p><span><input type="radio" name="ans2" id="ans22" value="2" checked="checked" /><input type="hidden" name="ans2_2_text" value="見つけやすかった" /><label for="ans22">見つけやすかった</label></span>
+<span><input type="radio" name="ans2" id="ans21" value="1" /><input type="hidden" name="ans2_1_text" value="まあまあ見つけやすかった" /><label for="ans21">まあまあ見つけやすかった</label></span>
+<span><input type="radio" name="ans2" id="ans20" value="0" /><input type="hidden" name="ans2_0_text" value="どちらともいえない" /><label for="ans20">どちらともいえない</label></span>
+<span><input type="radio" name="ans2" id="ans2-1" value="-1" /><input type="hidden" name="ans2_-1_text" value="やや見つけにくかった" /><label for="ans2-1">やや見つけにくかった</label></span>
+<span><input type="radio" name="ans2" id="ans2-2" value="-2" /><input type="hidden" name="ans2_-2_text" value="見つけにくかった " /><label for="ans2-2">見つけにくかった </label></span>
+</p>
+</fieldset>
+</li>
+</ul>
+</div>
+<p><label for="opinion">このページに関してのご意見がありましたらご記入ください。</label></p>
+<p>（注意）お答えが必要なお問合せは、直接担当部署へお願いいたします（こちらではお受けできません）。</p>
+<textarea name="ans3" id="opinion" rows="3" cols="100"></textarea>
+<div class="qa_button">
+<input type="hidden" name="mode" value="check" />
+<input type="hidden" name="con" value="881" />
+<input type="submit" value="送信" />
+</div>
+</form>
+</div>
+</div>
+<!-- ▲▲▲▲▲アンケート領域▲▲▲▲▲ -->
+
+<div class="syosai_sonota">
+<h2>お問い合わせ</h2>
+稲美町 健康福祉部 地域福祉課<br />
+電話:（児童福祉係）079-492-9136　ファックス:（児童福祉係）079-492-8030<br />
+E-mail: tiiki-h@town.hyogo-inami.lg.jp
+</div>
+<hr />
+<div id="route_box">
+<p class="bold"><strong>保育所についてへの別ルート</strong></p>
+<ul class="route clear">
+<li><a lang="en" xml:lang="en" href="/">HOME</a></li>
+<li><a href="category_list.php?frmCd=1-0-0-0-0">くらし</a></li>
+<li><a href="category_list.php?frmCd=1-1-0-0-0">「生活の場面」で探す</a></li>
+<li><a href="category_list.php?frmCd=1-1-3-0-0">子育て</a></li>
+<li><a href="category_list.php?frmCd=1-1-3-1-0">手続・申請</a></li>
+</ul>
+<ul class="route clear">
+<li><a lang="en" xml:lang="en" href="/">HOME</a></li>
+<li><a href="category_list.php?frmCd=1-0-0-0-0">くらし</a></li>
+<li><a href="category_list.php?frmCd=1-1-0-0-0">「生活の場面」で探す</a></li>
+<li><a href="category_list.php?frmCd=1-1-4-0-0">入学・入園</a></li>
+<li><a href="category_list.php?frmCd=1-1-4-1-0">手続・申請</a></li>
+</ul>
+<ul class="route clear">
+<li><a lang="en" xml:lang="en" href="/">HOME</a></li>
+<li><a href="category_list.php?frmCd=1-0-0-0-0">くらし</a></li>
+<li><a href="category_list.php?frmCd=1-2-0-0-0">「目的」で探す</a></li>
+<li><a href="category_list.php?frmCd=1-2-4-0-0">健康・福祉</a></li>
+<li><a href="category_list.php?frmCd=1-2-4-3-0">児童福祉・母子（寡婦）福祉</a></li>
+</ul>
+</div>
+</div>
+<!-- ▲▲▲▲▲メイン▲▲▲▲▲ -->
+
+<!-- ▼▼▼▼▼フッタ▼▼▼▼▼ -->
+<div id="foot">
+<p id="foot_modori">[<a href="#pagetop">ページの先頭へ戻る</a>]</p>
+<ul id="foot_link"><li><a href="http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&amp;frmId=295">ホームページについて</a></li><li><a href="http://www.town.hyogo-inami.lg.jp/contents_detail.php?frmId=745">個人情報の取り扱い</a></li><li><a href="http://www.town.hyogo-inami.lg.jp/contents_detail.php?frmId=294">著作権・リンク等</a></li><li><a href="http://www.town.hyogo-inami.lg.jp/rss_list.php">RSS配信一覧</a></li></ul><div id="foot_id" class="clear">
+<address class="adress1"><span class="bold"><strong>稲美町</strong></span> <span class="small">法人番号: 4000020283819　〒675-1115　兵庫県加古郡稲美町国岡1-1</span></address>
+<address class="small adress2">電話: 079-492-1212　ファックス: 079-492-5162</address></div><p style="padding:0 0 0 10px;">開庁時間：午前8時30分から午後5時15分まで</p><p style="padding:0 0 0 10px;">【<a href="contents_detail.php?frmId=335">稲美町アクセス</a>】</p>
+<address id="foot_copy" lang="en" xml:lang="en">Copyright (C) INAMI All Rights Reserved.</address>
+</div>
+<!-- ▲▲▲▲▲フッタ▲▲▲▲▲ -->
+</div>
+</div>
+</body>
+</html>

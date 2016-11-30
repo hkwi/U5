@@ -1,0 +1,481 @@
+@prefix ns1: <https://hkwi.github.io/U5/scheme#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/abcmikagehoikuen2.pdf> ns1:last-modified "Tue, 25 Aug 2015 02:43:41 GMT" ;
+    ns1:md5 "94b1d60e4b29d01c443d722a7c700df4" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/abcmikagehoikuen2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/ajisai.pdf> ns1:last-modified "Fri, 14 Oct 2011 04:24:26 GMT" ;
+    ns1:md5 "3185cfa1e44fd54212c44e50fbb0e027" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/ajisai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/benten.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "028e0d8347de4528e868437f1c43dd53" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/benten.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/bououji.pdf> ns1:last-modified "Wed, 14 Nov 2012 04:35:20 GMT" ;
+    ns1:md5 "d3441f6f10fc0d028038b0268849bba6" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/bououji.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/chuoku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:20 GMT" ;
+    ns1:md5 "9ce5405de45659d87872c2e1fb1dc7e7" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/chuoku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/futaba.pdf> ns1:last-modified "Fri, 29 Mar 2013 02:50:58 GMT" ;
+    ns1:md5 "86965955dc9c74a4e2f5b45d06622eac" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/futaba.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hamamikage.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "670ac0e620869bb82987f44eee3e12da" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hamamikage.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hasaka.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "7c17de02ddc5e5b5bf8b73186efa7126" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hasaka.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/higasinadahonjyou.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:16 GMT" ;
+    ns1:md5 "9dc9bee2cbf3358aaf768fec8c60f938" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/higasinadahonjyou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/higasinadaku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:20 GMT" ;
+    ns1:md5 "ac00a3c471daa7f1eb1375526eff61ab" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/higasinadaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/higasitakamaru.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:25 GMT" ;
+    ns1:md5 "1285e1de5972537f81b70a1735dd992e" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/higasitakamaru.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hirano.pdf> ns1:last-modified "Wed, 01 Sep 2010 04:36:17 GMT" ;
+    ns1:md5 "2037621ef144f19e65cd704a86943d8c" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hirano.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hiyodori.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "8e0ed357d4dc6d60c54ab85f1dfa9a71" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hiyodori.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hokushinhokennhukushi.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:21 GMT" ;
+    ns1:md5 "7dbf92a33f490533f7a5e3440172d202" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hokushinhokennhukushi.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/honjyo.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:22 GMT" ;
+    ns1:md5 "a83f2c81756321ca0da23cd98e2d723b" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/honjyo.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hontamon.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:22 GMT" ;
+    ns1:md5 "216afa2aedaad82e2548261f76c07f6a" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hontamon.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hukiai.pdf> ns1:last-modified "Mon, 16 Aug 2010 02:52:08 GMT" ;
+    ns1:md5 "37976d59f1f6788e4df92eeb1ca6c892" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hukiai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hyougoku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:21 GMT" ;
+    ns1:md5 "01d5855597480588feca8789412ef4ac" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hyougoku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/ikuta.pdf> ns1:last-modified "Tue, 14 Oct 2014 04:56:05 GMT" ;
+    ns1:md5 "166b9d131802b689f561d6b27bd6f155" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/ikuta.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/isiyagawa.pdf> ns1:last-modified "Mon, 03 Oct 2011 13:36:46 GMT" ;
+    ns1:md5 "43038434088a07e1fbd250d4a18ef357" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/isiyagawa.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kamiwaka.pdf> ns1:last-modified "Wed, 15 May 2013 11:14:17 GMT" ;
+    ns1:md5 "77ccfe1d04ac34ac82767e03aa6f0f49" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kamiwaka.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/karato.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:21 GMT" ;
+    ns1:md5 "84cf5cc807aa8da92e76419c7a9eb74f" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/karato.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kawahara.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "8f7648f66bc321dc1ac87b7519180273" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kawahara.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kimikage.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "e40afe867aea3c8f3139623ccb0adc23" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kimikage.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitaku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:18 GMT" ;
+    ns1:md5 "eda050e34bde05854c80d639abcf376c" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitasuma.pdf> ns1:last-modified "Thu, 18 Aug 2016 00:42:26 GMT" ;
+    ns1:md5 "f5b205ff278fade024f26d519f728dfb" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitasuma.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitasuma2saishuu.pdf> ns1:last-modified "Fri, 28 Mar 2014 04:20:53 GMT" ;
+    ns1:md5 "c0f6ff2cb07ea27a721b4d64416fa8b1" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitasuma2saishuu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitasumashisyo.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:16 GMT" ;
+    ns1:md5 "dfeb6a465583bc74444c29ac977d9be6" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitasumashisyo.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/komae.pdf> ns1:last-modified "Wed, 15 Sep 2010 08:11:20 GMT" ;
+    ns1:md5 "70c80eb26cc96e06c217319e730ea182" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/komae.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kominato.pdf> ns1:last-modified "Fri, 03 Dec 2010 04:45:46 GMT" ;
+    ns1:md5 "5321955a15409140e80e2fced242bf13" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kominato.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kouyou.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:22 GMT" ;
+    ns1:md5 "8caeb8c545ac2f5784e6f2d66a13c483" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kouyou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kuraishi2.pdf> ns1:last-modified "Mon, 09 Feb 2015 02:37:17 GMT" ;
+    ns1:md5 "86b4a2f7079a0f9b1aae46fa77d09a65" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kuraishi2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/maiko2.pdf> ns1:last-modified "Tue, 29 Sep 2015 07:36:52 GMT" ;
+    ns1:md5 "552ebdd3d727b3f83905864ac3374ae9" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/maiko2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/matsubara2.pdf> ns1:last-modified "Mon, 26 May 2014 12:23:44 GMT" ;
+    ns1:md5 "7321bca067f1821e252c2b926dc1fadd" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/matsubara2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/mayuka.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:16 GMT" ;
+    ns1:md5 "e6b03521a8dee8979ee44d827a8579f3" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/mayuka.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/mikage.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "51e598eabaceaf6fc34329c6ec35097f" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/mikage.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/minato.pdf> ns1:last-modified "Wed, 29 May 2013 12:08:23 GMT" ;
+    ns1:md5 "1da01035e4a8e837eb7cd0670b452a56" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/minato.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/miyamoto.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:22 GMT" ;
+    ns1:md5 "e790e6ed411b527b5e6b106834129fad" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/miyamoto.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/motoyama.pdf> ns1:last-modified "Mon, 23 Mar 2015 05:03:14 GMT" ;
+    ns1:md5 "ce95777d7a5fbe1e5c5392798d65c5b3" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/motoyama.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/myousenji.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "f0e59639897ac2d6ec7e1b93f386c439" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/myousenji.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nada.pdf> ns1:last-modified "Fri, 09 Nov 2012 08:06:19 GMT" ;
+    ns1:md5 "67e011d5141c3f1dc7220fc4986434c7" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nada.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nadaku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:19 GMT" ;
+    ns1:md5 "32004075f7db9aaf5a2efcef2de9f4c8" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nadaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nagata.pdf> ns1:last-modified "Fri, 09 Nov 2012 08:06:56 GMT" ;
+    ns1:md5 "d56e706ce8547437570aaed300c5fd60" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nagata.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nagatahigasi.pdf> ns1:last-modified "Wed, 12 Oct 2011 13:07:07 GMT" ;
+    ns1:md5 "0509e4163afc6739fbd58df8742be600" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nagatahigasi.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nagataku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:17 GMT" ;
+    ns1:md5 "b180a0a00750584b2cf33e9f2e6ce998" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nagataku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nakano.pdf> ns1:last-modified "Wed, 15 May 2013 11:11:12 GMT" ;
+    ns1:md5 "a6ca0d1497faf62856004a1162e600f1" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nakano.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/namimatu.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:21 GMT" ;
+    ns1:md5 "7d164e93f88c8108998920dd03531a71" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/namimatu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/ninomiya.pdf> ns1:last-modified "Tue, 29 Jan 2013 02:26:17 GMT" ;
+    ns1:md5 "232827acd134c2050be58e4455be29ce" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/ninomiya.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nishiku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:19 GMT" ;
+    ns1:md5 "ff6528a3d5cfdffdbac5d1f2a0115cd3" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nishiku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nisinada.pdf> ns1:last-modified "Tue, 13 Aug 2013 02:24:10 GMT" ;
+    ns1:md5 "08a0b8c715002891f91d5f3c03023b7a" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nisinada.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nitirinji.pdf> ns1:last-modified "Sat, 16 Apr 2016 07:11:20 GMT" ;
+    ns1:md5 "840142d8e777afb82a5f916514684c0e" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nitirinji.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/ogawa2.pdf> ns1:last-modified "Mon, 26 May 2014 12:23:00 GMT" ;
+    ns1:md5 "b981a2294eac8029709039401b99e064" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/ogawa2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/okamoto-habesu.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:23 GMT" ;
+    ns1:md5 "e9bfac618249aeac9b4496e8cd7ab84b" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/okamoto-habesu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/okunoike.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:25 GMT" ;
+    ns1:md5 "df66d4f9e4e8ba71a883c583ed3e2c75" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/okunoike.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/oshibedani.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:21 GMT" ;
+    ns1:md5 "56330b2505bf9b3bbd7da0be15114640" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/oshibedani.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/outukadai.pdf> ns1:last-modified "Fri, 03 Dec 2010 04:58:36 GMT" ;
+    ns1:md5 "7b8b21e46a4b5b661b23fd607102aebc" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/outukadai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/rokkoyurikago2.pdf> ns1:last-modified "Mon, 03 Aug 2015 10:39:06 GMT" ;
+    ns1:md5 "548da2edc6363912e03da81e932915e8" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/rokkoyurikago2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/ryuugadai.pdf> ns1:last-modified "Mon, 13 Apr 2009 06:11:49 GMT" ;
+    ns1:md5 "4ffde4703e0ef897f2f886f78a75f0c7" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/ryuugadai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/sakuranomiya.pdf> ns1:last-modified "Wed, 30 May 2012 13:00:05 GMT" ;
+    ns1:md5 "87587691ec8fc2676c11c10393354327" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sakuranomiya.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/seibutu.pdf> ns1:last-modified "Thu, 05 Sep 2013 00:07:56 GMT" ;
+    ns1:md5 "dfea28cebebad28feea93bf9e0f2fc0c" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/seibutu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/seiryoudai.pdf> ns1:last-modified "Wed, 31 Aug 2011 12:06:48 GMT" ;
+    ns1:md5 "23de15d96cfbe1e840a9b8a0c2df151b" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/seiryoudai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/seto.pdf> ns1:last-modified "Fri, 13 Nov 2009 07:17:58 GMT" ;
+    ns1:md5 "449c011f000f06448c20d7fa2fdd309b" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/seto.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/shinjonakayamate.pdf> ns1:last-modified "Mon, 13 Apr 2015 12:06:13 GMT" ;
+    ns1:md5 "f504c10c50e99dbcf42bb0b05bf1f856" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/shinjonakayamate.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/siriike.pdf> ns1:last-modified "Wed, 01 Sep 2010 04:40:59 GMT" ;
+    ns1:md5 "5867508e8bd21e4c22a93e36167d7d77" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/siriike.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/sugahara.pdf> ns1:last-modified "Mon, 16 Aug 2010 02:13:08 GMT" ;
+    ns1:md5 "8bb208d8b13a3912c931626c454c3a65" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sugahara.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/suganodai.pdf> ns1:last-modified "Wed, 15 May 2013 11:18:00 GMT" ;
+    ns1:md5 "f06851828a6796496ecf4ea2648e4613" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/suganodai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/suma.pdf> ns1:last-modified "Fri, 09 Nov 2012 08:07:38 GMT" ;
+    ns1:md5 "ee4aaa605548ea8d9a08157cbbb7e385" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/suma.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/sumairu.pdf> ns1:last-modified "Mon, 01 Apr 2013 01:40:33 GMT" ;
+    ns1:md5 "8a68d94a1edf681ff18e1c9db70ca329" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sumairu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/sumaku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:22 GMT" ;
+    ns1:md5 "1fe237b257dc04aefefd97e1776dc242" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sumaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/sumiyoshikoen3.pdf> ns1:last-modified "Thu, 05 Mar 2015 04:49:18 GMT" ;
+    ns1:md5 "dfa514d169acc14511c1031a310ba4ab" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sumiyoshikoen3.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/suzurandaiminamimati.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "368767bd661107b6926889244bec7456" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/suzurandaiminamimati.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/suzurandainisimati.pdf> ns1:last-modified "Mon, 16 Aug 2010 04:15:32 GMT" ;
+    ns1:md5 "5d2ec9a9019b662366419251aeee4ed7" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/suzurandainisimati.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/suzurankizu.pdf> ns1:last-modified "Thu, 02 Oct 2014 11:29:05 GMT" ;
+    ns1:md5 "680dd182ba4fc3620c1f19c501304857" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/suzurankizu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/takakuradai.pdf> ns1:last-modified "Wed, 30 May 2012 03:06:54 GMT" ;
+    ns1:md5 "f8106c037f49ed16af7b7439e73c2009" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/takakuradai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/takatori.pdf> ns1:last-modified "Fri, 25 May 2012 10:20:13 GMT" ;
+    ns1:md5 "4bf118dad2be258643bbde3436f4c399" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/takatori.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/takatsuka2.pdf> ns1:last-modified "Mon, 26 Oct 2015 01:57:13 GMT" ;
+    ns1:md5 "7d530f7fef118d0d35e0d393f8671ae8" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/takatsuka2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/takenobunnennsaishuu.pdf> ns1:last-modified "Fri, 28 Mar 2014 04:07:48 GMT" ;
+    ns1:md5 "1dcd958a25ffecf278a44ebd3df1c23a" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/takenobunnennsaishuu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/takenosaishuu.pdf> ns1:last-modified "Fri, 28 Mar 2014 04:09:28 GMT" ;
+    ns1:md5 "401ea923625e31bcbaa5141125e56ca9" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/takenosaishuu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/takinocyaya.pdf> ns1:last-modified "Tue, 21 May 2013 10:10:34 GMT" ;
+    ns1:md5 "8a1cb358fb46216e6b3983ef54d2d0c1" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/takinocyaya.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tamatu.pdf> ns1:last-modified "Mon, 13 Apr 2009 06:11:50 GMT" ;
+    ns1:md5 "0941bc89e7efca7c748781809c7f1e78" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tamatu.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tanaka.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:22 GMT" ;
+    ns1:md5 "eedad89b42b4d6e06cde770381544a99" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tanaka.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tanigami.pdf> ns1:last-modified "Thu, 17 Jan 2013 23:47:58 GMT" ;
+    ns1:md5 "55b14daa9e31dc72af808f5b08a2cd39" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tanigami.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tanigamikirara.pdf> ns1:last-modified "Fri, 29 Mar 2013 02:55:40 GMT" ;
+    ns1:md5 "4494d2b86678cea4fa4fa511e8e4097a" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tanigamikirara.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tarumiku.pdf> ns1:last-modified "Mon, 14 Nov 2016 10:43:17 GMT" ;
+    ns1:md5 "2d5e693851b8170352720f6827b922fd" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tarumiku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tatibana.pdf> ns1:last-modified "Thu, 30 Oct 2014 01:45:38 GMT" ;
+    ns1:md5 "3c1793f15aeb186f38219aae61416403" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tatibana.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tibikuro.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:24 GMT" ;
+    ns1:md5 "904c8c7c25cedac6cb4cc688b3dc2003" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tibikuro.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/titose.pdf> ns1:last-modified "Tue, 21 May 2013 10:12:02 GMT" ;
+    ns1:md5 "ab8780d0e8cdba5071cad10d1d74450a" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/titose.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/turukabuto.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:25 GMT" ;
+    ns1:md5 "41e203947f4b23ebb932b70113dd03ea" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/turukabuto.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/unnan2.pdf> ns1:last-modified "Tue, 03 Jun 2014 07:42:17 GMT" ;
+    ns1:md5 "84f4a0a43765ed4be2ee9a53473725bb" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/unnan2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/uozaki.pdf> ns1:last-modified "Mon, 16 Aug 2010 04:28:59 GMT" ;
+    ns1:md5 "12601cf2dc126cbceaad71fd976c68cc" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/uozaki.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/uzumoridai.pdf> ns1:last-modified "Mon, 16 Aug 2010 04:09:19 GMT" ;
+    ns1:md5 "c51bc193344a2ca829be0407e00acad7" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/uzumoridai.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/yahatasakura2.pdf> ns1:last-modified "Sat, 28 Feb 2015 12:21:19 GMT" ;
+    ns1:md5 "f6009d0c3ed3504d9106c9f61e443bcb" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/yahatasakura2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/yurikago2.pdf> ns1:last-modified "Mon, 03 Aug 2015 10:46:00 GMT" ;
+    ns1:md5 "937ead09fd49abf692e2a2f1dfca5414" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/yurikago2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/higasinadaku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:20 GMT" ;
+    ns1:md5 "92198bb2c8a09eae60e514e5652f825f" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/higasinadaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/hyougo.nagataku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:16 GMT" ;
+    ns1:md5 "79f0b9e4415875cf92b29e200f9b5f0f" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/hyougo.nagataku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/kitaku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:18 GMT" ;
+    ns1:md5 "c1097da7eb461a0f6d7914e44db194b3" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/kitaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/nadaku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:18 GMT" ;
+    ns1:md5 "02aa077655bbcc94242aa9b3a655aba2" .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/nisiku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:15 GMT" ;
+    ns1:md5 "6c960b56630b03434ed5f9427082c755" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/nisiku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/sumaku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:20 GMT" ;
+    ns1:md5 "b54c27b4116df1147d1e02e41675bbba" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/sumaku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/tarumiku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:17 GMT" ;
+    ns1:md5 "59cc42fa0fbf99ecbe54c716734b9877" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/tarumiku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/tyuuouku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:17 GMT" ;
+    ns1:md5 "6e917ae9bcefd709add2ade1b89f1069" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/tyuuouku.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/20150930sisetuitirankourituyoutien.pdf> ns1:last-modified "Wed, 30 Sep 2015 07:58:50 GMT" ;
+    ns1:md5 "dbdcda208f9254977100ad4ab47fa23a" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/20150930sisetuitirankourituyoutien.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/20160426sisetuitiran23.pdf> ns1:last-modified "Mon, 09 May 2016 04:41:42 GMT" ;
+    ns1:md5 "470f9254d1f83bee5ae1cdec88f895b3" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/20160426sisetuitiran23.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/280401sisetuitiran1gou.pdf> ns1:last-modified "Wed, 30 Mar 2016 06:26:45 GMT" ;
+    ns1:md5 "3cfad960e8b618dbdd794a02d9e42858" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/280401sisetuitiran1gou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/280920sisetuitirankourituyoutien.pdf> ns1:last-modified "Fri, 16 Sep 2016 05:05:41 GMT" ;
+    ns1:md5 "c302ba28ae1c5b61d31a881607609e1f" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/280920sisetuitirankourituyoutien.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/281111sisetuitiran1gou2.pdf> ns1:last-modified "Fri, 11 Nov 2016 04:57:30 GMT" ;
+    ns1:md5 "e8863b7d7abcce248afc232490be2e47" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/281111sisetuitiran1gou2.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/281111sisetuitiran23gou.pdf> ns1:last-modified "Fri, 11 Nov 2016 04:40:18 GMT" ;
+    ns1:md5 "851d74d776a26847158eae14b959b185" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/281111sisetuitiran23gou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html> ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html> .
+
+<http://www.town.inagawa.lg.jp/kosodate/school/youchien/1443142603103.html> ns1:mirror <https://hkwi.github.com/U5/www.town.inagawa.lg.jp/kosodate/school/youchien/1443142603103.html> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/awaji.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:57 GMT" ;
+    ns1:md5 "fde278fa0203c1dad0a9759637706a8d" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/awaji.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/h-kita.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:56 GMT" ;
+    ns1:md5 "661a3d0ca5a73da441430d9031726c1e" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/h-kita.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/h-minami.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:55 GMT" ;
+    ns1:md5 "3abcb8aa84e02a5d939db0448bf915e4" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/h-minami.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/higashi-h.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:56 GMT" ;
+    ns1:md5 "63e25ee691d7f3f9168628ec477ec1b3" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/higashi-h.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/kita-h.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:56 GMT" ;
+    ns1:md5 "d4a5f655fe3446ede919ca8899edfc34" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/kita-h.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/naka-h.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:56 GMT" ;
+    ns1:md5 "e830c71957fe38432790df6c95fe212e" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/naka-h.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/nishi-h.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:57 GMT" ;
+    ns1:md5 "3d02a4dde684feb89b95f91cbd0c84ba" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/nishi-h.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/tajima.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:57 GMT" ;
+    ns1:md5 "4af7dd90f2cdd116fbe77171c65c95f6" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/tajima.pdf> .
+
+<https://web.pref.hyogo.lg.jp/kf11/documents/tanba.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:57 GMT" ;
+    ns1:md5 "3e243001f0e7f7ffd6335849644371c6" ;
+    ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/tanba.pdf> .
+
+<https://www.town.harima.lg.jp/fukushi/kyoiku/kosodate/hoikuen/hoikujo/documents/h28hoikusyonyuusyoannnai.pdf> ns1:last-modified "Mon, 03 Oct 2016 01:26:09 GMT" ;
+    ns1:md5 "b683e1e318553ab0dea2c60280a2b35f" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.town.harima.lg.jp/fukushi/kyoiku/kosodate/hoikuen/hoikujo/documents/h28hoikusyonyuusyoannnai.pdf> .
+
+<https://www.town.harima.lg.jp/fukushi/kyoiku/kosodate/hoikuen/hoikujo/documents/hoikusyo2017.pdf> ns1:last-modified "Mon, 03 Oct 2016 01:26:09 GMT" ;
+    ns1:md5 "f09b91249d7236d4d7fc84e0d50a2e29" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.town.harima.lg.jp/fukushi/kyoiku/kosodate/hoikuen/hoikujo/documents/hoikusyo2017.pdf> .
+
