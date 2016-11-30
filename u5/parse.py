@@ -15,6 +15,7 @@ import glob
 import csv
 import threading
 from urllib.parse import urlparse
+from .html_table import Table
 
 tasks = []
 def task(code):
@@ -34,27 +35,6 @@ def task(code):
 		tasks.append(wrap)
 		return wrap
 	return proc
-
-def get(url):
-	try:
-		h = lxml.html.parse(url)
-		r = h.getroot()
-	except IOError:
-		# using requests.Response.content insted of .text to hook lxml.html beautifulsoup cleaner
-		r = lxml.html.document_fromstring(requests.get(url).content, base_url=url)
-	
-	r.make_links_absolute()
-	return r
-
-class Css(object):
-	def __init__(self, pattern):
-		self.pattern = pattern
-	
-	def get(self, url):
-		'''
-		fetch the url and select over the document
-		'''
-		return get(url).cssselect(self.pattern)
 
 def meta_write(filename, g):
 	with open(filename, "wb") as w:
@@ -92,45 +72,76 @@ class Fs(str):
 
 NS1 = rdflib.Namespace("https://hkwi.github.io/U5/scheme#")
 
-def wget(url, meta_filename="docs/meta.ttl"):
+def fetch(url, meta_filename="docs/meta.ttl", save=True):
 	'''
-	@return local file name
+	@return data, Fs(obj)
 	'''
 	fs = Fs(url)
 	with meta(meta_filename) as g:
 		lm = g.value(rdflib.URIRef(url), NS1["last-modified"])
 		
 		fp = None
-		if os.path.exists(fs.local) and lm:
+		if save and os.path.exists(fs.local) and lm:
 			fp = requests.get(url, headers={"If-Modified-Since":lm})
 			if fp.status_code == 304: # xxx: not modified
-				return fs
+				return open(fs.local, "rb"), fs
 		
 		if fp is None:
 			fp = requests.get(url)
 		
 		if not fp.ok:
 			logging.error("wget failed: %s" % url)
-			return None
+			return None, None
 		
 		logging.info("downloading %s" % url)
-		os.makedirs(os.path.dirname(fs.local), exist_ok=True)
-		with open(fs.local, "wb") as w:
-			for data in fp:
-				w.write(data)
+		if save:
+			os.makedirs(os.path.dirname(fs.local), exist_ok=True)
+			with open(fs.local, "wb") as w:
+				for data in fp:
+					w.write(data)
+			
+			g.set((rdflib.URIRef(url), NS1["mirror"], rdflib.URIRef(fs.remote)))
+			lm = fp.headers.get("last-modified")
+			if lm:
+				g.set((rdflib.URIRef(url), NS1["last-modified"], rdflib.Literal(lm)))
 		
-		g.set((rdflib.URIRef(url), NS1["mirror"], rdflib.URIRef(fs.remote)))
-		lm = fp.headers.get("last-modified")
-		if lm:
-			g.set((rdflib.URIRef(url), NS1["last-modified"], rdflib.Literal(lm)))
-	
-	return fs
+		return io.BytesIO(fp.content), fs
 
-def pdftable(fs, meta_filename="docs/meta.ttl"):
+def _get(url, save=False):
+	fp, fs = fetch(url, save=save)
+	# using binary data insted of text to hook lxml.html beautifulsoup cleaner
+	r = lxml.html.parse(fp, base_url=url).getroot()
+	r.make_links_absolute()
+	return r
+
+def get(url):
+	return _get(url, save=False)
+
+def wget(url):
+	return _get(url, save=True)
+
+class Css(object):
+	def __init__(self, pattern):
+		self.pattern = pattern
+	
+	def _get(self, url, save=False):
+		'''
+		fetch the url and select over the document
+		'''
+		return _get(url, save=save).cssselect(self.pattern)
+	
+	def get(self, url):
+		return self._get(url, save=False)
+	
+	def wget(self, url):
+		return self._get(url, save=True)
+
+def pdftable(url, meta_filename="docs/meta.ttl"):
 	'''
 	@return generator
 	yields a table (list of list)
 	'''
+	_, fs = fetch(url, meta_filename=meta_filename)
 	if not fs or not os.path.exists(fs.local):
 		return []
 	
@@ -169,3 +180,10 @@ def pdftable(fs, meta_filename="docs/meta.ttl"):
 		
 		for f in glob.glob(re.sub(r".pdf", "_*.csv", fs.local)):
 			yield list(csv.reader(open(f)))
+
+def tbtable(tb):
+	def txt(obj):
+		if obj is None:
+			return ""
+		return obj.text_content()
+	return Table(tb).matrix(txt)

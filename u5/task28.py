@@ -10,76 +10,66 @@ def 兵庫県():
 			continue
 		
 		if re.match(r"https://web.pref.hyogo.lg.jp/kf11/documents/.*.pdf", a.get("href", "")):
-			for tab in pdftable(wget(a.get("href"))):
+			for tab in pdftable(a.get("href")):
 				yield tab
 
 @task("281000")
 def 兵庫県_神戸市_1():
 	# 神戸市
 	# 新制度施設一覧
-	hit = False
 	sel = Css("#contents a")
 	for a in sel.get("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_02.html"):
 		if re.match(r"https?://www.city.kobe.lg.jp/child/grow/shinseido/.*\.pdf", a.get("href", "")):
-			for tab in pdftable(wget(a.get("href"))):
+			for tab in pdftable(a.get("href")):
 				yield tab
-			hit = True
-	
-	assert hit
 
 @task("281000")
 def 兵庫県_神戸市_2():
 	# 神戸市
 	# 新制度申し込み状況
-	hit = False
 	sel = Css("#contents a")
 	for a in sel.get("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_03.html"):
 		if re.match(r"https?://www.city.kobe.lg.jp/child/grow/nursery/img/.*\.pdf", a.get("href", "")):
-			for tab in pdftable(wget(a.get("href"))):
+			for tab in pdftable(a.get("href")):
 				yield tab
-			hit = True
-	
-	assert hit
 
 @task("281000")
 def 兵庫県_神戸市_3():
 	# 神戸市
 	# 認可外施設一覧
-	hit = False
 	sel = Css("#contents a")
 	for a in sel.get("http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/sisetu.html"):
 		if re.match(r"https?://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/.*\.pdf", a.get("href","")):
-			for tab in pdftable(wget(a.get("href"))):
+			for tab in pdftable(a.get("href")):
 				yield tab
-			hit = True
-	
-	assert hit
 
 @task("281000")
 def 兵庫県_神戸市_4():
 	# 神戸市
 	# 施設一覧 HTML
-	url = "http://www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html"
-	wget(url) # should emit link text in the triples
-	sel = Css("#contents a")
-	for a in sel.get(url):
+	doc = wget("http://www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html")
+	# should parse doc and emit triples
+	for a in doc.cssselect("#contents a"):
 		if re.match(r"https?://www.city.kobe.lg.jp/child/grow/nursery/.*\.pdf", a.get("href","")):
-			for tab in pdftable(wget(a.get("href"))):
+			for tab in pdftable(a.get("href")):
 				yield tab
 
 @task("282014")
 def 兵庫県_姫路市():
 	# 姫路市
-	# 施設一覧 HTML
 	sel = Css("#mainArea a")
+	tsel = Css("#mainArea table")
+	# 施設一覧 HTML
 	for a in sel.get("http://www.city.himeji.lg.jp/s50/_25179/_8980.html"):
 		if "施設一覧" in a.text:
-			yield a.get("href")
+			for tb in tsel.wget(a.get("href")):
+				yield tbtable(tb)
 	# 認可外保育施設一覧
-	yield "http://www.city.himeji.lg.jp/s50/2212387/_5076/_9151.html"
+	for tb in tsel.wget("http://www.city.himeji.lg.jp/s50/2212387/_5076/_9151.html"):
+		yield tbtable(tb)
 
 @task("282022")
-def amagasaki():
+def 兵庫県_尼崎市():
 	# 尼崎市
 	# 施設一覧
 	sel = Css("#content a")
@@ -87,51 +77,71 @@ def amagasaki():
 		if "保育施設" in a.text_content():
 			for a2 in sel.get(a.get("href")):
 				if "一覧" in a2.text_content():
-					yield a2.get("href")
+					for tab in pdftable(a2.get("href")):
+						yield tab
 
 @task("282031")
-def akashi():
+def 兵庫県_明石市():
 	# 明石市
+	tsel = Css(".col_main table")
 	# 市立幼稚園一覧 html
-	yield "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/yojikyoiku/youchienichiran1.html"
+	for tb in tsel.wget("https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/yojikyoiku/youchienichiran1.html"):
+		yield tbtable(tb)
+	
 	# 私立はデータベース化されていないので注意
-	yield "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/yojikyoiku/youjikyouiku.html"
+	doc = wget("https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/yojikyoiku/youjikyouiku.html")
+	# XXX
+	
 	# 保育所
-	yield "https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/hoiku/hoikushoannai.html"
+	for tb in tsel.wget("https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/hoiku/hoikushoannai.html"):
+		yield tbtable(tb)
 
 @task("282049")
-def nishinomiya():
+def 兵庫県_西宮市():
 	# 西宮市
-	for a in get("http://www.nishi.or.jp/print/0002849900030008700514.html").cssselect("#main a"):
-		if "一覧" in a.text or "幼稚園について" in a.text:
-			yield a.get("href")
+	sel = Css("#main a")
+	tsel = Css("#main table")
+	for a in sel.get("http://www.nishi.or.jp/print/0002849900030008700514.html"):
+		if re.search(r"認可.*一覧", a.text_content()):
+			for tb in tsel.wget(a.get("href")):
+				yield tbtable(tb)
+		elif "幼稚園について" in a.text_content():
+			for tb in tsel.wget(a.get("href")):
+				yield tbtable(tb)
 
 @task("282057")
-def sumoto():
+def 兵庫県_洲本市():
 	# 洲本市
 	# 施設一覧（認可保育所・幼稚園・認可外保育施設等）
 	for a in get("http://www.city.sumoto.lg.jp/contents/20140724102922.html").cssselect("#container a"):
-		if a.text and "一覧" in a.text:
-			yield a.get("href")
+		if "一覧" in a.text_content():
+			for tb in pdftable(a.get("href")):
+				yield tb
+	
 	# 私立保育園
 	# http://www.city.sumoto.lg.jp/hp/reiki/418901010106000000MH/418901010106000000MH/418901010106000000MH.html
-	yield "http://www.city.sumoto.lg.jp/hp/reiki/418901010106000000MH/418901010106000000MH/418901010106000000MH_j.html"
+	tsel = Css("table")
+	for tb in tsel.wget("http://www.city.sumoto.lg.jp/hp/reiki/418901010106000000MH/418901010106000000MH/418901010106000000MH_j.html"):
+		yield tbtable(tb)
 
 @task("282065")
-def ashiya():
+def 兵庫県_芦屋市():
 	# 芦屋市
-	# 幼稚園
 	sel = Css("#tmp_contents a")
+	tsel = Css("#tmp_contents table")
+	# 幼稚園
 	for a in sel.get("http://www.city.ashiya.lg.jp/kanri/seido.html"):
 		if "一覧" in a.text:
-			yield a.get("href")
+			for tb in tsel.wget(a.get("href")):
+				yield tbtable(tb)
 	# 保育園
 	for a in sel.get("http://www.city.ashiya.lg.jp/kodomo/hoikusho.html"):
 		if "一覧" in a.text:
-			yield a.get("href")
+			for tb in tsel.wget(a.get("href")):
+				yield tbtable(tb)
 
 @task("282073")
-def itami():
+def 兵庫県_伊丹市():
 	# 伊丹市
 	# 幼稚園
 	sel = Css("#contents a")
@@ -146,7 +156,7 @@ def itami():
 					yield a2.get("href")
 
 @task("282081")
-def aioi():
+def 兵庫県_相生市():
 	# 相生市
 	yield "http://www.city.aioi.lg.jp/soshiki/14.html"
 	for a in get("http://www.city.aioi.lg.jp/soshiki/kosodate/kosodatemap2.html").cssselect("#main_body a"):
@@ -154,7 +164,7 @@ def aioi():
 			yield a.get("href")
 
 @task("282090")
-def toyooka():
+def 兵庫県_豊岡市():
 	# 豊岡市
 	ct = 0
 	sel = Css("#contentsInner a")
@@ -348,7 +358,7 @@ def 兵庫県_猪名川町():
 		if "募集" in a.text_content():
 			wget(a.get("href")) # yield something
 			if re.match(r"http://www.town.inagawa.lg.jp/.*\.pdf", a.get("href")):
-				for tab in pdftable(wget(a.get("href"))):
+				for tab in pdftable(a.get("href")):
 					yield tab
 	for a in sel.get("http://www.town.inagawa.lg.jp/kosodate/school/hoikusyoenn/index.html"):
 		if "利用手続き" in a.text_content():
@@ -378,7 +388,7 @@ def 兵庫県_播磨町():
 	sel = Css("#tmp_contents a")
 	for a in sel.get("https://www.town.harima.lg.jp/fukushi/kyoiku/kosodate/hoikuen/hoikujo/index.html"):
 		if "案内" in a.text_content():
-			for tb in pdftable(wget(a.get("href"))):
+			for tb in pdftable(a.get("href")):
 				yield tb
 		elif "一覧" in a.text_content():
 			yield a.get("href")
