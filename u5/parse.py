@@ -140,7 +140,7 @@ def pdftable(fs, meta_filename="docs/meta.ttl"):
 	with meta(meta_filename) as g:
 		h2 = g.value(rdflib.URIRef(fs), NS1["md5"])
 		if not h2 or h != h2.value:
-			for f in glob.glob(re.sub(r".pdf", "_*.html", fs.local)):
+			for f in glob.glob(re.sub(r".pdf", "_*.csv", fs.local)):
 				os.remove(f)
 			
 			out = subprocess.check_output(("pdfinfo", fs.local)).decode(sys.stdout.encoding)
@@ -158,14 +158,14 @@ def pdftable(fs, meta_filename="docs/meta.ttl"):
 					print(fs, p, i)
 					raise
 					
-				out = re.sub(r".pdf", "_%d.html" % i, fs.local)
+				out = re.sub(r".pdf", "_%d.csv" % i, fs.local)
 				try:
-					pte.output(cells, i, table_html_filename=out)
+					pte.output(cells, i, table_csv_filename=out)
 				except:
 					logging.error(fs.local, exc_info=True)
 					raise
 			
 			g.set((rdflib.URIRef(fs), NS1["md5"], rdflib.Literal(h)))
 		
-		for f in glob.glob(re.sub(r".pdf", "_*.html", fs.local)):
-			yield lxml.html.parse(open(f))
+		for f in glob.glob(re.sub(r".pdf", "_*.csv", fs.local)):
+			yield list(csv.reader(open(f)))

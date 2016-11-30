@@ -389,7 +389,8 @@
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/kitaku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/nadaku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:18 GMT" ;
-    ns1:md5 "02aa077655bbcc94242aa9b3a655aba2" .
+    ns1:md5 "02aa077655bbcc94242aa9b3a655aba2" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/nadaku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/ninkagai/img/nisiku.pdf> ns1:last-modified "Wed, 31 Aug 2016 08:40:15 GMT" ;
     ns1:md5 "6c960b56630b03434ed5f9427082c755" ;
