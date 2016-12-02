@@ -33,11 +33,16 @@ class env(object):
 	def __exit__(self, etype, evalue, tb):
 		env_stack.pop()
 	
-	def __call__(self, func):
-		# function decorator
+	def __call__(self, genfunc):
+		# generator function decorator
 		def wrap(*args, **kwargs):
 			with self:
-				return func(*args, **kwargs)
+				# XXX: don't do like this. We need a generator to pause the processing.
+				# return genfunc(*args, **kwargs)
+				gen = genfunc(*args, **kwargs)
+				if gen:
+					for u in gen:
+						yield u
 		return wrap
 	
 	@classmethod
@@ -243,4 +248,12 @@ def links(url):
 		if css is None:
 			return r.cssselect("a")
 		
-		return functools.reduce(lambda x,y:x+y, [n.cssselect("a") for n in r.cssselect(css)])
+		ret = []
+		for n in r.cssselect(css):
+			for a in n.cssselect("a"):
+				ret.append(a)
+		
+		return ret
+
+def remove_line_separator(s):
+	return s.replace("\n","").replace("\r","")

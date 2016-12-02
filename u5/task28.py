@@ -3,7 +3,7 @@ import re
 from .util import *
 
 @task
-@env(code="280003", css=".col_main")
+@env(code="280003", css=".col_main", fixup=remove_line_separator)
 def 兵庫県():
 	# 兵庫県
 	for a in links("https://web.pref.hyogo.lg.jp/kf11/hw10_000000006.html"):
@@ -200,7 +200,7 @@ def 兵庫県_西脇市():
 	yield res("http://www.city.nishiwaki.lg.jp/lifescenemokutekibetsudesagasu/gakoen/hoikusyo/1475192591439.html")
 
 @task
-@env(code="282146", css="#content")
+@env(code="282146", css="#content", fixup=remove_line_separator)
 def 兵庫県_宝塚市():
 	# 兵庫県 宝塚市
 	# 幼稚園
@@ -220,13 +220,13 @@ def 兵庫県_三木市():
 	yield res("http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272?OpenDocument")
 
 @task
-@env(code="282162", css=".contentBody")
+@env(code="282162", css=".contentBody", fixup=remove_line_separator)
 def 兵庫県_高砂市():
 	# 兵庫県 高砂市
 	yield res("http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html")
 
 @task
-@env(code="282171")
+@env(code="282171", fixup=remove_line_separator)
 def 兵庫県_川西市():
 	# 兵庫県 川西市
 	# 幼稚園
@@ -244,7 +244,7 @@ def 兵庫県_小野市():
 	yield res("http://www.city.ono.hyogo.jp/1/8/13/4/1/")
 
 @task
-@env(code="282197", css="#tmp_contents")
+@env(code="282197", css="#tmp_contents", fixup=remove_line_separator)
 def 兵庫県_三田市():
 	# 兵庫県 三田市
 	# 認可保育所
