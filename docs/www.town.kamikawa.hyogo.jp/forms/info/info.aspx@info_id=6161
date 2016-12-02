@@ -1,0 +1,445 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" >
+<head><title>
+	兵庫県神河町   幼稚園・保育所一覧
+</title><meta http-equiv="content-type" content="text/html;charset=shift_jis" /><meta http-equiv="content-style-type" content="text/css" /><meta http-equiv="content-script-type" content="text/javascript" /><meta name="GENERATOR" content="Web Management System" /><link rel="stylesheet" type="text/css" href="/local/common/style/base_info.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/pager/manager_pager.css" /><link id="InfoStyleSheet" rel="stylesheet" type="text/css" href="/local/common/style/info/normal/default.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/map/simplemapinfo.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/divcontact/divcontact.css" />
+<script type="text/javascript" src="/program/common/java/Popup.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/local/common/style/box/box.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/pager/pager.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/command/command.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/search/search.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/location/location.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/banner/banner.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/topnews/topnews.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/textlist/textlist.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/topic/topic.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/pickup/pickup.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/calendar/calendar.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/menugrouplist/menugrouplist.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/infolist/infolist.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/calendarlist/calendarlist.css" /><link rel="stylesheet" type="text/css" href="/local/common/style/htmleditor/htmleditor.css" /><link rel="shortcut icon" href="/div/admin/images/icon/favicon/favicon.ico" /><link rel="stylesheet" type="text/css" href="/local/common/style/fontsize/fs0.css" /><link rel="alternate stylesheet" type="text/css" media="screen" title="fs1" href="/local/common/style/fontsize/fs1.css" /><link rel="alternate stylesheet" type="text/css" media="screen" title="fs2" href="/local/common/style/fontsize/fs2.css" />
+<script type="text/javascript" src="/program/common/java/SimpleCookies.js"></script>
+<script type="text/javascript" src="/program/common/java/ChangeFontSize.js"></script>
+<script type="text/javascript" src="/program/common/java/PostBack.js"></script>
+<script type="text/javascript" src="/program/common/java/PopupWin.js"></script>
+<script type="text/javascript" src="/program/common/java/flash/swfobject.js"></script></head>
+<body id="MyBody">
+<div style="text-align: center;">
+<a href="#MAIN_CONTENTS" title="本文へジャンプ" class="none"></a><a name="page_top" title="ページトップ" class="none"></a>
+<table cellspacing="0" width="970px" class="top_outline">
+<tr id="Hide01" HidePreview="True">
+	<td class="none" valign="top">
+		
+<table width="100%" cellspacing="0" class="none">
+<tr>
+    <td class="none" style="width: 100%">
+        <table class="none" cellspacing="0" style="width: 100%">
+        <tr>
+            <td class="none" style="height: 100%; vertical-align: top"><A href="/"><img src="/div/admin/images/box/header/l.gif" alt="神河町役場" class="none"></A></td>
+            <td class="none" align="right" style="width:100%;">
+                <table cellspacing="0" class="none" style="width: 100%">
+                <tr>
+                    <td class="none" style="width:100%; padding:10px 0px 0px 0px">
+                        <table width="100%" cellspacing="0" class="none" style="width:100%; text-align:right; vertical-align:middle">
+                        <tr>                             
+                            <td class="search_edge">
+<form name="Search" method="get" action="/forms/search/searchtop.aspx" class="none">
+<table cellspacing="0" class="search_outline">
+<tr>
+	<td class="search_keyword_edge"><input name="SearchKeyword" type="text" class="search_keyword" style="width: 105px;" /></td>
+	<td class="search_button_edge"><a id="MyHeader_Search_SearchButton" href="#" onclick="return false;" class="none"><img src="/div/admin/images/button/search/search.gif" alt="検索" class="search_button" onclick="JavaScript:PostBack('Search','','','','');" /></a></td>
+</tr>
+</table>
+</form>
+</td>
+                        </tr>
+                        </table>
+                    </td>
+                </tr>
+               </table>
+            </td>
+        </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td class="none" style="width: 100%">
+        <table class="none" cellspacing="0" style="width: 100%">
+        <tr>
+            <td class="none" style="width: 25%; padding:0px 2px 0px 0px">
+                <table cellspacing="0" class="none" style="height: 100%">
+                <tr>                            
+                    <td class="none" style="height: 100%; padding: 0px 0px 1px 0px">
+                        <table cellspacing="0" class="none" style="height: 100%; vertical-align: bottom">
+                        <tr>
+                            <td class="none" style="padding: 0px 5px 0px 0px"><img src="/div/admin/images/label/fontsize/fontsize.gif" alt="フォントサイズ変更" class="none"/></td>
+                            <td class="none" style="padding: 0px 5px 0px 0px"><a href="javascript:chooseStyle('none', 86400)" class="none"><img src="/div/admin/images/button/fontsize/fs0.gif" alt="標準フォントサイズ" class="none"></a></td>
+                            <td class="none" style="padding: 0px 5px 0px 0px"><a href="javascript:chooseStyle('fs1', 86400)" class="none"><img src="/div/admin/images/button/fontsize/fs1.gif" alt="大きいフォントサイズ" class="none"></a></td>
+                            <td class="none" style="padding: 0px 5px 0px 0px"><a href="javascript:chooseStyle('fs2', 86400)" class="none"><img src="/div/admin/images/button/fontsize/fs2.gif" alt="最大フォントサイズ" class="none"></a></td>
+                        </tr>
+                        </table>
+                    </td>                    
+                </tr>
+                </table>
+            </td>
+            <td class="none" style="width:75%; height: 100%; text-align:right; vertical-align: bottom; padding:4px 4px 0px 0px; background-color: #eeeeee">
+                <table cellspacing="0" class="none">
+                <tr id="MyHeader_CMDCtlRange">
+		<td class="commands_edge" align="right" style="width: 100%">
+                        
+<form name="CMDMenu" method="post" class="none">
+<input type="hidden" name="__CMDMenuCommandName" value="" />
+<table cellspacing="0" class="commands_outline">
+<tr>
+    
+	
+	
+	
+	
+	<td id="MyHeader_CMDCtl_MemberLogOnRange" class="command_edge"><a id="MyHeader_CMDCtl_MemberLogOnButton" href="https://www.town.kamikawa.hyogo.jp/forms/member/memberlogon.aspx?returnpage=http%3a%2f%2fwww.town.kamikawa.hyogo.jp%2fforms%2finfo%2finfo.aspx%3finfo_id%3d6161" class="command_a"><img src="/div/admin/images/button/commands/memberlogon.gif" alt="ログオン" class="command_image" /></a></td>
+		
+	
+	
+	<td id="MyHeader_CMDCtl_SiteMapRange" class="command_edge"><a id="MyHeader_CMDCtl_SiteMapButton" href="http://www.town.kamikawa.hyogo.jp/forms/sitemap/sitemaptop.aspx" class="command_a"><img src="/div/admin/images/button/commands/sitemap.gif" alt="サイトマップ" class="command_image" /></a></td>
+			
+	<td id="MyHeader_CMDCtl_ToTopRange" class="command_edge"><a id="MyHeader_CMDCtl_ToTopButton" href="http://www.town.kamikawa.hyogo.jp/" class="command_a"><img src="/div/admin/images/button/commands/top.gif" alt="トップページへ" class="command_image" /></a></td>
+		
+</tr>
+</table>
+</form>
+                    </td>
+	</tr>
+	
+                </table>
+            </td>
+        </tr>
+        </table>
+    </td>
+</tr>
+
+<tr><td class="none" colspan="2"><img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="1px" height="6px" /></td></tr>
+</table>
+	</td>
+</tr>
+
+<tr id="LocationRange" HidePreview="True">
+	<td class="none">
+        <table cellspacing="0" class="none" style="width: 100%">
+        <tr>
+            <td class="none" style="width: 100%; border-width: 1px; border-style: solid; border-color: #C5C4C4; background-color: #ffffff; padding: 1px 2px 0px 2px">
+                <table class="none" cellspacing="0">
+                <tr>
+                    <td class="none"><img src="/div/admin/images/box/location/l.gif" alt="サイトの現在位置" /></td>
+	                <td valign="middle" class="location_edge" style="width: 100%">
+		                
+<table cellspacing="0" class="base_box_outline" >
+
+<tr><td class="base_box_display_edge" style="padding: 2px 3px 2px 3px">
+<table cellspacing="0" class="location_outline">
+<tr>
+	
+	<td id="Location_LocationString" class="location_string_edge"><a href="http://www.town.kamikawa.hyogo.jp/" class="location_a">トップ</a><span class="location_separator"> ⇒ </span><a href="http://www.town.kamikawa.hyogo.jp/forms/menutop/menutop.aspx?menu_id=754" class="location_a">教育</a><span class="location_separator"> ⇒ </span><span class="location_target_edge">幼稚園・保育所一覧</span></td>
+	
+</tr>
+</table>
+</td></tr>
+
+</table>
+		                
+<div class="none"><img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="1px" height="0px" /></div>
+	                </td>
+                </tr>
+                </table>
+            </td>
+            
+	    </tr>
+	    </table>
+	</td>
+</tr>
+
+<tr>
+	<td class="none">
+		<table cellspacing="0" class="none">
+		<tr>
+		    
+			<td class="none" valign="top">
+				<table width="970px" cellspacing="0" class="none">
+				
+				<tr id="INFCtl01Range" HideWhatsNew="True">
+	<td class="info_framge_edge" align="center" style="width: 100%">
+						<table width="970px" cellspacing="0" class="info_framge_outline">
+						<tr>
+							<td class="info_edge">
+							    <div style="display: none;"><a name="MAIN_CONTENTS" class="none">本文</a></div>
+								<table id="Info_info_outline" cellspacing="0" class="info_outline">
+		<tr id="Info_HeaderRow">
+			<td class="info_headerline_edge">
+		<table width="100%" cellspacing="0" class="none">
+		<tr>
+			<td width="50%" align="left" valign="top" class="none">
+				<table width="100%" cellspacing="0" class="none">
+				<tr>
+					<td class="info_toparent1_edge">
+						　
+					</td>
+				</tr>
+				</table>
+			</td>
+			<td width="50%" align=right class="none">
+				<table cellspacing="0" class="none">
+				<tr id="Info_UpdateRange">
+				<td class="none">
+						<table width="100%" cellspacing="0" class="none"  style="border-width: 1px; border-style: solid; border-color: #18027A;">
+						<tr>
+							<td style="width: 73px; height: 25px" class="none" background="/div/admin/images/label/info/label_update.gif">
+<img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="1px" height="1px" /></td>
+							<td id="Info_Update" align="right" valign="top" class="info_update">2012年10月16日 更新</td>
+				
+						</tr>
+						</table>
+					</td>
+			</tr>
+			
+				<tr id="Info_ToPrintPageRange">
+				<td class="info_print"><a href="JavaScript:PopupWin('/forms/info/info_print.aspx?info_id=6161','PrintInfo',1030,500,0,0,0,0,1,1,1);" class="info_print_a">印刷用ページを開く</a></td>
+			</tr>
+			
+				</table>
+			</td>
+		</tr>
+		</table>
+	</td>
+		</tr>
+		<tr>
+			<td align="center" class="info_main_edge">
+		<a name="anchor_top" class="none"></a>
+        <!-- weblio_rws_section_start -->
+		<table width="910px" cellspacing="0" class="info_main_outline">
+		
+		<tr id="Info_NameRange">
+				<td id="Info_info_name" class="info_name">幼稚園・保育所一覧</td>
+			</tr>
+			
+		<tr id="Info_DescRange">
+				<td id="Info_info_desc" class="info_desc">入園・町内の幼稚園・町内の保育所・預かり保育について</td>
+			</tr>
+			
+		<tr id="Info_HeaderSeparatorRange">
+				<td class="info_header_separator">
+<img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="1px" height="1px" /></td>
+			</tr>
+			
+		<tr>
+			<td class="none">
+				
+<div class="info_x_edge">
+<table cellspacing="0" class="info_x_outline">
+<tr>
+<td class="info_x_0_edge" align="left">
+<table cellspacing="0" class="info_x_0_outline">
+<tr>
+<td width="100%" class="info_x_0_0_edge" valign="top" align="left">
+<table cellspacing="0" class="info_x_0_0_outline" width="100%">
+<tr>
+<td class="info_xt_0_0" align="left">入園について</td>
+</tr>
+<tr>
+<td class="info_xc_0_0" align="left">入園できる幼児は、神河町内在住の就学前のお子さんです。入園を希望される方は「入園願書」を教育課の学校教育係に提出してください。詳細は各幼稚園か教育課の学校教育係へお問い合わせください。</td>
+</tr>
+</table>
+</td>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td class="info_x_0_edge" align="left">
+<table cellspacing="0" class="info_x_0_outline">
+<tr>
+<td width="100%" class="info_x_0_0_edge" valign="top" align="left">
+<table cellspacing="0" class="info_x_0_0_outline" width="100%">
+<tr>
+<td class="info_xt_0_0" align="left">幼稚園一覧</td>
+</tr>
+<tr>
+<td class="info_xc_0_0" align="left"><table class="editor_table" border="0" cellspacing="0" cellpadding="5" width="700">    <tbody>        <tr>            <th class="editor_th" style="text-align: center">&nbsp;園名</th>            <th class="editor_th" style="text-align: center">&nbsp;郵便番号</th>            <th class="editor_th" style="text-align: center">所在地&nbsp;</th>            <th class="editor_th" style="text-align: center">電話番号</th>            <th class="editor_th" style="text-align: center">FAX番号</th>        </tr>        <tr>            <td class="editor_td" style="text-align: center"><a href="http://can.town.kamikawa.hyogo.jp/kamikawa-kg/index.php?mode=category&aim=K">神崎幼稚園</a></td>            <td class="editor_td" style="text-align: center">〒679-2414</td>            <td class="editor_td">神崎郡神河町粟賀町611</td>            <td class="editor_td" style="text-align: center">0790-32-1790</td>            <td class="editor_td" style="text-align: center">0790-32-2880</td>        </tr>        <tr>            <td class="editor_td" style="text-align: center"><a href="http://can.town.kamikawa.hyogo.jp/kamikawa-kg/index.php?mode=category&aim=O">越知谷幼稚園</a></td>            <td class="editor_td" style="text-align: center">〒679-2404</td>            <td class="editor_td">神崎郡神河町越知242-1</td>            <td class="editor_td" style="text-align: center">0790-33-0047</td>            <td class="editor_td" style="text-align: center">0790-33-0048</td>        </tr>        <tr>            <td class="editor_td" style="text-align: center"><a href="http://can.town.kamikawa.hyogo.jp/kamikawa-kg/index.php?mode=category&aim=T">寺前幼稚園</a></td>            <td class="editor_td" style="text-align: center">〒679-3116</td>            <td class="editor_td">神崎郡神河町寺前192</td>            <td class="editor_td" style="text-align: center">0790-34-0724</td>            <td class="editor_td" style="text-align: center">0790-34-1661</td>        </tr>        <tr>            <td class="editor_td" style="text-align: center"><a href="http://can.town.kamikawa.hyogo.jp/kamikawa-kg/index.php?mode=category&aim=H">長谷幼稚園</a></td>            <td class="editor_td" style="text-align: center">〒679-3103</td>            <td class="editor_td">神崎郡神河町長谷954-3</td>            <td class="editor_td" style="text-align: center">0790-35-0452</td>            <td class="editor_td" style="text-align: center">0790-35-0333</td>        </tr>    </tbody></table><div>※預かり保育はこちら （ <a href="http://can.town.kamikawa.hyogo.jp/kamikawa-kg/index.php?mode=category&aim=KA">神崎預かり</a> ・ <a href="http://can.town.kamikawa.hyogo.jp/kamikawa-kg/index.php?mode=category&aim=TA">寺前預かり</a> ）</div></td>
+</tr>
+</table>
+</td>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td class="info_x_0_edge" align="left">
+<table cellspacing="0" class="info_x_0_outline">
+<tr>
+<td width="100%" class="info_x_0_0_edge" valign="top" align="left">
+<table cellspacing="0" class="info_x_0_0_outline" width="100%">
+<tr>
+<td class="info_xt_0_0" align="left">保育所一覧</td>
+</tr>
+<tr>
+<td class="info_xc_0_0" align="left"><table class="editor_table" cellspacing="0" cellpadding="5" width="700" border="0">    <tbody>        <tr>            <th class="editor_th" style="text-align: center">&nbsp;保育所名</th>            <th class="editor_th" style="text-align: center">&nbsp;郵便番号</th>            <th class="editor_th" style="text-align: center">所在地&nbsp;</th>            <th class="editor_th" style="text-align: center">電話番号</th>            <th class="editor_th" style="text-align: center">FAX番号</th>        </tr>        <tr>            <td class="editor_td" style="text-align: center">寺前保育所</td>            <td class="editor_td" style="text-align: center">〒679-3116&nbsp;</td>            <td class="editor_td">神崎郡神河町寺前396番地</td>            <td class="editor_td" style="text-align: center">0790-34-1538</td>            <td class="editor_td" style="text-align: center">0790-34-1538&nbsp;</td>        </tr>        <tr>            <td class="editor_td" style="text-align: center">神崎保育園</td>            <td class="editor_td" style="text-align: center">〒679-2413&nbsp;</td>            <td class="editor_td">神崎郡神河町中村33番地</td>            <td class="editor_td" style="text-align: center">0790-32-0284</td>            <td class="editor_td" style="text-align: center">0790-32-0284&nbsp;</td>        </tr>    </tbody></table></td>
+</tr>
+</table>
+</td>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td class="info_x_0_edge" align="left">
+<table cellspacing="0" class="info_x_0_outline">
+<tr>
+<td width="100%" class="info_x_0_0_edge" valign="top" align="left">
+<table cellspacing="0" class="info_x_0_0_outline" width="100%">
+<tr>
+<td class="info_xt_0_0" align="left">預かり保育</td>
+</tr>
+<tr>
+<td class="info_xc_0_0" align="left">幼稚園の在園児を対象とした「預かり保育」を実施しています。家庭の事情により園児が帰宅しても家に誰もいないとき、通常の保育終了後、または夏休みなど保育が行われない日に園児をお預かりします（土・日・祝祭日・特に定める日を除く）。実施幼稚園や保育時間、保育料など詳細は各幼稚園へお問い合わせください。</td>
+</tr>
+</table>
+</td>
+</tr></table>
+</td>
+</tr>
+</table>
+</div>
+				<div style="display: none;">本文終わり</div>
+			</td>
+		</tr>
+		</table>
+        <!-- weblio_rws_section_end -->
+	</td>
+		</tr>
+		<tr id="Info_ToTopParentBottomRange">
+			<td class="info_footerline_edge">
+		<table width="100%" cellspacing="0" class="none">
+		<tr>
+			<td width="50%" class="info_toparent2_edge"></td>
+			<td id="Info_ToPageTopRange" width="50%" class="info_pagetop"><a href="#page_top" class="info_pagetop_a">ページのトップへ</a></td>
+			
+		</tr>
+		</table>
+	</td>
+		</tr>
+		<tr>
+			<td class="none" style="width: 100%; padding: 5px 0px 5px 0px">
+        <table class="none" cellspacing="0" style="width: 100%">
+        <tr id="Info_div_contact_row">
+				<td class="div_contact_edge">
+<!-- ウェブリオ指定タグ スタート -->
+<div style="border:#c0c0c0 solid 1px;margin:5px 0px 5px 0px;padding:0 2px 0 2px;" id="weblio_rws_ah">
+<div id="weblio_rws_rh"></div>
+<p style="color:#000;margin:0;padding:1px 0 3px 2px;font-size:12px;text-align:left;">※「用語解説」に関するご質問・ご要望は、ウェブリオまで<a href="http://www.weblio.jp/company/inquiry.jsp" style="color:#000;text-decoration:underline;" target="_blank">問合せ</a>ください。</p>
+</div>
+<script type="text/javascript"><!--
+    weblio_rw_client = "rws-313243771777";
+    weblio_rw_format = "small";
+    weblio_rw_layout = "liquid";
+    weblio_rw_maxcount = 5;
+    weblio_rw_height = 20;
+    weblio_rw_fontsize = "15";
+    weblio_rw_color_bdr = "ffffff";
+    weblio_rw_color_bg = "ffffff";
+    weblio_rw_hd_color_bdr = "ebebeb";
+    weblio_rw_hd_color_bg = "ebebeb";
+    weblio_rw_hd_color_txt = "000000";
+    weblio_rw_color_link = "0000ff";
+    weblio_rw_link_decor = true;
+    weblio_rw_copula = "space";
+    weblio_rw_logo_pat = "none";
+    weblio_rw_kwd_mrg_top = 3;
+    weblio_rw_rhid = "weblio_rws_rh";
+    weblio_rw_ahid = "weblio_rws_ah";
+    weblio_rw_ttg_head = "td.info_name";
+    weblio_rw_ttg_body = "td.info_main_edge";
+    weblio_rw_supad = true;
+    weblio_rw_incld_wkpja = false;    
+//-->
+</script>
+<script type="text/javascript" src="http://rws.weblio.jp/js/show_keywords.js" charset="UTF-8"></script>
+
+<!-- ウェブリオ指定タグ エンド -->
+		        
+<table width="100%" class="div_contact_outline" cellspacing="0" border="0" cellpadding="0">
+<tr>
+	<td class="none" style="width: 100%">
+		<table cellspacing="0" class="none" style="width: 100%">
+		<tr>
+			<td class="none"><img src="/div/admin/images/box/divcontact/l.gif"></td>
+			<td class="none"><img src="/div/admin/images/box/divcontact/t.gif"></td>
+			<td class="none" style="width: 100%; background-image: url(/div/admin/images/box/divcontact/c.gif); background-repeat: repeat-x"></td>
+			<td class="none"><img src="/div/admin/images/box/divcontact/r.gif"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td class="div_contact" style="width: 100%">
+		<table width="100%" cellspacing="0" class="none">
+		<tr>
+			<td id="Info_DIVCtl_div_name_cell" class="div_name">教育課　学校教育係</td>
+				
+			<td class="none" style="padding: 0px 10px 0px 20px;"><img src="/div/admin/images/box/divcontact/bar.gif"></td>
+			<td class="none" style="width: 100%; padding: 0px 0px 0px 30px;">
+				<table id="Info_DIVCtl_div_contact_range" width="100%" cellspacing="0" class="none">
+					<tr id="Info_DIVCtl_div_addr_row">
+						<td class="none">
+						<table cellspacing="0" class="none">
+						<tr>
+							<td id="Info_DIVCtl_div_zip_cell" class="div_zip">〒679-3116</td>
+						
+							<td id="Info_DIVCtl_div_addr_cell" class="div_addr">兵庫県神崎郡神河町寺前64番地</td>
+						
+						</tr>
+						</table>
+					</td>
+					</tr>
+					<tr id="Info_DIVCtl_div_tel_row">
+						<td class="none">
+						<table cellspacing="0" class="none">
+						<tr>
+							<td id="Info_DIVCtl_div_tel_cell" class="div_tel">Tel: 0790-34-0212</td>
+						
+							
+							<td id="Info_DIVCtl_div_fax_cell" class="div_fax">　Fax: 0790-34-0645</td>
+						
+						</tr>
+						</table>
+					</td>
+					</tr>
+					<tr id="Info_DIVCtl_div_email_row">
+						<td id="Info_DIVCtl_div_email_cell" class="div_email">E-Mail: <a href="JavaScript:PopupWin('https://www.town.kamikawa.hyogo.jp/forms/acceptform/acceptform.aspx?info_id=6161','ContactDivision',830,550,0,1,0,1,0,1,1);">こちらから</a></td>
+					</tr>
+				</table>
+				
+				
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+	        </td>
+			</tr>
+			
+        </table>
+    </td>
+		</tr>
+	</table>
+	
+							</td>
+						</tr>
+						
+<tr><td class="none"><img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="970px" height="1px" /></td></tr>
+						</table>
+					</td>
+</tr>
+
+				
+				
+<tr><td class="none"><img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="970px" height="1px" /></td></tr>
+				</table>
+			</td>
+			
+		</tr>
+		</table>
+	</td>
+</tr>
+
+<tr><td class="none"><img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="1px" height="7px" /></td></tr>
+
+<tr><td class="none"><img src="/div/admin/images/etc/null_image.gif" class="none" alt="" width="970px" height="1px" /></td></tr>
+</table>
+</div>
+</body>
+</html>

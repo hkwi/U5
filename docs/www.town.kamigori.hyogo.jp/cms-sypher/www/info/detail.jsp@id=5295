@@ -1,0 +1,758 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:title" content="上郡町の小・中学校、幼稚園のご紹介" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="上郡町内の小中学校および幼稚園をご紹介します。" />
+
+    <meta property="og:image" content="http://www.town.kamigori.hyogo.jp/cms-sypher/www/share/images/fbimage1200x630.jpg" />
+
+    <title>上郡町の小・中学校、幼稚園のご紹介｜お知らせ｜兵庫県上郡町ホームページ</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/cms-sypher/www/share/js/import.js"></script>
+<!--[if lt IE 9]>
+<script src="/cms-sypher/www/share/js/html5shiv.min.js"></script>
+<script src="/cms-sypher/www/share/js/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="/cms-sypher/www/share/css/reset.css">
+<link rel="stylesheet" href="/cms-sypher/www/share/css/import.css">
+<link rel="stylesheet" href="/cms-sypher/www/share/css/bg_base.css" id="accessibility-bg">
+
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
+    <!-- --------- Start of Google Analytics Code --------- -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60026863-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <!-- --------- End of Google Analytics Code --------- -->
+
+
+
+</head>
+
+<body>
+<!--[if lt IE 9]>
+<script src="../share/js/cation.js"></script>
+<![endif]-->
+<div id="wrapper">
+
+<!-- start: header --><!-- #BeginLibraryItem "/Library/header.lbi" -->
+<noscript>JavaScriptが実行されませんでした。JavaScript対応ブラウザでご覧下さい</noscript>
+<script language="JavaScript" type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function voteUpdateWindow(id) {
+    var vote_type = "";
+    for (i = 0; i < document.submitvote.vote_type.length; i++) {
+        if (document.submitvote.vote_type[i].checked) {
+            vote_type = document.submitvote.vote_type[i].value;
+        }
+    }
+    window.open('/cms-sypher/www//vote/vote_update.jsp?id=' + id + '&vote_type=' + vote_type,'window','status=yes,scrollbars=yes,width=450,height=450');
+}
+
+
+function voteResultWindow(id) {
+    window.open('/cms-sypher/www//vote/vote_index.jsp?id=' + id,'window','status=yes,scrollbars=yes,width=450,height=450');
+}
+-->
+</script>
+
+<!-- -------------------- Start of HEADER -------------------- -->
+
+
+<header>
+
+<div id="HEADER">
+    <h1><a href="/cms-sypher/www/index.jsp"><img src="/cms-sypher/www/share/images/h1.png" alt="上郡町"></a></h1>
+    <div class="chara"><img src="/cms-sypher/www/share/images/charactor.png" alt="上郡町キャラクター円心くんとエイトちゃん"></div>
+    <div class="btn-intro"><a href="/cms-sypher/www//info/detail.jsp?id=8147"><i class="fa fa-chevron-right"></i> 上郡町の紹介</a></div>
+    <div class="accessibility01">
+    <h5>背景色変更</h5>
+    <ul id="accessibility-btn">
+        <li class="btn-bgWHT"><a href="javascript:void(0)">白</a></li>
+        <li class="btn-bgBLK"><a href="javascript:void(0)">黒</a></li>
+        <li class="btn-bgBLU"><a href="javascript:void(0)">青</a></li>
+    </ul>
+    </div>
+    <div class="accessibility02">
+    <h5>文字サイズ</h5>
+    <ul id="textsize">
+        <li><a href="javascript:void(0)" class="f2" >標準</a></li>
+        <li><a href="javascript:void(0)" class="f3" >拡大</a></li>
+    </ul>
+    </div>
+</div>
+
+</header>
+
+<!-- -------------------- End of HEADER -------------------- -->
+<!-- -------------------- Start of NAVI -------------------- -->
+
+
+<nav>
+<div id="NAVI">
+<ul class="cf">
+    <li><a href="/cms-sypher/www/index.jsp">ホーム</a></li>
+    <li><a href="/cms-sypher/www/life/index.jsp">町民の皆様へ</a></li>
+    <li><a href="/cms-sypher/www/tour/index.jsp">観光情報</a></li>
+    <li><a href="/cms-sypher/www/gov/index.jsp">町政情報</a></li>
+    <li><a href="/cms-sypher/www/business/index.jsp">事業者の方へ</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- -------------------- End of NAVI -------------------- -->
+
+<div id="h2"><h2>お知らせ</h2></div>
+
+
+
+<div id="BREADNAVI">
+<div>
+<p><a href="/cms-sypher/www/index.jsp">ホーム</a></p>
+ >
+<p><a href="index.jsp">お知らせ</a></p>
+ >
+<p>上郡町の小・中学校、幼稚園のご紹介</p>
+</div>
+</div>
+
+
+<div id="page">
+<!-- -------------------- Start of CONTENTS -------------------- -->
+<content>
+<div id="CONTENTS">
+
+<!-- --------- Start of SECTION --------- -->
+<section>
+<div id="SECTION">
+<!-- --- Start of 検索 --- -->
+
+
+<div id="SUBSEARCH">
+    <h4>サイト内検索</h4>
+<div class="sch">
+<form name="searchform1" id="searchform1" method="get" action="/cms-sypher/www/search/result.jsp">
+<input name="key" id="keywords1" type="text" /><input type="submit" value="検 索" name="searchBtn1" id="searchBtn1" />
+</form>
+</div>
+    <div class="morelink"><a href="/cms-sypher/www/search/index.jsp">詳細検索へ &raquo;</a></div>
+</div>
+
+<!-- --- End of 検索 --- -->
+
+
+<div id="UPDATE"><p>最終更新日：2015年4月14日（火曜日） 10時40分<br />ID：2-3-9610-5295<br />
+
+<a href="detail_print.jsp?id=5295"><i class="fa fa-print"></i> 印刷用ページ</a></p></div>
+
+
+<div id="ARTICLE" class="boxBLOCK">
+<!-- タイトル01 -->
+<h4>上郡町の小・中学校、幼稚園のご紹介</h4>
+<div class="pad20 cf">
+<!-- タイトル02 -->
+<h5></h5>
+<!--画像：　1枚目～3枚目　-->
+
+
+
+
+
+<!--　 概要　-->
+<p class="mgnB20">
+上郡町内の小中学校および幼稚園をご紹介します。
+</p>
+<!--画像：　4枚目～9枚目　-->
+
+
+
+<!--　 本文　-->
+<p class="cf">
+
+</p>
+
+<!-- Office連携 -->
+
+
+<div class="wordblock">
+<P style="MARGIN: 0mm 0mm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">＜小学校＞<SPAN lang=EN-US><BR><BR></SPAN>■上郡小学校<SPAN lang=EN-US><BR></SPAN>　　<SPAN lang=EN-US><BR></SPAN>　　　所在地：上郡町上郡<SPAN lang=EN-US>306</SPAN>番地<SPAN lang=EN-US><BR></SPAN>　　　電話：<SPAN lang=EN-US>0791-52-0067<BR></SPAN>　　　ファックス：<SPAN lang=EN-US>0791-52-7067</SPAN></SPAN></P>
+<P style="TEXT-INDENT: 34.5pt; MARGIN: 0mm 0mm 0pt; mso-char-indent-count: 3.0" class=MsoNormal><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/kamisyo/"><FONT color=#800080>http://www.kamigori.ed.jp/kamisyo/</FONT></A> <BR><BR></SPAN>■山野里小学校<SPAN lang=EN-US><BR><BR></SPAN>　　　所在地：上郡町山野里<SPAN lang=EN-US>2142</SPAN>番地<SPAN lang=EN-US>1<BR></SPAN>　　　電話：<SPAN lang=EN-US>0791-52-0073<BR></SPAN>　　　ファックス：<SPAN lang=EN-US>0791-52-7073</SPAN></SPAN></P>
+<P style="TEXT-INDENT: 34.5pt; MARGIN: 0mm 0mm 0pt; mso-char-indent-count: 3.0" class=MsoNormal><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/yamasyo/"><FONT color=#800080>http://www.kamigori.ed.jp/yamasyo/</FONT></A><BR><BR></SPAN>■高田小学校<SPAN lang=EN-US><BR><BR></SPAN>　　　所在地：上郡町中野<SPAN lang=EN-US>899</SPAN>番地<SPAN lang=EN-US><BR></SPAN>　　　電話：<SPAN lang=EN-US>0791-52-1068<BR></SPAN>　　　ファックス：<SPAN lang=EN-US>0791-52-7068</SPAN></SPAN></P>
+<P style="TEXT-INDENT: 34.5pt; MARGIN: 0mm 0mm 0pt; mso-char-indent-count: 3.0" class=MsoNormal><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/takatasyo/"><FONT color=#800080>http://www.kamigori.ed.jp/takatasyo/</FONT></A><BR><BR></SPAN>■鞍居小学校 (平成24年4月1日付け、上郡小学校に統合)<SPAN lang=EN-US><BR><BR></SPAN></SPAN><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">　　　ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/kuraisyo/"><FONT color=#800080>http://www.kamigori.ed.jp/kuraisyo/</FONT></A><BR><BR></SPAN>■赤松小学校&nbsp;(平成24年4月1日付け、上郡小学校に統合)<SPAN lang=EN-US><BR></SPAN></SPAN></P>
+<P style="TEXT-INDENT: 34.5pt; MARGIN: 0mm 0mm 0pt; mso-char-indent-count: 3.0" class=MsoNormal><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/akamatusyo/"><FONT color=#800080>http://www.kamigori.ed.jp/akamatusyo/</FONT></A><BR><BR></SPAN>■船坂小学校　<SPAN lang=EN-US>(</SPAN>平成<SPAN lang=EN-US>22</SPAN>年<SPAN lang=EN-US>4</SPAN>月<SPAN lang=EN-US>1</SPAN>日付け、山野里小学校に統合<SPAN lang=EN-US>)<BR><BR></SPAN>　　　</SPAN><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/funasyo/"><FONT color=#800080>http://www.kamigori.ed.jp/funasyo/</FONT></A><BR><BR></SPAN>■梨ヶ原小学校　<SPAN lang=EN-US>(</SPAN>平成<SPAN lang=EN-US>22</SPAN>年<SPAN lang=EN-US>4</SPAN>月<SPAN lang=EN-US>1</SPAN>日付け、山野里小学校に統合<SPAN lang=EN-US>)<BR><BR></SPAN>　　</SPAN><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/nasisyo/"><FONT color=#800080>http://www.kamigori.ed.jp/nasisyo/</FONT></A><BR><BR><BR></SPAN>＜中学校＞<SPAN lang=EN-US><BR><BR></SPAN>■上郡中学校<SPAN lang=EN-US><BR><BR></SPAN>　　　所在地：上郡町山野里<SPAN lang=EN-US>1178</SPAN>番地<SPAN lang=EN-US>1<BR></SPAN>　　　電話：<SPAN lang=EN-US>0791-52-0034<BR></SPAN>　　　ファックス：<SPAN lang=EN-US>0791-52-0413</SPAN></SPAN></P>
+<P style="TEXT-INDENT: 34.5pt; MARGIN: 0mm 0mm 0pt; mso-char-indent-count: 3.0" class=MsoNormal><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; FONT-SIZE: 11.5pt; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast">ホームページ：<SPAN lang=EN-US><A href="http://www.kamigori.ed.jp/kamityu/"><FONT color=#800080>http://www.kamigori.ed.jp/kamityu/</FONT></A><BR><BR></SPAN>＜幼稚園＞<SPAN lang=EN-US><BR><BR></SPAN>■上郡幼稚園<SPAN lang=EN-US><BR><BR></SPAN>　　　所在地：上郡町上郡<SPAN lang=EN-US>375</SPAN>番地<SPAN lang=EN-US>1<BR></SPAN>　　　電話・ファックス：<SPAN lang=EN-US>0791-52-0499<BR><BR></SPAN>■山野里幼稚園<SPAN lang=EN-US><BR><BR></SPAN>　　　所在地：上郡町山野里<SPAN lang=EN-US>2147</SPAN>番地<SPAN lang=EN-US><BR></SPAN>　　　電話・ファックス：<SPAN lang=EN-US>0791-52-1200<BR><BR></SPAN>■高田幼稚園<SPAN lang=EN-US><BR><BR></SPAN>　　　所在地：上郡町中野<SPAN lang=EN-US>708</SPAN>番地<SPAN lang=EN-US>1<BR></SPAN>　　　電話・ファックス：<SPAN lang=EN-US>0791-52-2068<BR><BR></SPAN>■鞍居幼稚園　<SPAN lang=EN-US>(平成24年4月1日付け、上郡幼稚園に統合</SPAN><SPAN lang=EN-US>)</SPAN><SPAN lang=EN-US><BR><BR></SPAN>■赤松幼稚園　(平成24年4月1日付け、上郡幼稚園に統合)<SPAN lang=EN-US><BR><BR></SPAN>■船坂幼稚園　<SPAN lang=EN-US>(</SPAN>平成<SPAN lang=EN-US>22</SPAN>年<SPAN lang=EN-US>4</SPAN>月<SPAN lang=EN-US>1</SPAN>日付け、山野里幼稚園に統合<SPAN lang=EN-US>)<BR><BR></SPAN>　　<SPAN lang=EN-US><BR style="mso-special-character: line-break"></SPAN></SPAN><SPAN style="FONT-FAMILY: 'ＭＳ ゴシック'; mso-ascii-theme-font: major-fareast; mso-fareast-theme-font: major-fareast; mso-hansi-theme-font: major-fareast" lang=EN-US></SPAN></P>
+</div>
+			
+<!-- 表の作成 -->
+<div class="listblock">
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+</div>
+
+<!-- ご案内 -->
+
+
+
+
+<!-- お問い合わせ -->
+
+
+
+
+<!-- 関連ファイル -->
+
+
+
+
+<!-- 関連リンク -->
+
+
+
+
+<!-- カテゴリ -->
+
+
+<h5>カテゴリ</h5>
+<div class="mgn20">
+<ul class="category">
+
+        <li>
+<a href="/cms-sypher/www/life/result.jsp"><i class="fa fa-arrow-circle-o-right fa-lg"></i><strong>町民の皆様へ</strong></a>
+</li>
+<li>
+<span>こんな時は</span>
+<a href="/cms-sypher/www/life/result.jsp?life_genre=013">育児・教育</a>
+</li>
+<li>
+<span>学ぶ・交流</span>
+<a href="/cms-sypher/www/life/result.jsp?life_genre=256">幼稚園</a>｜<a href="/cms-sypher/www/life/result.jsp?life_genre=003">学校・教育</a></li>
+<br />
+
+        <li>
+<a href="/cms-sypher/www/gov/result.jsp"><i class="fa fa-arrow-circle-o-right fa-lg"></i><strong>町政情報</strong></a>
+</li>
+<li>
+<span>町役場のご案内</span>
+<a href="/cms-sypher/www/gov/result.jsp?life_genre=166">施設のご案内</a></li>
+<br />
+
+</ul>
+</div>
+
+
+
+<!-- ご意見フォーム（パブリックコメント用コンテンツ） -->
+
+
+<!-- SNS-->
+
+
+
+
+<!--Start of SNS-->
+<ul class="snsblock">
+<li class="fb">
+<!--Facebook-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.async = true;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- <div class="fb-like" data-href="https://www.facebook.com/town.kamigori.kankou" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> -->
+<!-- <div class="fb-like" data-href="http://www.town.kamigori.hyogo.jp/cms-sypher/www/info/detail.jsp?id=5295" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> -->
+<iframe src="https://www.facebook.com/plugins/like.php?href=http://www.town.kamigori.hyogo.jp/cms-sypher/www/info/detail.jsp?id=5295&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+</li>
+<li class="tw">
+<!--Twitter-->
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-text="上郡町の小・中学校、幼稚園のご紹介｜兵庫県上郡町">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</li>
+<li class="ln">
+<!--LINE-->
+<!-- <a href="http://line.me/R/msg/text/?http%3A%2F%2Fwww.town.kamigori.hyogo.jp%2Fcms-sypher%2Fwww%2Finfo%2Fdetail.jsp%3Fid%3D5295%0D%0A%E4%B8%8A%E9%83%A1%E7%94%BA%E3%81%AE%E5%B0%8F%E3%83%BB%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%80%81%E5%B9%BC%E7%A8%9A%E5%9C%92%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B%EF%BD%9C%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%8A%E9%83%A1%E7%94%BA" target="_blank"><img src="/cms-sypher/www//share/images/linebutton.png" alt="LINEで送る" /></a> -->
+<a href="http://line.me/R/msg/text/?%E4%B8%8A%E9%83%A1%E7%94%BA%E3%81%AE%E5%B0%8F%E3%83%BB%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%80%81%E5%B9%BC%E7%A8%9A%E5%9C%92%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B%EF%BD%9C%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%8A%E9%83%A1%E7%94%BA%0D%0Ahttp%3A%2F%2Fwww.town.kamigori.hyogo.jp%2Fcms-sypher%2Fwww%2Finfo%2Fdetail.jsp%3Fid%3D5295" target="_blank"><img src="/cms-sypher/www//share/images/linebutton.png" alt="LINEで送る" /></a>
+</li>
+</ul>
+<!--End of SNS-->
+
+
+
+
+</div>
+</div>
+
+<!-- 最終更新日　情報発信元 -->
+
+<div id="UPDATE"><p>最終更新日：2015年4月14日（火曜日） 10時40分<br />ID：2-3-9610-5295<br />
+
+<a href="detail_print.jsp?id=5295"><i class="fa fa-print"></i> 印刷用ページ</a>
+
+</p></div>
+
+
+
+<div id="SENDER">
+<div class="cf">
+
+<div class="block2_1">
+<h3>情報発信元</h3>
+<p>
+		    
+<strong>教育推進課　教育係</strong><br>
+住所：678-1292　兵庫県赤穂郡上郡町大持278<br>
+電話：0791-52-2912<br>
+					
+ファックス：0791-52-5523
+
+</p>
+</div>
+<div class="block2_2">
+<div class="btn mgnT30"><a href="/cms-sypher/www/contact/input.jsp?article_id=5295&section_id=9610"><i class="fa fa-envelope fa-lg"></i> お問い合わせ</a></div>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- --------- Start of ENQUETE --------- -->
+
+
+<!-- --------- End of ENQUETE --------- -->
+</div>
+</section>
+<!-- --------- End of SECTION --------- -->
+
+<!-- --------- Start of SIDE --------- -->
+<aside>
+<div id="SIDE">
+
+
+
+
+
+
+
+
+            
+<!-- --- Start of お知らせ --- -->
+<div id="SUBMENU">
+    <h4>お知らせ</h4>
+<ul>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=10995"><i class="fa fa-caret-right"></i>平成28年度12月学校給食予定献立表</a></li>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=10981"><i class="fa fa-caret-right"></i>給食メニュー(11月21日から11月25日)</a></li>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=10799"><i class="fa fa-caret-right"></i>子育て学習センターの開館</a></li>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=10968"><i class="fa fa-caret-right"></i>給食メニュー(11月14日から11月18日)</a></li>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=5333"><i class="fa fa-caret-right"></i>子育て学習センターとは</a></li>
+
+</ul>
+
+    <div class="morelink"><a href="result.jsp?type=r&life_genre=013,256,003,166,&title=上郡町の小・中学校、幼稚園のご紹介">一覧を表示 &raquo;</a></div>
+
+</div>
+<!-- --- End of お知らせ --- -->
+
+
+
+
+
+
+
+<!-- --- Start of 手続き・申請・業務 --- -->
+<div class="subbox">
+    <h4>手続き・申請・業務</h4>
+<ul>
+            
+<li><a href="/cms-sypher/www/service/detail.jsp?id=8536"><i class="fa fa-caret-right"></i>一時預かり事業</a></li>
+            
+<li><a href="/cms-sypher/www/service/detail.jsp?id=10747"><i class="fa fa-caret-right"></i>ファミリーサポートセンター事業</a></li>
+            
+<li><a href="/cms-sypher/www/service/detail.jsp?id=10795"><i class="fa fa-caret-right"></i>平成29年度保育所児等の募集について</a></li>
+            
+<li><a href="/cms-sypher/www/service/detail.jsp?id=10383"><i class="fa fa-caret-right"></i>要保護 及び 準要保護児童生徒就学援助制度について</a></li>
+            
+<li><a href="/cms-sypher/www/service/detail.jsp?id=8535"><i class="fa fa-caret-right"></i>児童手当</a></li>
+
+</ul>
+
+</div>
+<!-- --- End of 手続き・申請・業務 --- -->
+
+
+
+
+
+
+
+<!-- --- Start of 検索 --- -->
+
+
+<div id="SUBSEARCH">
+    <h4>サイト内検索</h4>
+<div class="sch">
+<form name="searchform1" id="searchform1" method="get" action="/cms-sypher/www/search/result.jsp">
+<input name="key" id="keywords1" type="text" /><input type="submit" value="検 索" name="searchBtn1" id="searchBtn1" />
+</form>
+</div>
+    <div class="morelink"><a href="/cms-sypher/www/search/index.jsp">詳細検索へ &raquo;</a></div>
+</div>
+
+<!-- --- End of 検索 --- -->
+</div>
+</aside>
+<!-- --------- End of SIDE --------- -->
+
+</div>
+</content>
+<!-- -------------------- End of CONTENTS -------------------- -->
+</div>
+<!-- -------------------- Start of FOOTER -------------------- -->
+
+
+<footer>
+<div id="FOOTER" class="cf">
+    <div id="pagetop"><a href="#wrapper"><i class="fa fa-arrow-circle-o-up fa-lg"></i> ページ先頭へ</a></div>
+<div class="footerlink cf">
+    <ul>
+    <li><a href="/cms-sypher/www/contact/input.jsp"><i class="fa fa-caret-right"></i>お問い合わせ</a></li><li><a href="/cms-sypher/www/help/index.jsp"><i class="fa fa-caret-right"></i>このサイトについて</a></li><li><a href="/cms-sypher/www/info/detail.jsp?id=5133"><i class="fa fa-caret-right"></i>著作権について</a></li><li><a href="/cms-sypher/www/info/detail.jsp?id=5134"><i class="fa fa-caret-right"></i>免責事項</a></li><li><a href="/cms-sypher/www/info/detail.jsp?id=5135"><i class="fa fa-caret-right"></i>プライバシーポリシー</a></li><li><a href="/cms-sypher/www/common/sitemap.jsp"><i class="fa fa-caret-right"></i>サイトマップ</a></li>
+    </ul>
+</div>
+<div class="cf">
+<div class="footL"><img src="/cms-sypher/www/share/images/footer_logo.png" alt="上郡町"></div>
+<div class="footR">
+<div class="copyright cf">
+<h4>上郡町役場</h4>
+<p>Copyright &copy; KAMIGORI TOWN ALL Rights Reserved.</p>
+</div>
+    <ul class="linklist">
+<li class="foot-icon01">
+〒678-1292<br />
+兵庫県赤穂郡<br />
+上郡町大持278番地<br />
+法人番号：6000020284815<br />
+<a href="/cms-sypher/www/info/detail.jsp?id=10265">法人番号について</a>
+<div class="btn-intro"><a href="/cms-sypher/www/info/detail.jsp?id=5136"><i class="fa fa-chevron-right"></i> 町役場マップ</a></div>
+</li>
+<li class="foot-icon02">
+TEL：0791-52-1111<br>
+FAX：0791-52-5172
+<div class="btn-intro"><a href="/cms-sypher/www/section/contact_list.jsp"><i class="fa fa-chevron-right"></i> 連絡先一覧</a></div>
+</li>
+<li class="foot-icon03">
+開庁時間：8時30分から17時15分<br>
+（金曜日は窓口業務のみ18時）
+<div class="btn-intro"><a href="/cms-sypher/www/info/detail.jsp?id=7775"><i class="fa fa-chevron-right"></i> 窓口業務時間のご案内</a></div>
+</li>
+    </ul>
+</div>
+</div>
+
+
+<div id="COPYRIGHT">
+<h2>上郡町</h2>
+<p>Copyright &copy; KAMIGORI TOWN ALL Rights Reserved.</p>
+</div>
+
+
+</div>
+</footer>
+
+
+<!-- -------------------- Start of BANNER -------------------- -->
+
+<link href="/cms-sypher/www/share/css/banner.css" rel="stylesheet" type="text/css" media="all">
+
+<link rel="stylesheet" href="/cms-sypher/www/share/css/style.css">
+
+<style type="text/css">
+<!--
+    #top-banner {
+        display: none;
+    }
+-->
+</style>
+
+<script type="text/JavaScript">
+<!--
+function closeBanner(){
+	$('#top-banner').css("display", "none");
+	
+	var date = new Date();
+	date.setTime(date.getTime() + (60 * 10 * 1000));
+	$.cookie('closed', 'true', { expires: date, path: '/' });
+}
+function bannerClickUpdate(id) {
+	 var image = new Image();
+	 var str = '/cms-sypher/www/banner/ctrl.jsp?id=' + id;
+	 image.src = str;
+	 console.log(image);
+	 return false;
+}
+$(document).ready(function() {
+	if ($.cookie('closed') != 'true') {
+		$('#top-banner').css('display', 'block');
+	}
+});
+//-->
+</script>
+
+<div id="top-banner">
+<div class="tmp_wrap_publicity">
+<div class="tmp_publicity">
+<div class="tmp_publicity_ttl">
+<p><a href="/cms-sypher/www/service/detail.jsp?id=10415"><img height="50" alt="広告について" width="70" src="/cms-sypher/www/share/banner/title.png" /></a></p>
+</div>
+<div class="tmp_publicity_cnt"><div id="top-banner-list">
+<ul class="cf">
+
+<li class="bnr01">
+  <a href="http://www.zaigenkakuho.com/LAMP_LP/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(78);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024317.gif" alt="自治体広告のことならLAMP" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://ikouhoushi.jp/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(77);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024107.gif" alt="マチイロ" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.xn--u9j691gec457gdmeqoat28s0li.com/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(70);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022996.png" alt="交通事故,慰謝料" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.tk.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(71);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022997.gif" alt="あんしん生命" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.town.kamigori.hyogo.jp/cms-sypher/www/service/detail.jsp?id=10415"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(59);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000015375.jpg" alt="バナー広告を募集しています" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.hope-inc.jp/ctr/profecto/kamigorit.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(73);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000023010.gif" alt="プロフェクト法律事務所" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.doctor-square.jp/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(76);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024482.jpg" alt="医師求人ドクタースクエア" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.winknet.ne.jp/service/kamigori/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(64);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000020481.gif" alt="姫路ケーブルテレビ株式会社" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(72);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022998.gif" alt="チューリッヒ" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.tabirai.net/car/hyogo/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(69);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022995.gif" alt="格安レンタカーで兵庫・神戸を巡る" />
+  </a>
+</li>
+
+</ul>
+</div></div>
+</div>
+</div>
+
+<div id="top-banner-close"><a onclick="closeBanner();"><img src="/cms-sypher/www/share/banner/close.png" alt="閉じる" /></a></div>
+
+</div>
+<!-- -------------------- End of BANNER -------------------- -->
+<!-- -------------------- Start of float BANNER -------------------- -->
+<div class="tmp_wrap_publicity">
+<div class="tmp_publicity">
+<div class="tmp_publicity_ttl">
+<p><a href="/cms-sypher/www/service/detail.jsp?id=10415"><img height="50" alt="広告について" width="70" src="/cms-sypher/www/share/banner/title.png" /></a></p>
+</div>
+<div class="tmp_publicity_cnt"><div id="top-banner-list">
+<ul>
+
+<li class="bnr01">
+  <a href="http://www.zaigenkakuho.com/LAMP_LP/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(78);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024317.gif" alt="自治体広告のことならLAMP" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://ikouhoushi.jp/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(77);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024107.gif" alt="マチイロ" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.xn--u9j691gec457gdmeqoat28s0li.com/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(70);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022996.png" alt="交通事故,慰謝料" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.tk.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(71);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022997.gif" alt="あんしん生命" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.town.kamigori.hyogo.jp/cms-sypher/www/service/detail.jsp?id=10415"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(59);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000015375.jpg" alt="バナー広告を募集しています" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.hope-inc.jp/ctr/profecto/kamigorit.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(73);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000023010.gif" alt="プロフェクト法律事務所" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.doctor-square.jp/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(76);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024482.jpg" alt="医師求人ドクタースクエア" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.winknet.ne.jp/service/kamigori/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(64);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000020481.gif" alt="姫路ケーブルテレビ株式会社" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(72);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022998.gif" alt="チューリッヒ" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.tabirai.net/car/hyogo/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(69);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022995.gif" alt="格安レンタカーで兵庫・神戸を巡る" />
+  </a>
+</li>
+
+</ul>
+</div></div>
+</div>
+</div>
+<!-- -------------------- End of f float BANNER -------------------- -->
+<!-- -------------------- End of FOOTER -------------------- -->
+</div>
+</body>
+</html>
