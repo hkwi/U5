@@ -1,15 +1,15 @@
 @prefix ns1: <https://hkwi.github.io/U5/scheme#> .
-@prefix ns10: <https://hkwi.github.io/U5/scheme#園（所）> .
-@prefix ns11: <https://hkwi.github.io/U5/scheme#所在地・> .
-@prefix ns12: <https://hkwi.github.io/U5/scheme#病児・> .
-@prefix ns2: <https://hkwi.github.io/U5/scheme#４> .
-@prefix ns3: <https://hkwi.github.io/U5/scheme#利用年齢1号2号・3> .
-@prefix ns4: <https://hkwi.github.io/U5/scheme#3> .
-@prefix ns5: <https://hkwi.github.io/U5/scheme#0> .
-@prefix ns6: <https://hkwi.github.io/U5/scheme#５> .
-@prefix ns7: <https://hkwi.github.io/U5/scheme#4> .
-@prefix ns8: <https://hkwi.github.io/U5/scheme#5> .
-@prefix ns9: <https://hkwi.github.io/U5/scheme#保育標準時間（保育短時間）> .
+@prefix ns10: <https://hkwi.github.io/U5/scheme#利用年齢1号2号・3> .
+@prefix ns11: <https://hkwi.github.io/U5/scheme#園（所）> .
+@prefix ns12: <https://hkwi.github.io/U5/scheme#保育標準時間（保育短時間）> .
+@prefix ns2: <https://hkwi.github.io/U5/scheme#4> .
+@prefix ns3: <https://hkwi.github.io/U5/scheme#４> .
+@prefix ns4: <https://hkwi.github.io/U5/scheme#病児・> .
+@prefix ns5: <https://hkwi.github.io/U5/scheme#3> .
+@prefix ns6: <https://hkwi.github.io/U5/scheme#5> .
+@prefix ns7: <https://hkwi.github.io/U5/scheme#所在地・> .
+@prefix ns8: <https://hkwi.github.io/U5/scheme#0> .
+@prefix ns9: <https://hkwi.github.io/U5/scheme#５> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -10771,7 +10771,7 @@
     ns1:バス送迎 "○",
         "〇" ;
     ns1:利用年齢 "6カ月　～　5歳" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """10
 76
@@ -10798,7 +10798,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 100
@@ -10818,7 +10818,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 100
@@ -10837,7 +10837,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
-    ns3:号 """満3歳 ～ 3歳
+    ns10:号 """満3歳 ～ 3歳
 6カ月 ～ 3歳""" ;
     ns1:定員1号2号3号 """25
 28
@@ -10856,7 +10856,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
-    ns3:号 """4 ～ 5歳
+    ns10:号 """4 ～ 5歳
 4 ～ 5歳""" ;
     ns1:定員1号2号3号 """25
 60
@@ -10893,7 +10893,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """10
 120
@@ -10921,7 +10921,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 1 ～ 5歳""",
         """満3歳 ～ 5歳
 1 ～ 5歳""" ;
@@ -10946,7 +10946,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
     ns1:一時保育 "〇" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 6カ月　～　5歳""",
         """満3歳 ～ 5歳
 6カ月　～　5歳""" ;
@@ -11006,7 +11006,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """3
 48
@@ -11022,7 +11022,7 @@
 
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """3
 57
@@ -11122,7 +11122,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """20
 71
@@ -11145,7 +11145,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 3 ～ 5歳""" ;
     ns1:定員1号2号3号 """35
 60
@@ -11165,7 +11165,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け～　2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -11188,7 +11188,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """25
 76
@@ -11210,7 +11210,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:利用年齢 "産休明け　～　2歳" ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け ～ 2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -11312,7 +11312,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
     ns1:一時保育 "〇" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """20
 116
@@ -11337,7 +11337,7 @@
 （2歳のみ）""",
         "○（2歳のみ）" ;
     ns1:利用年齢 "産休明け　～　2歳" ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け ～ 2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -11361,7 +11361,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 2歳 ～ 5歳""",
         "満2歳 ～ 5歳" ;
     ns1:定員1号2号3号 """42
@@ -11394,7 +11394,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """2
 21
@@ -11411,7 +11411,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """2
 21
@@ -11455,7 +11455,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """160
 40
@@ -11500,7 +11500,7 @@
     ns1:バス送迎 "〇" ;
     ns1:利用年齢 "4カ月　～　5歳",
         "4カ月～5歳" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 4カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 100
@@ -11526,7 +11526,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """10
 60
@@ -11572,7 +11572,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """20
 160
@@ -11590,7 +11590,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け ～ 2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -11619,7 +11619,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """105
 14
@@ -11644,7 +11644,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 1歳6カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """14
 28
@@ -11665,7 +11665,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """15
 85
@@ -11682,7 +11682,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 2 ～ 5歳""" ;
     ns1:定員1号2号3号 """100
 30
@@ -11699,7 +11699,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 2 ～ 5歳""" ;
     ns1:定員1号2号3号 """105
 25
@@ -11735,7 +11735,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "〇" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""",
         """満3歳 ～ 5歳
 6カ月　～　5歳""" ;
@@ -11816,7 +11816,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """205
 30
@@ -11852,7 +11852,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""",
         """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
@@ -11874,7 +11874,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""",
         """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
@@ -11965,7 +11965,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 4カ月　～　5歳""",
         """満3歳 ～ 5歳
 4カ月　～　5歳""" ;
@@ -11988,7 +11988,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """ー
+    ns10:号 """ー
 4カ月　～　2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -12016,7 +12016,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "〇" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """30
 50
@@ -12060,7 +12060,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
     ns1:一時保育 "〇" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""",
         """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
@@ -12084,7 +12084,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け ～ 1歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -12185,7 +12185,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 68
@@ -12264,7 +12264,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """15
 35
@@ -12283,7 +12283,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 115
@@ -12304,7 +12304,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け～　2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -12409,7 +12409,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 4カ月～5歳""" ;
     ns1:定員1号2号3号 """13
 90
@@ -12432,7 +12432,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "〇" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """110
 50
@@ -12453,7 +12453,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月  ～  5歳""" ;
     ns1:定員1号2号3号 """15
 34
@@ -12537,7 +12537,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:利用年齢 "4カ月　～　5歳",
         "4カ月～5歳" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 4カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """10
 96
@@ -12623,7 +12623,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 62
@@ -12641,7 +12641,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け ～ 2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -12678,7 +12678,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """20
 40
@@ -12715,7 +12715,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 6カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """84
 21
@@ -12744,7 +12744,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """30
 100
@@ -12811,7 +12811,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 "1歳 ～ 5歳",
+    ns10:号 "1歳 ～ 5歳",
         """満3歳 ～ 5歳
 1歳 ～ 5歳""" ;
     ns1:定員1号2号3号 """21
@@ -12947,7 +12947,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
     ns1:一時保育 "〇" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """20
 130
@@ -12970,7 +12970,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:利用年齢 "10カ月　～　5歳",
         "10カ月～5歳" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 10カ月　～　5歳""" ;
     ns1:定員1号2号3号 """15
 110
@@ -13054,7 +13054,7 @@
     ns1:バス送迎 "バス送迎" ;
     ns1:一時保育 "一時保育" ;
     ns1:利用年齢 "利用年齢" ;
-    ns3:号 """利用年齢
+    ns10:号 """利用年齢
 1号
 2号・3号""" ;
     ns1:定員1号2号3号 """定員
@@ -13099,7 +13099,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "〇" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """10
 135
@@ -13152,7 +13152,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """20
 40
@@ -13179,7 +13179,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""",
         """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
@@ -13202,7 +13202,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """ー
+    ns10:号 """ー
 産休明け～　2歳""" ;
     ns1:定員1号2号3号 """ー
 ー
@@ -13247,7 +13247,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """35
 129
@@ -13451,7 +13451,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """45
 85
@@ -13479,7 +13479,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 2 ～ 5歳""" ;
     ns1:定員1号2号3号 """175
 20
@@ -13497,7 +13497,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 2 ～ 5歳""" ;
     ns1:定員1号2号3号 """88
 12
@@ -13514,7 +13514,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 2 ～ 5歳""" ;
     ns1:定員1号2号3号 """88
 12
@@ -13559,7 +13559,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 6カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """40
 40
@@ -13624,7 +13624,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "〇" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """20
 80
@@ -13646,7 +13646,7 @@
     ns1:一時保育 "○" ;
     ns1:利用年齢 "10カ月　～　5歳",
         "10カ月～5歳" ;
-    ns3:号 """3歳 ～ 5歳
+    ns10:号 """3歳 ～ 5歳
 10カ月 ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 90
@@ -13697,7 +13697,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """140
 30
@@ -13717,7 +13717,7 @@
 [] ns1:code "282014" ;
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 3 ～ 5歳""" ;
     ns1:定員1号2号3号 """155
 10
@@ -13735,7 +13735,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html> ;
     ns1:バス送迎 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 3 ～ 5歳""" ;
     ns1:定員1号2号3号 """155
 10
@@ -13756,7 +13756,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 1 ～ 5歳""" ;
     ns1:定員1号2号3号 """20
 45
@@ -13846,7 +13846,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 6カ月　～　5歳""" ;
     ns1:定員1号2号3号 """45
 185
@@ -13921,7 +13921,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:バス送迎 "○" ;
     ns1:一時保育 "○" ;
-    ns3:号 """満3歳 ～ 5歳
+    ns10:号 """満3歳 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """10
 34
@@ -13951,7 +13951,7 @@
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
     ns1:一時保育 "○" ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """15
 57
@@ -14095,7 +14095,7 @@
     ns1:ref <http://www.city.himeji.lg.jp/s50/_25179/_8980/_15037.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_17860.html>,
         <http://www.city.himeji.lg.jp/s50/_25179/_8980/_37867.html> ;
-    ns3:号 """3 ～ 5歳
+    ns10:号 """3 ～ 5歳
 産休明け ～ 5歳""" ;
     ns1:定員1号2号3号 """90
 70
@@ -14162,7 +14162,7 @@
     ns1:施設名 "高浜幼稚園" ;
     ns1:電話番号 "235-0879" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "あすなろ保育園" ;
@@ -14178,7 +14178,7 @@
     ns1:電話番号 "6411-0320" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "5ケ月目" ;
+[] ns8:歳児入所時期 "5ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14196,7 +14196,7 @@
     ns1:電話番号 "4868-5806" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "い る か 保 育 園" ;
@@ -14212,7 +14212,7 @@
     ns1:電話番号 "6416-3183" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "う る ま 保 育 園" ;
@@ -14228,7 +14228,7 @@
     ns1:電話番号 "6433-6076" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14246,7 +14246,7 @@
     ns1:電話番号 "6416-1670" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14263,7 +14263,7 @@
     ns1:電話番号 "6422-6904" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "〇" ;
@@ -14281,7 +14281,7 @@
     ns1:電話番号 "6423-0611" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "お も と 保 育 園" ;
@@ -14297,7 +14297,7 @@
     ns1:電話番号 "6437-1516" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14314,7 +14314,7 @@
     ns1:電話番号 "6401-1255" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★からたち幼稚
@@ -14332,7 +14332,7 @@
     ns1:電話番号 "6488-2261" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "9ケ月目" ;
+[] ns8:歳児入所時期 "9ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "くいせようちえん" ;
@@ -14348,7 +14348,7 @@
     ns1:電話番号 "6481-0848" ;
     ns1:類型 "幼保" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14365,7 +14365,7 @@
     ns1:電話番号 "6427-9794" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14383,7 +14383,7 @@
     ns1:電話番号 "6495-3270" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "しもさかべ幼稚園" ;
@@ -14398,7 +14398,7 @@
     ns1:電話番号 "6499-1545" ;
     ns1:類型 "幼保" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "つ く し 保 育 園" ;
@@ -14414,7 +14414,7 @@
     ns1:電話番号 "6488-1717" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "5ケ月目" ;
+[] ns8:歳児入所時期 "5ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "〇" ;
@@ -14432,7 +14432,7 @@
     ns1:電話番号 "6416-7742" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★おおしま保育
@@ -14450,7 +14450,7 @@
     ns1:電話番号 "6480-5004" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "は ま よ う ち え ん" ;
@@ -14465,7 +14465,7 @@
     ns1:電話番号 "6499-4919" ;
     ns1:類型 "幼保" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "みどり野保育園" ;
@@ -14481,7 +14481,7 @@
     ns1:電話番号 "6401-2246" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14498,7 +14498,7 @@
     ns1:電話番号 "6437-4400" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14515,7 +14515,7 @@
     ns1:電話番号 "6432-7676" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "−" ;
+[] ns8:歳児入所時期 "−" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "め ぐ み 幼 稚 園" ;
@@ -14530,7 +14530,7 @@
     ns1:電話番号 "6416-6874" ;
     ns1:類型 "幼" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "もみの木保育園" ;
@@ -14546,7 +14546,7 @@
     ns1:電話番号 "6426-7270" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14563,7 +14563,7 @@
     ns1:電話番号 "6418-3815" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14581,7 +14581,7 @@
     ns1:電話番号 "6439-6969" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "2ケ月目" ;
+[] ns8:歳児入所時期 "2ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★若葉保育園 わ
@@ -14602,7 +14602,7 @@
     ns1:電話番号 "6423-8215" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "2ケ月目" ;
+[] ns8:歳児入所時期 "2ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★若葉保育園 わ
@@ -14623,7 +14623,7 @@
     ns1:電話番号 "7503-4575" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "2ケ月目" ;
+[] ns8:歳児入所時期 "2ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★若葉保育園 わ
@@ -14645,7 +14645,7 @@
     ns1:電話番号 "6423-7801" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★明和幼稚園
@@ -14663,7 +14663,7 @@
     ns1:電話番号 "6427-1152" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★しもさかべ幼
@@ -14682,7 +14682,7 @@
     ns1:電話番号 "6435-0530" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """キンダー・メーソン・タチ
@@ -14698,7 +14698,7 @@
     ns1:電話番号 "6429-7464" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★七松幼稚園
@@ -14715,7 +14715,7 @@
     ns1:電話番号 "6480-5901" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★七松幼稚園
@@ -14734,7 +14734,7 @@
     ns1:電話番号 "4950-5370" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "サ カ エ 保 育 園" ;
@@ -14750,7 +14750,7 @@
     ns1:電話番号 "6414-2488" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "2ケ月目" ;
+[] ns8:歳児入所時期 "2ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★しもさかべ幼
@@ -14768,7 +14768,7 @@
     ns1:電話番号 "6415-7618" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "2ケ月目" ;
+[] ns8:歳児入所時期 "2ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★しもさかべ幼
@@ -14786,7 +14786,7 @@
     ns1:電話番号 "4961-6599" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """ベビー・メーソン・サカタ
@@ -14802,7 +14802,7 @@
     ns1:電話番号 "6431-6705" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14821,7 +14821,7 @@
     ns1:電話番号 "6492-1185" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "2ケ月目" ;
+[] ns8:歳児入所時期 "2ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★上坂部保育園
@@ -14838,7 +14838,7 @@
     ns1:電話番号 "6493-0157" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14855,7 +14855,7 @@
     ns1:電話番号 "6429-8601" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "七 松 保 育 所" ;
@@ -14871,7 +14871,7 @@
     ns1:電話番号 "6417-8140" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "七 松 幼 稚 園" ;
@@ -14887,7 +14887,7 @@
     ns1:電話番号 "6418-6732" ;
     ns1:類型 "幼保" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14904,7 +14904,7 @@
     ns1:電話番号 "6492-5871" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -14921,7 +14921,7 @@
     ns1:電話番号 "6429-8677" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "今 北 保 育 所" ;
@@ -14943,7 +14943,7 @@
     ns1:電話番号 "6416-3184" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "元 浜 保 育 所" ;
@@ -14959,7 +14959,7 @@
     ns1:電話番号 "6417-5436" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "北 難 波 保 育 所" ;
@@ -14980,7 +14980,7 @@
     ns1:電話番号 "6481-0315" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "南 杭 瀬 保 育 所" ;
@@ -14996,7 +14996,7 @@
     ns1:電話番号 "6401-0913" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "南武庫 之荘保育所" ;
@@ -15018,7 +15018,7 @@
     ns1:電話番号 "6438-3265" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15035,7 +15035,7 @@
     ns1:電話番号 "6492-2055" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "博 栄 保 育 園" ;
@@ -15051,7 +15051,7 @@
     ns1:電話番号 "6423-7816" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "善 法 寺 保 育 園" ;
@@ -15067,7 +15067,7 @@
     ns1:電話番号 "6492-9041" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "4ケ月目" ;
+[] ns8:歳児入所時期 "4ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15084,7 +15084,7 @@
     ns1:電話番号 "6492-4706" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15107,7 +15107,7 @@
     ns1:電話番号 "6491-6838" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15124,7 +15124,7 @@
     ns1:電話番号 "6491-5400" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15147,7 +15147,7 @@
     ns1:電話番号 "6421-0175" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "塚 口 北 保 育 所" ;
@@ -15163,7 +15163,7 @@
     ns1:電話番号 "6422-4900" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15180,7 +15180,7 @@
     ns1:電話番号 "4960-8880" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15197,7 +15197,7 @@
     ns1:電話番号 "6419-3288" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "大 庄 保 育 所" ;
@@ -15213,7 +15213,7 @@
     ns1:電話番号 "6417-3890" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "大 西 保 育 所" ;
@@ -15230,7 +15230,7 @@
     ns1:電話番号 "6429-6731" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15247,7 +15247,7 @@
     ns1:電話番号 "6494-5035" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "富 松 保 育 所" ;
@@ -15264,7 +15264,7 @@
     ns1:電話番号 "6422-7770" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15281,7 +15281,7 @@
     ns1:電話番号 "6428-0367" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15300,7 +15300,7 @@
     ns1:電話番号 "6401-0912" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15318,7 +15318,7 @@
     ns1:電話番号 "6412-2746" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "〇" ;
@@ -15336,7 +15336,7 @@
     ns1:電話番号 "6481-1083" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "慈 愛 保 育 園" ;
@@ -15352,7 +15352,7 @@
     ns1:電話番号 "6481-6231" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "戸 ノ 内 保 育 所" ;
@@ -15368,7 +15368,7 @@
     ns1:電話番号 "6499-2230" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15387,7 +15387,7 @@
     ns1:電話番号 "6401-5035" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "杭 瀬 保 育 所" ;
@@ -15409,7 +15409,7 @@
     ns1:電話番号 "6481-0483" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "東難波 乳児保育所" ;
@@ -15425,7 +15425,7 @@
     ns1:電話番号 "6482-4480" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "梅 の 花 保 育 園" ;
@@ -15441,7 +15441,7 @@
     ns1:電話番号 "6481-4596" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "梅 花 東 幼 稚 園" ;
@@ -15455,7 +15455,7 @@
     ns1:電話番号 "6488-7742" ;
     ns1:類型 "幼" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "次 屋 保 育 所" ;
@@ -15471,7 +15471,7 @@
     ns1:電話番号 "6499-2220" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★武庫からたち
@@ -15489,7 +15489,7 @@
     ns1:電話番号 "6431-0202" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "★七松幼稚園" ;
@@ -15505,7 +15505,7 @@
     ns1:電話番号 "6437-5050" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "武庫コリス保育園" ;
@@ -15520,7 +15520,7 @@
     ns1:電話番号 "6437-4188" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★明和幼稚園
@@ -15539,7 +15539,7 @@
     ns1:電話番号 "6432-3366" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """武庫之荘保育園
@@ -15556,7 +15556,7 @@
     ns1:電話番号 "6433-2263" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "武 庫 南 保 育 所" ;
@@ -15572,7 +15572,7 @@
     ns1:電話番号 "6437-5529" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "武庫川 乳児保育所" ;
@@ -15588,7 +15588,7 @@
     ns1:電話番号 "6418-2318" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """武 庫 庄 保 育 園
@@ -15606,7 +15606,7 @@
     ns1:電話番号 "6433-2425" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """武 庫 庄 保 育 園
@@ -15639,7 +15639,7 @@
     ns1:電話番号 "6438-0030" ;
     ns1:類型 "幼" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり """★武庫東からた
@@ -15658,7 +15658,7 @@
     ns1:電話番号 "6432-4343" ;
     ns1:類型 "Ａ" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "武 庫 東 保 育 所" ;
@@ -15674,7 +15674,7 @@
     ns1:電話番号 "6431-0218" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "水 堂 保 育 所" ;
@@ -15690,7 +15690,7 @@
     ns1:電話番号 "6436-8680" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15710,7 +15710,7 @@
     ns1:電話番号 "6499-3266" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "浜つばめ保育園" ;
@@ -15726,7 +15726,7 @@
     ns1:電話番号 "6499-8455" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "〇" ;
@@ -15744,7 +15744,7 @@
     ns1:電話番号 "6499-9622" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "浜 田 保 育 園" ;
@@ -15761,7 +15761,7 @@
     ns1:電話番号 "6411-0305" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "4ケ月目" ;
+[] ns8:歳児入所時期 "4ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """潮   保   育   園
@@ -15779,7 +15779,7 @@
     ns1:電話番号 "6431-6532" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "4ケ月目" ;
+[] ns8:歳児入所時期 "4ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15798,7 +15798,7 @@
     ns1:電話番号 "6492-4811" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "田能っ子保育園" ;
@@ -15814,7 +15814,7 @@
     ns1:電話番号 "6494-2100" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "−" ;
+[] ns8:歳児入所時期 "−" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "百合学院幼稚園" ;
@@ -15834,7 +15834,7 @@
     ns1:電話番号 "6491-7681" ;
     ns1:類型 "幼" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "神 崎 保 育 所" ;
@@ -15850,7 +15850,7 @@
     ns1:電話番号 "6499-3000" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "立花うるま保育園" ;
@@ -15866,7 +15866,7 @@
     ns1:電話番号 "6429-3081" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15888,7 +15888,7 @@
     ns1:電話番号 "6427-5048" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "産休明け" ;
+[] ns8:歳児入所時期 "産休明け" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "○" ;
@@ -15906,7 +15906,7 @@
     ns1:電話番号 "6426-5252" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "−" ;
+[] ns8:歳児入所時期 "−" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "立花愛 の園幼稚園" ;
@@ -15922,7 +15922,7 @@
     ns1:電話番号 "6429-0308" ;
     ns1:類型 "幼" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "築 地 保 育 所" ;
@@ -15938,7 +15938,7 @@
     ns1:電話番号 "6401-4000" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "5ケ月目" ;
+[] ns8:歳児入所時期 "5ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "若 葉 保 育 園" ;
@@ -15954,7 +15954,7 @@
     ns1:電話番号 "6482-1153" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "6ケ月目" ;
+[] ns8:歳児入所時期 "6ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """西 武 庫 み の り
@@ -15971,7 +15971,7 @@
     ns1:電話番号 "6438-3915" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "西 長 洲 保 育 所" ;
@@ -15987,7 +15987,7 @@
     ns1:電話番号 "6481-0573" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "4ケ月目" ;
+[] ns8:歳児入所時期 "4ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "近 松 保 育 園" ;
@@ -16003,7 +16003,7 @@
     ns1:電話番号 "6470-3033" ;
     ns1:類型 "-" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:一時預かり "〇" ;
@@ -16021,7 +16021,7 @@
     ns1:電話番号 "6411-8998" ;
     ns1:類型 "幼保" .
 
-[] ns5:歳児入所時期 "-" ;
+[] ns8:歳児入所時期 "-" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 "難波愛 の園幼稚園" ;
@@ -16036,7 +16036,7 @@
     ns1:電話番号 "6482-2206" ;
     ns1:類型 "幼" .
 
-[] ns5:歳児入所時期 "3ケ月目" ;
+[] ns8:歳児入所時期 "3ケ月目" ;
     ns1:code "282022" ;
     ns1:ref <http://www.city.amagasaki.hyogo.jp/dbps_data/_material_/_files/000/000/038/601/syuuseisisetuichirann.pdf> ;
     ns1:保育施設名 """駅 前 か し の 木
@@ -17453,8 +17453,8 @@
     ns1:園名 "上ケ原" ;
     ns1:所在地 "上ケ原三番町６－２７" ;
     ns1:電話番号 "0798-51-2700" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17501,8 +17501,8 @@
     ns1:園名 "今津" ;
     ns1:所在地 "今津二葉町４－１０" ;
     ns1:電話番号 "0798-26-0845" ;
-    ns2:歳児定員 "募集なし" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "募集なし" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17533,8 +17533,8 @@
     ns1:園名 "付属あおぞら" ;
     ns1:所在地 "津田町３－４０" ;
     ns1:電話番号 "0798-35-8086" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000832400030008700514.html> ;
@@ -17595,16 +17595,16 @@
     ns1:園名 "南甲子園" ;
     ns1:所在地 "南甲子園３丁目２－２４" ;
     ns1:電話番号 "0798-46-1608" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "35" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "35" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000445800030008700514.html> ;
     ns1:園名 "名塩" ;
     ns1:所在地 "名塩１丁目４１－１５" ;
     ns1:電話番号 "0797-61-0952" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17641,8 +17641,8 @@
     ns1:園名 "夙川" ;
     ns1:所在地 "松ケ丘町９－２３" ;
     ns1:電話番号 "0798-72-2951" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17713,8 +17713,8 @@
     ns1:園名 "大社" ;
     ns1:所在地 "柳本町１－８" ;
     ns1:電話番号 "0798-74-4051" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17782,8 +17782,8 @@
     ns1:園名 "小松" ;
     ns1:所在地 "小松北町２丁目４－１" ;
     ns1:電話番号 "0798-46-4087" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17802,8 +17802,8 @@
     ns1:園名 "山口" ;
     ns1:所在地 "山口町下山口４丁目１－５" ;
     ns1:電話番号 "078-904-3707" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -17882,8 +17882,8 @@
     ns1:園名 "春風" ;
     ns1:所在地 "今津野田町２－６" ;
     ns1:電話番号 "0798-26-6152" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18036,8 +18036,8 @@
     ns1:園名 "浜脇" ;
     ns1:所在地 "宮前町８－２２" ;
     ns1:電話番号 "0798-33-0835" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18056,8 +18056,8 @@
     ns1:園名 "瓦木" ;
     ns1:所在地 "中島町５－２" ;
     ns1:電話番号 "0798-64-5017" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18088,16 +18088,16 @@
     ns1:園名 "生瀬" ;
     ns1:所在地 "生瀬町２丁目３－１６" ;
     ns1:電話番号 "0797-84-9464" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000445800030008700514.html> ;
     ns1:園名 "用海" ;
     ns1:所在地 "石在町１７－２９" ;
     ns1:電話番号 "0798-23-8312" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "35" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "35" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18355,8 +18355,8 @@
     ns1:園名 "越木岩" ;
     ns1:所在地 "美作町６－１０" ;
     ns1:電話番号 "0798-72-4499" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000832400030008700514.html> ;
@@ -18372,8 +18372,8 @@
     ns1:園名 "門戸" ;
     ns1:所在地 "門戸東町３－２５" ;
     ns1:電話番号 "0798-52-5447" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000832400030008700514.html> ;
@@ -18405,8 +18405,8 @@
     ns1:園名 "高木" ;
     ns1:所在地 "伏原町３－４０" ;
     ns1:電話番号 "0798-65-0055" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18425,8 +18425,8 @@
     ns1:園名 "高須西" ;
     ns1:所在地 "高須町２丁目１－４５" ;
     ns1:電話番号 "0798-48-4121" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18457,8 +18457,8 @@
     ns1:園名 "鳴尾北" ;
     ns1:所在地 "花園町１０－２０" ;
     ns1:電話番号 "0798-41-6349" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18477,8 +18477,8 @@
     ns1:園名 "鳴尾東" ;
     ns1:所在地 "笠屋町３０－４７" ;
     ns1:電話番号 "0798-41-4542" ;
-    ns2:歳児定員 "30" ;
-    ns6:歳児定員 "70" .
+    ns3:歳児定員 "30" ;
+    ns9:歳児定員 "70" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -18909,7 +18909,7 @@
     ns1:所在地 "芦屋市公光町2番10号" ;
     ns1:電話番号 "0797-22-5481" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "A" ;
@@ -18918,7 +18918,7 @@
     ns1:所在地 "伊丹7丁目1番30号" ;
     ns1:電話番号 "782-8397" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "B" ;
@@ -18927,9 +18927,9 @@
     ns1:所在地 "池尻6丁目231番地" ;
     ns1:電話番号 "777-4102" .
 
-[] ns4:歳児 "80" ;
-    ns7:歳児 "45" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "80" ;
+    ns2:歳児 "45" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "いずみ" ;
@@ -18937,7 +18937,7 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "778-0122" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "E" ;
@@ -18946,7 +18946,7 @@
     ns1:所在地 "大野2丁目159番地" ;
     ns1:電話番号 "770-2460" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "E" ;
@@ -18955,7 +18955,7 @@
     ns1:所在地 "鴻池4丁目4番4号" ;
     ns1:電話番号 "779-7825" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "F" ;
@@ -18964,7 +18964,7 @@
     ns1:所在地 "山田2丁目4番2号" ;
     ns1:電話番号 "779-4165" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "F" ;
@@ -18973,7 +18973,7 @@
     ns1:所在地 "野間1丁目10番16号" ;
     ns1:電話番号 "783-4670" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "A" ;
@@ -18982,7 +18982,7 @@
     ns1:所在地 "御願塚6丁目3番50号" ;
     ns1:電話番号 "779-6138" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "F" ;
@@ -18991,7 +18991,7 @@
     ns1:所在地 "昆陽南2丁目1番7号" ;
     ns1:電話番号 "779-8660" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "B" ;
@@ -19000,7 +19000,7 @@
     ns1:所在地 "寺本2丁目77番地" ;
     ns1:電話番号 "781-6456" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "D" ;
@@ -19009,9 +19009,9 @@
     ns1:所在地 "瑞穂町3丁目46番地" ;
     ns1:電話番号 "782-8552" .
 
-[] ns4:歳児 "80" ;
-    ns7:歳児 "若干" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "80" ;
+    ns2:歳児 "若干" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "ロザリオ" ;
@@ -19019,9 +19019,9 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "782-3837" .
 
-[] ns4:歳児 "35" ;
-    ns7:歳児 "若干" ;
-    ns8:歳児 "若干" ;
+[] ns5:歳児 "35" ;
+    ns2:歳児 "若干" ;
+    ns6:歳児 "若干" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "二葉" ;
@@ -19029,7 +19029,7 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "772-6641" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "A" ;
@@ -19038,7 +19038,7 @@
     ns1:所在地 "桜ヶ丘1丁目5番20号" ;
     ns1:電話番号 "784-4872" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "A" ;
@@ -19047,7 +19047,7 @@
     ns1:所在地 "御願塚2丁目2番23号" ;
     ns1:電話番号 "772-2331" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "E" ;
@@ -19056,9 +19056,9 @@
     ns1:所在地 "荒牧南3丁目1番21号" ;
     ns1:電話番号 "783-4671" .
 
-[] ns4:歳児 "50" ;
-    ns7:歳児 "6" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "50" ;
+    ns2:歳児 "6" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "月影" ;
@@ -19066,7 +19066,7 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "775-0221" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "B" ;
@@ -19075,9 +19075,9 @@
     ns1:所在地 "中野西4丁目92番地" ;
     ns1:電話番号 "783-4672" .
 
-[] ns4:歳児 "45" ;
-    ns7:歳児 "-" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "45" ;
+    ns2:歳児 "-" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "王たるキリスト" ;
@@ -19085,9 +19085,9 @@
     ns1:満3歳児 "若干" ;
     ns1:電話番号 "772-2489" .
 
-[] ns4:歳児 "185" ;
-    ns7:歳児 "10" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "185" ;
+    ns2:歳児 "10" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "白ゆり" ;
@@ -19095,7 +19095,7 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "782-3077" .
 
-[] ns7:歳児 "60人" ;
+[] ns2:歳児 "60人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "B" ;
@@ -19104,7 +19104,7 @@
     ns1:所在地 "昆陽1丁目213番地" ;
     ns1:電話番号 "783-5105" .
 
-[] ns7:歳児 "30人" ;
+[] ns2:歳児 "30人" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:ブロック "D" ;
@@ -19113,9 +19113,9 @@
     ns1:所在地 "大鹿5丁目67番地" ;
     ns1:電話番号 "784-4938" .
 
-[] ns4:歳児 "50" ;
-    ns7:歳児 "6" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "50" ;
+    ns2:歳児 "6" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "美鈴月影" ;
@@ -19123,9 +19123,9 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "781-0696" .
 
-[] ns4:歳児 "90" ;
-    ns7:歳児 "-" ;
-    ns8:歳児 "-" ;
+[] ns5:歳児 "90" ;
+    ns2:歳児 "-" ;
+    ns6:歳児 "-" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "西伊丹" ;
@@ -19133,9 +19133,9 @@
     ns1:満3歳児 "-" ;
     ns1:電話番号 "783-2351" .
 
-[] ns4:歳児 "70" ;
-    ns7:歳児 "-" ;
-    ns8:歳児 "若干" ;
+[] ns5:歳児 "70" ;
+    ns2:歳児 "-" ;
+    ns6:歳児 "若干" ;
     ns1:code "282073" ;
     ns1:ref <http://www.city.itami.lg.jp/SOSIKI/EDGAKO/GAKUZI/SYUGAKUEN/1386663297112.html> ;
     ns1:園名 "野間" ;
@@ -19848,7 +19848,7 @@
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "伊保崎5丁目7番1号            　079－447－5209" ;
+    ns7:電話番号 "伊保崎5丁目7番1号            　079－447－5209" ;
     ns1:施設名 "さいしゅうじこども園" ;
     ns1:開所時間 "平日 7時～20時            土曜 7時～20時" .
 
@@ -19856,7 +19856,7 @@
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
     ns1:休日保育 "○" ;
-    ns11:電話番号 "緑丘1丁目1番14号             　079-442-1020" ;
+    ns7:電話番号 "緑丘1丁目1番14号             　079-442-1020" ;
     ns1:施設名 "みどり丘こども園" ;
     ns1:開所時間 "平日 7時～19時             土曜 7時～19時" .
 
@@ -19869,7 +19869,7 @@
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "中筋2丁目1番7号             　079-447-2640" ;
+    ns7:電話番号 "中筋2丁目1番7号             　079-447-2640" ;
     ns1:施設名 "中筋保育園" ;
     ns1:開所時間 "平日 7時～19時            土曜 7時～19時" .
 
@@ -19887,7 +19887,7 @@
 
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
-    ns11:電話番号 "曽根町788番地の1             　079-447-1641" ;
+    ns7:電話番号 "曽根町788番地の1             　079-447-1641" ;
     ns1:施設名 "子供の園保育園" ;
     ns1:開所時間 "平日 7時～19時             土曜 7時～19時" .
 
@@ -19912,13 +19912,13 @@
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "荒井町千鳥2丁目23番12号            　079‐442－0658" ;
+    ns7:電話番号 "荒井町千鳥2丁目23番12号            　079‐442－0658" ;
     ns1:施設名 "白兎愛育園" ;
     ns1:開所時間 "平日 7時～19時            土曜 7時～19時" .
 
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
-    ns11:電話番号 "高砂町松波町440番地の4            　079-442-4416" ;
+    ns7:電話番号 "高砂町松波町440番地の4            　079-442-4416" ;
     ns1:施設名 "真浄寺きくなみ保育園" ;
     ns1:開所時間 "平日 7時～19時             土曜 8時～17時" .
 
@@ -19937,21 +19937,21 @@
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "米田町米田190            　079-431-1471" ;
+    ns7:電話番号 "米田町米田190            　079-431-1471" ;
     ns1:施設名 "米田西保育園" ;
     ns1:開所時間 "平日 7時～20時             土曜 7時～18時" .
 
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "美保里13番1号             　079-442-0088" ;
+    ns7:電話番号 "美保里13番1号             　079-442-0088" ;
     ns1:施設名 "美保里こども園" ;
     ns1:開所時間 "平日 7時～19時             土曜 7時～19時" .
 
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "阿弥陀町魚橋686番地             　079-448-1101" ;
+    ns7:電話番号 "阿弥陀町魚橋686番地             　079-448-1101" ;
     ns1:施設名 "聖パウロこども園" ;
     ns1:開所時間 "平日 7時～19時             土曜 7時～18時" .
 
@@ -19970,14 +19970,14 @@
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "阿弥陀町魚橋1674番地            　079－448－2333" ;
+    ns7:電話番号 "阿弥陀町魚橋1674番地            　079－448－2333" ;
     ns1:施設名 "認定こども園　            正蓮寺保育園" ;
     ns1:開所時間 "平日 7時～19時            土曜 7時～19時" .
 
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
     ns1:一時預り "○" ;
-    ns11:電話番号 "伊保3丁目15番17号             　079-447-0018" ;
+    ns7:電話番号 "伊保3丁目15番17号             　079-447-0018" ;
     ns1:施設名 "認定こども園            真浄寺保育園" ;
     ns1:開所時間 "平日 7時～19時            土曜 7時～18時" .
 
@@ -20697,7 +20697,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "かしわの保育所" ;
-    ns10:の紹介 "パンフレット（かしわの） (PDF：144.6KB)" ;
+    ns11:の紹介 "パンフレット（かしわの） (PDF：144.6KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "なし" ;
     ns1:所在地 "山崎町加生87-4" ;
@@ -20708,7 +20708,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "くりのみ保育園" ;
-    ns10:の紹介 "パンフレット（くりのみ） (PDF：145KB)" ;
+    ns11:の紹介 "パンフレット（くりのみ） (PDF：145KB)" ;
     ns1:定員 "80人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町段43" ;
@@ -20719,7 +20719,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "ちくさ杉の子こども園（幼保連携型）" ;
-    ns10:の紹介 "パンフレット（杉の子） (PDF：143.6KB)" ;
+    ns11:の紹介 "パンフレット（杉の子） (PDF：143.6KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "千種町千草1-1" ;
@@ -20730,7 +20730,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "ののはな保育園" ;
-    ns10:の紹介 "パンフレット（ののはな） (PDF：131.9KB)" ;
+    ns11:の紹介 "パンフレット（ののはな） (PDF：131.9KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町生谷149" ;
@@ -20741,7 +20741,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "みのりこども園（幼保連携型）" ;
-    ns10:の紹介 "パンフレット（みのり） (PDF：127.4KB)" ;
+    ns11:の紹介 "パンフレット（みのり） (PDF：127.4KB)" ;
     ns1:定員 "105人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町高下408-3" ;
@@ -20752,7 +20752,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "一宮ひかり保育所" ;
-    ns10:の紹介 "パンフレット（ひかり） (PDF：138.6KB)" ;
+    ns11:の紹介 "パンフレット（ひかり） (PDF：138.6KB)" ;
     ns1:定員 "70人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "一宮町安積1343-1" ;
@@ -20763,7 +20763,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "一宮北保育所" ;
-    ns10:の紹介 "パンフレット（一宮北） (PDF：151.1KB)" ;
+    ns11:の紹介 "パンフレット（一宮北） (PDF：151.1KB)" ;
     ns1:定員 "35人" ;
     ns1:延長保育 "なし" ;
     ns1:所在地 "一宮町福野135" ;
@@ -20774,7 +20774,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "一宮南保育所" ;
-    ns10:の紹介 "パンフレット（一宮南） (PDF：147.1KB)" ;
+    ns11:の紹介 "パンフレット（一宮南） (PDF：147.1KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "なし" ;
     ns1:所在地 "一宮町安黒821" ;
@@ -20785,7 +20785,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "城東保育所" ;
-    ns10:の紹介 "パンフレット（城東） (PDF：153.4KB)" ;
+    ns11:の紹介 "パンフレット（城東） (PDF：153.4KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "なし" ;
     ns1:所在地 "山崎町野300" ;
@@ -20796,7 +20796,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "山崎聖旨保育園" ;
-    ns10:の紹介 "パンフレット（聖旨） (PDF：146.1KB)" ;
+    ns11:の紹介 "パンフレット（聖旨） (PDF：146.1KB)" ;
     ns1:定員 "70人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町鹿沢101" ;
@@ -20807,7 +20807,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "山崎若葉保育園" ;
-    ns10:の紹介 "パンフレット（若葉） (PDF：142.3KB)" ;
+    ns11:の紹介 "パンフレット（若葉） (PDF：142.3KB)" ;
     ns1:定員 "70人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町上寺244" ;
@@ -20818,7 +20818,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "なし" ;
     ns1:名称 "戸原保育所" ;
-    ns10:の紹介 "パンフレット（戸原） (PDF：152.5KB)" ;
+    ns11:の紹介 "パンフレット（戸原） (PDF：152.5KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "なし" ;
     ns1:所在地 "山崎町宇原322-2" ;
@@ -20829,7 +20829,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "段ちびっこえん" ;
-    ns10:の紹介 "パンフレット（段） (PDF：141.2KB)" ;
+    ns11:の紹介 "パンフレット（段） (PDF：141.2KB)" ;
     ns1:定員 "40人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町段343-4" ;
@@ -20840,7 +20840,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "波賀みどり保育園" ;
-    ns10:の紹介 "パンフレット（みどり） (PDF：154.6KB)" ;
+    ns11:の紹介 "パンフレット（みどり） (PDF：154.6KB)" ;
     ns1:定員 "60人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "波賀町安賀54-1" ;
@@ -20851,7 +20851,7 @@
     ns1:ref <http://www.city.shiso.lg.jp/kurashi/kosodadekyoiku/yotien_hoikusyo/1454286915780.html> ;
     ns1:一時保育 "あり" ;
     ns1:名称 "誠心学園保育園" ;
-    ns10:の紹介 "パンフレット（誠心） (PDF：130.4KB)" ;
+    ns11:の紹介 "パンフレット（誠心） (PDF：130.4KB)" ;
     ns1:定員 "90人" ;
     ns1:延長保育 "あり" ;
     ns1:所在地 "山崎町門前181" ;
@@ -21121,7 +21121,7 @@
     ns1:定員 "19人" ;
     ns1:延長保育 "〇" ;
     ns1:所在地 "稲美町国安1256番地" ;
-    ns12:病後児保育 "－" ;
+    ns4:病後児保育 "－" ;
     ns1:電話 "079-441-8423    （社会福祉法人日の出福祉会　法人本部）" .
 
 [] ns1:code "283819" ;
@@ -21132,7 +21132,7 @@
     ns1:定員 "120人" ;
     ns1:延長保育 "－" ;
     ns1:所在地 "稲美町森安29番地" ;
-    ns12:病後児保育 "－" ;
+    ns4:病後児保育 "－" ;
     ns1:電話 "079-492-0304" .
 
 [] ns1:code "283819" ;
@@ -21142,7 +21142,7 @@
     ns1:定員 "120人" ;
     ns1:延長保育 "〇" ;
     ns1:所在地 "稲美町岡916番地の1" ;
-    ns12:病後児保育 "－" ;
+    ns4:病後児保育 "－" ;
     ns1:電話 "079-492-4140" .
 
 [] ns1:code "283819" ;
@@ -21152,7 +21152,7 @@
     ns1:定員 "60人" ;
     ns1:延長保育 "〇" ;
     ns1:所在地 "稲美町加古2314番地の3" ;
-    ns12:病後児保育 "－" ;
+    ns4:病後児保育 "－" ;
     ns1:電話 "079-492-4810" .
 
 [] ns1:code "283819" ;
@@ -21194,7 +21194,7 @@
     ns1:定員 "120人" ;
     ns1:延長保育 "〇" ;
     ns1:所在地 "稲美町野寺95番地の5" ;
-    ns12:病後児保育 "－" ;
+    ns4:病後児保育 "－" ;
     ns1:電話 "079-495-2343" .
 
 [] ns1:code "283819" ;
@@ -21224,7 +21224,7 @@
     ns1:保育施設名 """幼保連携型認定こども園
 
 キューピットこども園（仮）""" ;
-    ns9:教育標準時間 """７：００～１８：００
+    ns12:教育標準時間 """７：００～１８：００
 （８：３０～１６：３０）
 
 8：３０～１２：３０""" ;
@@ -21239,7 +21239,7 @@
     ns1:保育施設名 """幼保連携型認定こども園
 
 播磨中央こども園（仮）""" ;
-    ns9:教育標準時間 """７：３０～１８：３０
+    ns12:教育標準時間 """７：３０～１８：３０
 （８：００～１６：００）
 9：００～１３：００""" ;
     <https://hkwi.github.io/U5/scheme#所在地（播磨町）> "南大中１丁目５番１３号" ;
@@ -21266,7 +21266,7 @@
     ns1:保育標準時間保育短時間 """７：３０～１８：００
 
 ８：３０～１６：３０""" ;
-    ns9:教育標準時間 """７：３０～１８：００
+    ns12:教育標準時間 """７：３０～１８：００
 （８：３０～１６：３０）
      －""" ;
     ns1:定員 "210" ;
@@ -21284,7 +21284,7 @@
     ns1:保育標準時間保育短時間 """７：００～１８：００
 
 ８：３０～１６：３０""" ;
-    ns9:教育標準時間 """７：００～１８：００
+    ns12:教育標準時間 """７：００～１８：００
 （８：３０～１６：３０）
      －""" ;
     ns1:定員 "160" ;
