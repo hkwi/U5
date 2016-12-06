@@ -244,7 +244,7 @@
 
 		<div class="pageTopOption">
 			
-			<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=5190', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧">
+			<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=8400', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧">
 				<img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0">
 			</a>
 			
@@ -669,7 +669,7 @@
 			
 				&nbsp;
 			
-			&nbsp;<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=7988', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧"><img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0"></a>
+			&nbsp;<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=3690', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧"><img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0"></a>
 		
 			&nbsp;<a href="javascript:history.back()" title="戻る"><img src="/designs/default_lower/images/back.gif" align="middle" alt="戻る" border="0"></a>
 			

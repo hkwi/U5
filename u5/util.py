@@ -6,6 +6,7 @@ import glob
 import hashlib
 import functools
 import os.path
+import collections
 import contextlib
 import logging
 import subprocess
@@ -16,6 +17,9 @@ import requests
 import pdftableextract as pte
 from .html_table import Table
 from urllib.parse import urlparse
+
+import janome.tokenizer
+tk = janome.tokenizer.Tokenizer()
 
 env_stack = [dict(
 	meta="docs/meta.ttl",
@@ -216,6 +220,100 @@ class res(object):
 					for main in root.cssselect(css):
 						for tb in main.cssselect("table"):
 							yield Table(tb).matrix(txt)
+	
+	def triples(self):
+		assert self.env.get("code"), self.env
+		
+		for tb in self.tables():
+			if len(tb) < 2:
+				continue
+			if len(set([len(t) for t in tb])) > 1:
+				logging.warn("table alignment broken in %s" % self.url)
+			
+			def scan(word):
+				for i,row in enumerate(tb):
+					for j,cell in enumerate(row):
+						if "。" in cell:
+							continue # 文は見出しではない
+						
+						if isinstance(word, str):
+							if word == re.sub(r"[\s　]*", "", cell):
+								return (i,j) # 完全一致
+							
+							tks = tk.tokenize(re.sub(r"[\s　]*", "", cell))
+							for t in tks:
+								if word == t.surface:
+									return (i,j)
+						elif isinstance(word, tuple):
+							tks = tk.tokenize(re.sub(r"[\s　]*", "", cell))
+							sq = [t.surface for t in tks]
+							if len(sq) > word:
+								for i in range(len(sq)-len(word)):
+									if sq[i:i+len(word)] == word:
+										return (i,j)
+			
+			pkeys = []
+			for k in ("名", "施設名", "園名", "名称", "施設名", "設置名"):
+				idx = scan(k)
+				if idx:
+					pkeys.append(idx)
+			
+			keys = []
+			for k in ("住所", "所在", "電話", "定員", "位置"):
+				idx = scan(k)
+				if idx:
+					keys.append(idx)
+			
+			def triples(table, idx_row):
+				idx = None
+				for i,row in enumerate(table):
+					if i==idx_row:
+						idx = row
+						continue
+					
+					if idx:
+						name = re.sub(r"[\s　]*", "", "".join([row[k[1]] for k in pkeys]))
+						if name:
+							code = self.env.get("code")
+							b = rdflib.BNode(code+name)
+							yield b, NS1["ref"], rdflib.URIRef(self.url)
+							yield b, NS1["code"], rdflib.Literal(code)
+							for k,v in zip(idx, row):
+								field = re.sub(r"[\s　]*", "", k)
+								value = v.strip()
+								fixup = self.env.get("fixup")
+								if fixup:
+									value = fixup(value)
+								
+								if field and value:
+									yield b, NS1[field], rdflib.Literal(value)
+			
+			# print(pkeys, keys, self.url)
+			ki = set([i[0] for i in pkeys+keys])
+			kj = set([i[1] for i in pkeys+keys])
+			
+			def maybe_index(ks):
+				if len(set(ks))==1:
+					return True
+				
+				c = collections.Counter()
+				for k in ks:
+					c[k] += 1
+				com = c.most_common()
+				if len(com)>1 and com[0][1] > 1 and not [True for n in com[1:] if n[1]!=1]:
+					return True
+			
+			if maybe_index([i[0] for i in pkeys+keys])==1 and len(kj) > 1:
+				for t in triples(tb, ki.pop()):
+					yield t
+			elif len(ki) > 1 and len(kj)==1:
+				us = [[]]*len(tb[0])
+				for i,row in enumerate(tb):
+					for j,cell in enumerate(row):
+						us[j].append(cell)
+				
+				for t in triples(us, kj.pop()):
+					yield t
 	
 	@property
 	def path(self):
