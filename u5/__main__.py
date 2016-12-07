@@ -33,3 +33,7 @@ for obj in itertools.chain(*[t() for t in tasks]):
 
 with open("docs/all.ttl", "wb") as w:
 	g.serialize(destination=w, format="turtle")
+
+with open("docs/predicates.txt", "w", encoding="UTF-8") as w:
+	for p in sorted(set(g.predicates())):
+		w.write(str(p)+"\n")

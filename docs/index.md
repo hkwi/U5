@@ -7,3 +7,4 @@ layout: home
 
 未就学児の施設一覧を自動生成しています。
 - [抽出データ](all.ttl) : Turtle フォーマットです
+- [抽出キー](predicates.txt) : text 一覧です
