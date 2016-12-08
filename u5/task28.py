@@ -438,6 +438,7 @@ def 兵庫県_香美町():
 	# 兵庫県 香美町
 	yield res("http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html")
 	yield res("http://www.town.mikata-kami.lg.jp/www/contents/1147853811765/index.html")
+	yield res("http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html")
 
 @task
 @env(code="285862")

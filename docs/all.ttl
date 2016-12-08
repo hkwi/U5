@@ -26841,7 +26841,8 @@
     ns1:電話番号 "079-276-0949" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "村岡区福岡324" ;
     ns1:入園区域 "兎塚小学校区" ;
     ns1:入園対象年齢 "５歳児" ;
@@ -26857,7 +26858,8 @@
     ns1:電話番号 "0796-95-0044" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "村岡区入江712-1" ;
     ns1:入所対象年齢 "生後12ヶ月～４歳児" ;
     ns1:公私 "私" ;
@@ -26872,7 +26874,8 @@
     ns1:電話番号 "0796-36-1053" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区一日市157-1" ;
     ns1:入所対象年齢 "０～４歳児" ;
     ns1:公私 "私" ;
@@ -26881,7 +26884,8 @@
     ns1:電話番号 "36-1053" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区訓谷340" ;
     ns1:入園区域 "佐津小学校区" ;
     ns1:入園対象年齢 "５歳児、４歳児" ;
@@ -26891,7 +26895,8 @@
     ns1:電話番号 "38-0786" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区余部1697" ;
     ns1:入園区域 "余部小学校区" ;
     ns1:入園対象年齢 "５歳児、４歳児" ;
@@ -26901,7 +26906,8 @@
     ns1:電話番号 "34-0258" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区上岡180" ;
     ns1:入園区域 "奥佐津小学校区" ;
     ns1:入園対象年齢 "５歳児、４歳児" ;
@@ -26917,16 +26923,19 @@
     ns1:電話番号 "0796-98-1234" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "村岡区村岡371" ;
-    ns1:入所対象年齢 "生後12ヶ月～４歳児" ;
+    ns1:入所対象年齢 "生後11ヶ月～４歳児",
+        "生後12ヶ月～４歳児" ;
     ns1:公私 "私" ;
     ns1:定員 "40" ;
     ns1:施設名 "宝樹保育園" ;
     ns1:電話番号 "98-1234" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "村岡区川会38" ;
     ns1:入園区域 "射添小学校区" ;
     ns1:入園対象年齢 "５歳児" ;
@@ -26936,7 +26945,8 @@
     ns1:電話番号 "95-0648" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "小代区実山68" ;
     ns1:入園対象年齢 """〔教育〕３～５歳児\r
      〔保育〕１～５歳児""" ;
@@ -26946,7 +26956,8 @@
     ns1:電話番号 "97-2039" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "村岡区村岡2940" ;
     ns1:入園区域 "村岡小学校区" ;
     ns1:入園対象年齢 "５歳児" ;
@@ -26956,7 +26967,8 @@
     ns1:電話番号 "94-0241" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区上計2-4" ;
     ns1:入所対象年齢 "生後12ヶ月～４歳児" ;
     ns1:公私 "公" ;
@@ -26965,7 +26977,8 @@
     ns1:電話番号 "37-0352" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区上計34" ;
     ns1:入園区域 "柴山小学校区" ;
     ns1:入園対象年齢 "５歳児" ;
@@ -26975,16 +26988,19 @@
     ns1:電話番号 "37-0554" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "村岡区福岡1113" ;
     ns1:入所対象年齢 "生後12ヶ月～４歳児" ;
-    ns1:公私 "私" ;
+    ns1:公私 "公",
+        "私" ;
     ns1:定員 "30" ;
     ns1:施設名 "福岡保育所" ;
     ns1:電話番号 "96-0240" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区大野83-1" ;
     ns1:入園区域 "長井小学校区" ;
     ns1:入園対象年齢 "５歳児、４歳児" ;
@@ -27000,7 +27016,8 @@
     ns1:電話番号 "0796-36-3135" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区下浜595" ;
     ns1:入所対象年齢 "０～４歳児" ;
     ns1:公私 "私" ;
@@ -27009,7 +27026,8 @@
     ns1:電話番号 "36-3135" .
 
 [] ns1:code "285854" ;
-    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html> ;
+    ns1:ref <http://www.town.mikata-kami.lg.jp/www/contents/1412205118140/index.html>,
+        <http://www.town.mikata-kami.lg.jp/www/contents/1415600961628/index.html> ;
     ns1:住所 "香住区香住1595-9" ;
     ns1:入園区域 "香住小学校区" ;
     ns1:入園対象年齢 "５歳児" ;
