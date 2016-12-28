@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta name="keywords" content="保育,申込" />
-<title>保育所について | 稲美町ホームページ</title>
+<title>保育所利用案内 | 稲美町ホームページ</title>
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/toolbox.js"></script>
 <script type="text/javascript" src="js/objects.js"></script>
@@ -56,20 +56,39 @@
 <li><a href="soshiki_view.php?so_cd1=2&amp;so_cd2=2&amp;so_cd3=0&amp;so_cd4=0&amp;so_cd5=0&amp;bn_cd=7">保育所</a></li>
 </ul>
 <div class="main_naka">
-<h1>保育所について</h1>
-<p class="syosai_hiduke">[2016年9月5日]</p>
+<h1>保育所利用案内</h1>
+<p class="syosai_hiduke">[2016年12月27日]</p>
 </div>
 </div>
 
 <div class="waku">
 <div class="clear">
 <div id="mol_contents" class="mol_contents">
-<div class="mol_textblock"><p>稲美町には公立の保育所はありませんが、私立の認可保育所が4園あります。</p><p>また、平成28（2016）年7月1日より新しく認可となる事業所内保育事業所「いなみ虹保育園」が開所します。</p><p>詳しくは各園に直接おたずねいただくか、下記のPDFファイルをご覧ください。</p><p>また、町外の保育所に預けたい場合や保育料等については、稲美町役場地域福祉課までお問い合わせください。</p></div>
-<h2>認可保育所</h2>
-<div class="mol_textblock"><p>保育所の位置は、いなみMAPで確認してください。<a href="http://www.town.hyogo-inami.lg.jp/map/map2.html">いなみMAPへのリンクはこちらから。</a></p></div>
-<div class="mol_tableblock"><table border="1" cellspacing="0" cellpadding="0" summary="認可保育所一覧"><caption>認可保育所一覧</caption><colgroup><col /><col /><col /><col /><col /><col span="2" /><col /></colgroup><tbody><tr><td>名称</td><td>所在地</td><td>電話</td><td>定員</td><td>休所日</td><td>延長保育</td><td>一時預かり</td><td>病児・病後児保育</td></tr><tr><td>バンビ第一保育園</td><td>稲美町森安29番地</td><td>079-492-0304</td><td>120人</td><td rowspan="5">日曜日<br />    国民の休日<br />    祝日<br />    年末年始</td><td>－</td><td>〇</td><td>－</td></tr><tr><td>バンビ第二保育園</td><td>稲美町岡916番地の1</td><td>079-492-4140</td><td>120人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>母里保育園</td><td>稲美町野寺95番地の5</td><td>079-495-2343</td><td>120人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>加古保育園</td><td>稲美町加古2314番地の3</td><td>079-492-4810</td><td>60人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>いなみ虹保育園<br />    （平成28（2016）年7月1日開所）</td><td>稲美町国安1256番地</td><td>079-441-8423<br />    （社会福祉法人日の出福祉会　法人本部）</td><td>19人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td colspan="8">※いなみ虹保育園の定員のうち、地域枠は5名となります。（地域枠とは、従業員以外の方の入所定員枠）</td></tr></tbody></table></div>
+<div class="mol_textblock"><p>　保育を利用できる施設・事業所としては、保育所（園）、認定こども園（保育所部分）、地域型保育事業の3種類があります。</p><p>　稲美町には公立の保育所はありませんが、私立の認可保育所が4園、地域型保育事業を行う事業所内保育事業所が1園あります。</p></div>
+<h2>保育所の申込</h2>
+<div class="mol_textblock">　利用申込の詳細については、下記のファイルをご確認ください。</div>
+<div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>平成29(2017)年度稲美町保育所等新規利用申込について</strong></p><ul><li><a href="./cmsfiles/contents/0000000/881/h29annai.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />平成29(2017)年度稲美町保育所等新規利用申込について(ファイル名：h29annai.pdf  サイズ：453.79KB)</a></li></ul></div>
+<h2>町内の保育所</h2>
+<div class="mol_textblock"><p>　保育所の位置は、いなみMAPで確認してください。<a href="http://www.town.hyogo-inami.lg.jp/map/map2.html">いなみMAPへのリンクはこちらから。</a></p></div>
+<div class="mol_tableblock"><table border="1" cellspacing="0" cellpadding="0" summary="認可保育所一覧"><caption>認可保育所一覧</caption><colgroup><col /><col /><col /><col /><col /><col span="2" /><col /></colgroup><tbody><tr><td>名称</td><td>所在地</td><td>電話</td><td>定員</td><td>休所日</td><td>延長保育</td><td>一時預かり</td><td>病児・病後児保育</td></tr><tr><td>バンビ第一保育園</td><td>稲美町森安29番地</td><td>079-492-0304</td><td>120人</td><td rowspan="5">日曜日<br />    国民の休日<br />    祝日<br />    年末年始</td><td>－</td><td>〇</td><td>－</td></tr><tr><td>バンビ第二保育園</td><td>稲美町岡916番地の1</td><td>079-492-4140</td><td>120人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>母里保育園</td><td>稲美町野寺95番地の5</td><td>079-495-2343</td><td>140人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>加古保育園</td><td>稲美町加古2314番地の3</td><td>079-492-4810</td><td>60人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td>いなみ虹保育園<br />    （平成28（2016）年7月1日開所）</td><td>稲美町国安1256番地</td><td>079-441-8423<br />    （社会福祉法人日の出福祉会　法人本部）</td><td>19人</td><td>〇</td><td>〇</td><td>－</td></tr><tr><td colspan="8">※いなみ虹保育園の定員のうち、地域枠は5名となります。（地域枠とは、従業員以外の方の入所定員枠）</td></tr></tbody></table></div>
 <div class="mol_textblock"><p>【備考】</p><ul><li>「延長保育」とは、11時間以上開所しており、さらに30分から4時間程度までの通常保育時間とは別に延長して保育することです。通常保育とは別に料金がかかりますのでご注意ください。</li><li>「一時預かり」とは、両親の病気や入院、災害、事故等により、緊急・一時的に家庭での保育ができないときや、保護者の育児疲れ解消等の私的な理由などに対応して、一時的に保育することです。</li><li>「病児・病後児保育」とは、町内に在住し、保育所に通っている乳幼児や小学校低学年の子どもが、病気または病気回復期のため集団生活が困難な時期に、看護師、保育士により一時的に子どもを預かり保育することです。</li></ul><p> </p><p>この他、詳細については次の「保育所詳細ダウンロード」でご確認ください。</p></div>
-<div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>保育所詳細ダウンロード</strong></p><ul><li><a href="./cmsfiles/contents/0000000/881/banbi1.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />バンビ第一保育園について (ファイル名：banbi1.pdf  サイズ：303.15KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/banbi2.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />バンビ第二保育園について (ファイル名：banbi2.pdf  サイズ：297.88KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/mori.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />母里保育園について (ファイル名：mori.pdf  サイズ：286.83KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/kako.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />加古保育園について (ファイル名：kako.pdf  サイズ：303.59KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/inaminiji.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />いなみ虹保育園について (ファイル名：inaminiji.pdf  サイズ：311.42KB)</a></li></ul></div>
+<div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>保育所詳細ダウンロード</strong></p><ul><li><a href="./cmsfiles/contents/0000000/881/H28bannbi1.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />バンビ第一保育園について (ファイル名：H28bannbi1.pdf  サイズ：293.18KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/H28bannbi2.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" /> バンビ第二保育園について(ファイル名：H28bannbi2.pdf  サイズ：287.64KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/H28mori.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />母里保育園について (ファイル名：H28mori.pdf  サイズ：286.63KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/H28kako.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" />加古保育園について (ファイル名：H28kako.pdf  サイズ：298.58KB)</a></li><li><a href="./cmsfiles/contents/0000000/881/H28inaminiji.pdf"><img width="22" height="24" class="icon" alt="" src="images/pdf.gif" /> いなみ虹保育園について(ファイル名：H28inaminiji.pdf  サイズ：323.62KB)</a></li></ul></div>
+<h2>延長保育</h2>
+<div class="mol_textblock"><p>　通常保育時間とは別に延長して保育を利用することができます。</p><p>　延長保育の利用の仕方は園により異なりますので、各園でご確認ください。</p><p>　延長保育料は以下のとおりです。</p></div>
+<div class="mol_tableblock"><table width="467" border="1" cellspacing="0" cellpadding="0" summary=""><caption>延長保育料</caption><colgroup><col width="147" /><col width="76" /><col width="244" /></colgroup><tbody><tr><td>園名</td><td>認定</td><td>料金</td></tr><tr><td>バンビ第一保育園</td><td>短時間</td><td>15時31分以降30分あたり100円</td></tr><tr><td rowspan="3">バンビ第二保育園<br />
+    母里保育園<br />
+    加古保育園</td><td>標準時間</td><td>18時16分以降　1日200円</td></tr><tr><td rowspan="2">短時間</td><td>7時15分から7時29分まで100円</td></tr><tr><td>15時31分以降30分あたり100円</td></tr><tr><td rowspan="3">いなみ虹保育園</td><td>標準時間</td><td>18時30分以降30分あたり200円</td></tr><tr><td rowspan="2">短時間</td><td>15時31分以降30分あたり100円</td></tr><tr><td>18時31分以降30分あたり200円</td></tr></tbody></table></div>
+<h2>一時預かり</h2>
+<div class="mol_textblock"><p>　保護者が急な用事や病気で児童を見ることができない場合や、育児疲れのリフレッシュを行う場合に、保育園において児童を一時的に預かります。</p><p>　（非定型的保育）　保育園入園の対象にならなかった児童の保育。　・・・　原則週3日の利用</p><p>　（緊急保育）　保護者が、入院・監護等のために一時的に家庭での保育ができない場合。　・・・　概ね1カ月利用可</p><p> </p><p>　対象者・・・小学校入学までの児童。</p><p>　利用可能園・・・バンビ第一保育園、バンビ第二保育園、母里保育園、加古保育園、いなみ虹保育園</p><p>　保育時間・・・平日（月曜日～金曜日）　午前9：00～午後6時</p><p>　　　　　　　　　※3月4月の年度変わり、8月のお盆休み前後、年末年始は実施していません。</p><p>　費用・・・0～2歳児　1日　2,000円、　3～5歳児　1日　1,600円、　給食・おやつ代　別途1日　300円</p><p>　その他・・・　申込方法等、各園により違いがありますので、事前に利用希望園へお問い合わせください。</p></div>
+<h2>障がい児保育</h2>
+<div class="mol_textblock"><p>　保育を必要とする乳幼児に心身などの障がいがある場合は、受入体制を考慮するうえで、専門医もしくは専門機関の意見書などが必要な場合があります。</p><p>　保育園または
+
+地域福祉課児童福祉係へご相談ください。</p></div>
+<h2>病後児保育</h2>
+<div class="mol_textblock"><p>　子どもが病気にかかり、急性期を過ぎて「回復期」に入った時、入院の必要はないが安静を必要とする場合に、保育園などの集団保育や家庭での保育ができない期間、</p><p>　病後児保育室で、その子の体調に合わせてゆったりと過ごすことで、無理なく体力を取り戻せるという子どもの立場に立った保育です。</p><p> </p><p>　〔実施施設〕　　（現在準備中）</p><p> </p><p>　利用の仕方は、下記のしおりをご確認ください。</p></div>
+<div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>ー準備中ー</strong></p><ul><li><a href="./cmsfiles/contents/0000000/881/byougosiori.docx"><img width="22" height="24" class="icon" alt="" src="images/doc.gif" />準備中（利用案内） (ファイル名：byougosiori.docx  サイズ：0.00byte)</a></li></ul></div>
+<div class="mol_textblock">申請書類</div>
+<div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>ー準備中ー</strong></p><ul><li><a href="./cmsfiles/contents/0000000/881/byougosinnsei.docx"><img width="22" height="24" class="icon" alt="" src="images/doc.gif" />準備中（申請書） (ファイル名：byougosinnsei.docx  サイズ：0.00byte)</a></li></ul></div>
 </div>
 </div>
 </div>
@@ -126,7 +145,7 @@ E-mail: tiiki-h@town.hyogo-inami.lg.jp
 </div>
 <hr />
 <div id="route_box">
-<p class="bold"><strong>保育所についてへの別ルート</strong></p>
+<p class="bold"><strong>保育所利用案内への別ルート</strong></p>
 <ul class="route clear">
 <li><a lang="en" xml:lang="en" href="/">HOME</a></li>
 <li><a href="category_list.php?frmCd=1-0-0-0-0">くらし</a></li>
