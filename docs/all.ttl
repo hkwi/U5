@@ -21113,7 +21113,7 @@
     ns1:乳児受入 "●あり" ;
     ns1:所在地電話番号 "〒662-0864西宮市越水町4-20(0798)72-6789" ;
     ns1:施設名 "あすなろ保育園" ;
-    <https://hkwi.github.io/U5/scheme#証明書交付の有無(※)> "なし" .
+    <https://hkwi.github.io/U5/scheme#証明書交付の有無(※)> "●あり" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
@@ -21619,7 +21619,7 @@
     ns1:所在地電話番号 "〒663-8178西宮市甲子園八番町1-100ららぽーと甲子園店内２F(080)4836-4319" ;
     ns1:施設名 "ラビキッズワールドららぽーと保育園" ;
     ns1:時間外 "●あり" ;
-    <https://hkwi.github.io/U5/scheme#証明書交付の有無(※)> "●あり" .
+    <https://hkwi.github.io/U5/scheme#証明書交付の有無(※)> "なし" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0003373200030002700230.html> ;
