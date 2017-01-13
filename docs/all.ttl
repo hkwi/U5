@@ -25616,23 +25616,16 @@
 
 [] ns1:No "10" ;
     ns1:code "282219" ;
-    ns1:ref <http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-2.html> ;
-    ns1:園名 """味間認定こども園すみよし園
-        味間認定こども園おとわ園""" ;
-    ns1:所在地 """味間新64-1
-        味間新315""" ;
-    ns1:郵便番号 """669-2214
-        669-2214""" ;
-    ns1:電話番号 """594-2259
-        594-0026""" .
-
-[] ns1:code "282219" ;
-    ns1:ref <http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-8.html> ;
+    ns1:ref <http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-2.html>,
+        <http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-8.html> ;
     ns1:園名 "味間認定こども園" ;
-    ns1:定員 "80" ;
-    ns1:所在地 """〒669-2214
-          篠山市味間新315""" ;
-    ns1:設置主体 "篠山市" .
+    ns1:定員 "460" ;
+    ns1:所在地 """〒669-2206
+          篠山市西吹75-1""",
+        "西吹75-1" ;
+    ns1:設置主体 "篠山市" ;
+    ns1:郵便番号 "669-2206" ;
+    ns1:電話番号 "594-0181" .
 
 [] ns1:No "11" ;
     ns1:code "282219" ;
@@ -25661,7 +25654,7 @@
 [] ns1:code "282219" ;
     ns1:ref <http://www.city.sasayama.hyogo.jp/pc/group/kodomomirai/education/post-8.html> ;
     ns1:園名 "富山こども園" ;
-    ns1:定員 "90" ;
+    ns1:定員 "115" ;
     ns1:所在地 """〒669-2345
           篠山市東岡屋708-2""" ;
     ns1:設置主体 "社会福祉法人" .
