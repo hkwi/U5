@@ -4,7 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.city.aioi.lg.jp/soshiki/14.html> ns1:last-modified "Thu, 26 Jan 2017 06:45:30 GMT" ;
+<http://www.city.aioi.lg.jp/soshiki/14.html> ns1:last-modified "Wed, 01 Feb 2017 11:00:33 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.aioi.lg.jp/soshiki/14.html> .
 
 <http://www.city.aioi.lg.jp/uploaded/attachment/9915.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:00:40 GMT" ;
@@ -25,10 +25,10 @@
 <http://www.city.amagasaki.hyogo.jp/map/list/list06.html> ns1:last-modified "Fri, 30 Sep 2016 07:59:59 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.amagasaki.hyogo.jp/map/list/list06.html> .
 
-<http://www.city.asago.hyogo.jp/0000000432.html> ns1:last-modified "Wed, 25 Jan 2017 18:02:06 GMT" ;
+<http://www.city.asago.hyogo.jp/0000000432.html> ns1:last-modified "Tue, 31 Jan 2017 18:02:05 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.asago.hyogo.jp/0000000432.html> .
 
-<http://www.city.asago.hyogo.jp/0000001920.html> ns1:last-modified "Wed, 25 Jan 2017 18:01:31 GMT" ;
+<http://www.city.asago.hyogo.jp/0000001920.html> ns1:last-modified "Tue, 31 Jan 2017 18:01:31 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.asago.hyogo.jp/0000001920.html> .
 
 <http://www.city.ashiya.lg.jp/kanri/youchienichiran.html> ns1:last-modified "Mon, 28 Nov 2016 05:00:18 GMT" ;
@@ -99,7 +99,7 @@
 <http://www.city.kawanishi.hyogo.jp/kodomo/9780/youchien_ichiran.html> ns1:last-modified "Wed, 28 Dec 2016 03:50:09 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kawanishi.hyogo.jp/kodomo/9780/youchien_ichiran.html> .
 
-<http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ns1:last-modified "Thu, 12 Jan 2017 15:46:34 GMT" ;
+<http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ns1:last-modified "Mon, 30 Jan 2017 15:50:47 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/abcmikagehoikuen2.pdf> ns1:last-modified "Tue, 25 Aug 2015 02:43:41 GMT" ;
@@ -118,8 +118,8 @@
     ns1:md5 "d3441f6f10fc0d028038b0268849bba6" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/bououji.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/chuoku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:48 GMT" ;
-    ns1:md5 "e26c3d7824b8c839cd45e1ef7e6063d9" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/chuoku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:14 GMT" ;
+    ns1:md5 "2d84ef5501a3cdc552682e2ed1addfc5" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/chuoku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/futaba.pdf> ns1:last-modified "Fri, 29 Mar 2013 02:50:58 GMT" ;
@@ -138,8 +138,8 @@
     ns1:md5 "9dc9bee2cbf3358aaf768fec8c60f938" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/higasinadahonjyou.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/higasinadaku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:47 GMT" ;
-    ns1:md5 "f4742afcdceb2bf2d4df61355f3b733a" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/higasinadaku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:14 GMT" ;
+    ns1:md5 "27f7b0dca8ddf2d43fe85df5ce0ff326" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/higasinadaku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/higasitakamaru.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:25 GMT" ;
@@ -154,8 +154,8 @@
     ns1:md5 "8e0ed357d4dc6d60c54ab85f1dfa9a71" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hiyodori.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/hokushinhokennhukushi.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:48 GMT" ;
-    ns1:md5 "c28f09e865b76d0f8b836153e4326c8e" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hokushinhokennhukushi.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:15 GMT" ;
+    ns1:md5 "2005d809fa1c8c1cf7439b533e80f4a3" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hokushinhokennhukushi.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/honjyo.pdf> ns1:last-modified "Sun, 15 Mar 2009 07:03:22 GMT" ;
@@ -170,8 +170,8 @@
     ns1:md5 "37976d59f1f6788e4df92eeb1ca6c892" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hukiai.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/hyougoku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:49 GMT" ;
-    ns1:md5 "45ac3bbc309bd4189eb8a38f7b3064f1" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/hyougoku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:15 GMT" ;
+    ns1:md5 "909bc7e371b5d41930a139005d9e1234" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/hyougoku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/ikuta.pdf> ns1:last-modified "Tue, 14 Oct 2014 04:56:05 GMT" ;
@@ -198,8 +198,8 @@
     ns1:md5 "e40afe867aea3c8f3139623ccb0adc23" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kimikage.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitaku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:45 GMT" ;
-    ns1:md5 "410d217919d2030ade0dfde8ceed8548" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitaku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:12 GMT" ;
+    ns1:md5 "5a1978b46cb98984b0b82754cd0fb078" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitaku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/kitasuma.pdf> ns1:last-modified "Thu, 18 Aug 2016 00:42:26 GMT" ;
@@ -210,8 +210,8 @@
     ns1:md5 "c0f6ff2cb07ea27a721b4d64416fa8b1" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitasuma2saishuu.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitasumashisyo.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:44 GMT" ;
-    ns1:md5 "734c42611de74fb0c7ed540e93bd57ae" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/kitasumashisyo.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:10 GMT" ;
+    ns1:md5 "ee50cae7d389f0ba532668c861931a2c" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/kitasumashisyo.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/komae.pdf> ns1:last-modified "Wed, 15 Sep 2010 08:11:20 GMT" ;
@@ -266,8 +266,8 @@
     ns1:md5 "67e011d5141c3f1dc7220fc4986434c7" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nada.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/nadaku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:46 GMT" ;
-    ns1:md5 "89456aedf608893f7e38226826bb8a4a" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nadaku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:13 GMT" ;
+    ns1:md5 "989020a3f06d65f63efbf2512a3ef461" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nadaku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/nagata.pdf> ns1:last-modified "Fri, 09 Nov 2012 08:06:56 GMT" ;
@@ -278,8 +278,8 @@
     ns1:md5 "0509e4163afc6739fbd58df8742be600" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nagatahigasi.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/nagataku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:45 GMT" ;
-    ns1:md5 "ba7da866bd996b517c603333cce34ac3" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nagataku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:11 GMT" ;
+    ns1:md5 "94174e978343bc757fd6abe622182f2d" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nagataku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/nakano.pdf> ns1:last-modified "Wed, 15 May 2013 11:11:12 GMT" ;
@@ -294,8 +294,8 @@
     ns1:md5 "232827acd134c2050be58e4455be29ce" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/ninomiya.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/nishiku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:46 GMT" ;
-    ns1:md5 "a4d42d8683b71c0ce5ff7398ec8ac9e5" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/nishiku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:13 GMT" ;
+    ns1:md5 "3f648a9967c6acfbef70237a5846544a" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/nishiku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/nisinada.pdf> ns1:last-modified "Tue, 13 Aug 2013 02:24:10 GMT" ;
@@ -374,8 +374,8 @@
     ns1:md5 "8a68d94a1edf681ff18e1c9db70ca329" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sumairu.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/sumaku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:49 GMT" ;
-    ns1:md5 "571252ac2497612f6bbd9bc3fe15c97e" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/sumaku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:16 GMT" ;
+    ns1:md5 "4ea4e6d3ec1ee5d5a411d634a4846b6e" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/sumaku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/sumiyoshikoen3.pdf> ns1:last-modified "Thu, 05 Mar 2015 04:49:18 GMT" ;
@@ -434,8 +434,8 @@
     ns1:md5 "4494d2b86678cea4fa4fa511e8e4097a" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tanigamikirara.pdf> .
 
-<http://www.city.kobe.lg.jp/child/grow/nursery/img/tarumiku.pdf> ns1:last-modified "Tue, 13 Dec 2016 04:32:44 GMT" ;
-    ns1:md5 "60385658dc6989ba8166dadd317d702f" ;
+<http://www.city.kobe.lg.jp/child/grow/nursery/img/tarumiku.pdf> ns1:last-modified "Mon, 30 Jan 2017 08:20:11 GMT" ;
+    ns1:md5 "fbf84f85cd962d58e933c87b9388b5ff" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/nursery/img/tarumiku.pdf> .
 
 <http://www.city.kobe.lg.jp/child/grow/nursery/img/tatibana.pdf> ns1:last-modified "Thu, 30 Oct 2014 01:45:38 GMT" ;
@@ -546,9 +546,25 @@
     ns1:md5 "5b4f6047a9fd72a2f43944cc188c9cf3" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/281222sisetuitiran23gou.pdf> .
 
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/281228sisetuitiran23gou.pdf> ns1:last-modified "Wed, 28 Dec 2016 02:26:30 GMT" ;
+    ns1:md5 "1f69df2efb21afc50f7532142091ad74" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/281228sisetuitiran23gou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/290201sisetuitiran1gou.pdf> ns1:last-modified "Wed, 01 Feb 2017 00:25:47 GMT" ;
+    ns1:md5 "35aec27fae07f5696935688de14926e4" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/290201sisetuitiran1gou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/290201sisetuitiran23gou.pdf> ns1:last-modified "Wed, 01 Feb 2017 00:28:27 GMT" ;
+    ns1:md5 "001bfd7d2ba9127ba618633fb551dc49" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/290201sisetuitiran23gou.pdf> .
+
+<http://www.city.kobe.lg.jp/child/grow/shinseido/img/290201sisetuitiran28nendo1gou2.pdf> ns1:last-modified "Wed, 01 Feb 2017 01:08:04 GMT" ;
+    ns1:md5 "50e37a5ec83fb3e0963852e99ea0bacd" ;
+    ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/img/290201sisetuitiran28nendo1gou2.pdf> .
+
 <http://www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html> ns1:mirror <https://hkwi.github.com/U5/www.city.kobe.lg.jp/child/grow/shinseido/index02_06_1.html> .
 
-<http://www.city.minamiawaji.hyogo.jp/soshiki/kosodate/hoikusho.html> ns1:last-modified "Thu, 26 Jan 2017 06:01:37 GMT" ;
+<http://www.city.minamiawaji.hyogo.jp/soshiki/kosodate/hoikusho.html> ns1:last-modified "Wed, 01 Feb 2017 11:01:36 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.minamiawaji.hyogo.jp/soshiki/kosodate/hoikusho.html> .
 
 <http://www.city.nishiwaki.lg.jp/lifescenemokutekibetsudesagasu/gakoen/1359271828205.html> ns1:mirror <https://hkwi.github.com/U5/www.city.nishiwaki.lg.jp/lifescenemokutekibetsudesagasu/gakoen/1359271828205.html> .
@@ -568,40 +584,40 @@
 <http://www.city.sanda.lg.jp/kodomoshien/shoukibohoiku28.html> ns1:last-modified "Fri, 02 Sep 2016 01:01:04 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kodomoshien/shoukibohoiku28.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/index.html> ns1:last-modified "Thu, 26 Jan 2017 02:01:13 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/index.html> ns1:last-modified "Tue, 31 Jan 2017 18:41:08 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/ai/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:55 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/ai/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:57 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/ai/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/hirono/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:43 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/hirono/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:44 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/hirono/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/honjou/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:49 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/honjou/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:50 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/honjou/index.html> .
 
 <http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/index.html> ns1:last-modified "Sun, 11 Sep 2016 18:01:46 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/matsugaoka/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:41:01 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/matsugaoka/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:41:03 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/matsugaoka/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/miwa/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:19 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/miwa/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:18 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/miwa/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/moshi/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:37 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/moshi/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:38 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/moshi/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/ono/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:31 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/ono/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:32 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/ono/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/sanda/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:12 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/sanda/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:11 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/sanda/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/shidehara/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:40:25 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/shidehara/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:40:25 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/shidehara/index.html> .
 
-<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/takahira/index.html> ns1:last-modified "Wed, 25 Jan 2017 16:41:08 GMT" ;
+<http://www.city.sanda.lg.jp/kosodate/kosodate/youchien/takahira/index.html> ns1:last-modified "Tue, 31 Jan 2017 16:41:09 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.sanda.lg.jp/kosodate/kosodate/youchien/takahira/index.html> .
 
 <http://www.city.sanda.lg.jp/kyouiku/shiritsu.html> ns1:last-modified "Fri, 02 Sep 2016 09:03:58 GMT" ;
@@ -624,21 +640,21 @@
     ns1:md5 "3e575560f9792cd8ad4769fe849b0875" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> .
 
-<http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1003680.html> ns1:last-modified "Thu, 26 Jan 2017 06:37:05 GMT" ;
+<http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1003680.html> ns1:last-modified "Wed, 01 Feb 2017 10:37:03 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1003680.html> .
 
-<http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1008348.html> ns1:last-modified "Thu, 26 Jan 2017 06:37:06 GMT" ;
+<http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1008348.html> ns1:last-modified "Wed, 01 Feb 2017 10:37:05 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1008348.html> .
 
-<http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1000552.html> ns1:last-modified "Thu, 26 Jan 2017 06:37:06 GMT" ;
+<http://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1000552.html> ns1:last-modified "Wed, 01 Feb 2017 10:37:05 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000106/1000552.html> .
 
 <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ns1:mirror <https://hkwi.github.com/U5/www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> .
 
-<http://www.city.tamba.hyogo.jp/site/kosodate/hoikusyo-list.html> ns1:last-modified "Thu, 26 Jan 2017 06:30:56 GMT" ;
+<http://www.city.tamba.hyogo.jp/site/kosodate/hoikusyo-list.html> ns1:last-modified "Wed, 01 Feb 2017 10:31:41 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.tamba.hyogo.jp/site/kosodate/hoikusyo-list.html> .
 
-<http://www.city.tamba.hyogo.jp/site/kosodate/youtienbosyuannai.html> ns1:last-modified "Thu, 26 Jan 2017 06:30:09 GMT" ;
+<http://www.city.tamba.hyogo.jp/site/kosodate/youtienbosyuannai.html> ns1:last-modified "Wed, 01 Feb 2017 10:30:54 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.tamba.hyogo.jp/site/kosodate/youtienbosyuannai.html> .
 
 <http://www.city.tatsuno.lg.jp/kurashi/ninshin/hoikuen/youtienhoikusyokodomoen.html> ns1:last-modified "Tue, 08 Nov 2016 08:10:23 GMT" ;
@@ -650,7 +666,7 @@
 <http://www.city.toyooka.lg.jp/www/contents/1116227655875/index.html> ns1:last-modified "Mon, 11 May 2015 08:31:56 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.toyooka.lg.jp/www/contents/1116227655875/index.html> .
 
-<http://www.city.yabu.hyogo.jp/3691.htm> ns1:last-modified "Thu, 26 Jan 2017 07:00:49 GMT" ;
+<http://www.city.yabu.hyogo.jp/3691.htm> ns1:last-modified "Wed, 01 Feb 2017 11:08:53 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.yabu.hyogo.jp/3691.htm> .
 
 <http://www.nishi.or.jp/contents/0000193600030008700514.html> ns1:mirror <https://hkwi.github.com/U5/www.nishi.or.jp/contents/0000193600030008700514.html> .
@@ -701,10 +717,10 @@
 <http://www.town.shinonsen.hyogo.jp/d1w_reiki/420901010043000000MH/420901010043000000MH/420901010043000000MH_j.html> ns1:last-modified "Thu, 27 Oct 2016 13:04:48 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.town.shinonsen.hyogo.jp/d1w_reiki/420901010043000000MH/420901010043000000MH/420901010043000000MH_j.html> .
 
-<http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272?OpenDocument> ns1:last-modified "Thu, 26 Jan 2017 07:00:32 GMT" ;
+<http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272?OpenDocument> ns1:last-modified "Wed, 01 Feb 2017 11:08:37 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/4090b2565376515c49257fd5000f9272@OpenDocument> .
 
-<http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a?OpenDocument> ns1:last-modified "Thu, 26 Jan 2017 07:00:30 GMT" ;
+<http://www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a?OpenDocument> ns1:last-modified "Wed, 01 Feb 2017 11:08:34 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www2.city.miki.lg.jp/miki.nsf/39f1c87d0d44690349256b000025811d/d38939ba231190d3492571320027a69a@OpenDocument> .
 
 <https://web.pref.hyogo.lg.jp/kf11/documents/awaji.pdf> ns1:last-modified "Mon, 31 Oct 2016 15:05:57 GMT" ;
@@ -743,7 +759,7 @@
     ns1:md5 "3e243001f0e7f7ffd6335849644371c6" ;
     ns1:mirror <https://hkwi.github.com/U5/web.pref.hyogo.lg.jp/kf11/documents/tanba.pdf> .
 
-<https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/hoiku/hoikushoannai.html> ns1:last-modified "Mon, 23 Jan 2017 04:00:07 GMT" ;
+<https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/hoiku/hoikushoannai.html> ns1:last-modified "Mon, 30 Jan 2017 06:00:09 GMT" ;
     ns1:mirror <https://hkwi.github.com/U5/www.city.akashi.lg.jp/kodomo/ikusei_shitsu/hoiku/hoikushoannai.html> .
 
 <https://www.city.akashi.lg.jp/kodomo/ikusei_shitsu/yojikyoiku/youchienichiran1.html> ns1:last-modified "Sun, 15 Jan 2017 00:00:32 GMT" ;
