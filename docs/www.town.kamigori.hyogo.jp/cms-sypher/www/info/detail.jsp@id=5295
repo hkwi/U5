@@ -439,15 +439,15 @@ function voteResultWindow(id) {
     <h4>お知らせ</h4>
 <ul>
 
-<li><a href="/cms-sypher/www/info/detail.jsp?id=11172"><i class="fa fa-caret-right"></i>給食メニュー(3月6日から3月10日)</a></li>
+<li><a href="/cms-sypher/www/info/detail.jsp?id=11225"><i class="fa fa-caret-right"></i>給食メニュー(4月11日から4月14日)</a></li>
 
-<li><a href="/cms-sypher/www/info/detail.jsp?id=11158"><i class="fa fa-caret-right"></i>給食メニュー(2月27日から3月3日)</a></li>
-
-<li><a href="/cms-sypher/www/info/detail.jsp?id=11157"><i class="fa fa-caret-right"></i>給食メニュー(2月27日から3月3日)</a></li>
-
-<li><a href="/cms-sypher/www/info/detail.jsp?id=11152"><i class="fa fa-caret-right"></i>図書館だより　3月号</a></li>
+<li><a href="/cms-sypher/www/info/detail.jsp?id=11096"><i class="fa fa-caret-right"></i>平成29年度 4月学校給食予定献立表</a></li>
 
 <li><a href="/cms-sypher/www/info/detail.jsp?id=11140"><i class="fa fa-caret-right"></i>平成28年度 3月学校給食予定献立表</a></li>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=10373"><i class="fa fa-caret-right"></i>すこやか子育て教室通信「ほほえみ」3月号</a></li>
+
+<li><a href="/cms-sypher/www/info/detail.jsp?id=11106"><i class="fa fa-caret-right"></i>上郡町子ども読書活動推進計画</a></li>
 
 </ul>
 
@@ -462,18 +462,6 @@ function voteResultWindow(id) {
 
 
 
-<!-- --- Start of 行事・イベント --- -->
-<div class="subbox">
-    <h4>行事・イベント</h4>
-<ul>
-            
-<li><a href="/cms-sypher/www/event/detail.jsp?id=11161"><i class="fa fa-caret-right"></i>ジョイントコンサートが開催されます。</a></li>
-
-</ul>
-
-</div>
-<!-- --- End of 行事・イベント --- -->
-
 <!-- --- Start of 手続き・申請・業務 --- -->
 <div class="subbox">
     <h4>手続き・申請・業務</h4>
@@ -484,8 +472,6 @@ function voteResultWindow(id) {
 <li><a href="/cms-sypher/www/service/detail.jsp?id=8536"><i class="fa fa-caret-right"></i>一時預かり事業</a></li>
             
 <li><a href="/cms-sypher/www/service/detail.jsp?id=10747"><i class="fa fa-caret-right"></i>ファミリーサポートセンター事業</a></li>
-            
-<li><a href="/cms-sypher/www/service/detail.jsp?id=10795"><i class="fa fa-caret-right"></i>平成29年度保育所児等の募集について</a></li>
             
 <li><a href="/cms-sypher/www/service/detail.jsp?id=8535"><i class="fa fa-caret-right"></i>児童手当</a></li>
 
@@ -622,14 +608,20 @@ $(document).ready(function() {
 <ul class="cf">
 
 <li class="bnr01">
-  <a href="http://www.xn--3kq2bv77bbkgiviey3dq1g.com/area/chiba/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(83);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024870.png" alt="交通事故,弁護士,千葉県" />
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.tk.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(71);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022997.gif" alt="あんしん生命" />
   </a>
 </li>
 
 <li class="bnr02">
-  <a href="http://www.hope-inc.jp/ctr/profecto/kamigorit.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(73);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000023010.gif" alt="プロフェクト法律事務所" />
+  <a href="http://www.winknet.ne.jp/service/kamigori/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(64);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000020481.gif" alt="姫路ケーブルテレビ株式会社" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.xn--3kq2bv77bbkgiviey3dq1g.com/area/chiba/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(83);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024870.png" alt="交通事故,弁護士,千葉県" />
   </a>
 </li>
 
@@ -640,14 +632,14 @@ $(document).ready(function() {
 </li>
 
 <li class="bnr02">
-  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.tk.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(71);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022997.gif" alt="あんしん生命" />
+  <a href="http://www.hope-inc.jp/ctr/profecto/kamigorit.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(73);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000023010.gif" alt="プロフェクト法律事務所" />
   </a>
 </li>
 
 <li class="bnr02">
-  <a href="http://www.order-nobori.com/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(81);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024821.jpg" alt="オリジナルのぼり作るなら" />
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(72);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022998.gif" alt="チューリッヒ" />
   </a>
 </li>
 
@@ -664,20 +656,14 @@ $(document).ready(function() {
 </li>
 
 <li class="bnr02">
-  <a href="http://www.tabirai.net/car/hyogo/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(79);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024652.gif" alt="神戸で格安レンタカーを借りて神戸ドライブ" />
+  <a href="http://www.tabirai.net/car/hyogo/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(69);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022995.gif" alt="格安レンタカーで兵庫・神戸を巡る" />
   </a>
 </li>
 
 <li class="bnr02">
-  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(72);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022998.gif" alt="チューリッヒ" />
-  </a>
-</li>
-
-<li class="bnr02">
-  <a href="http://www.winknet.ne.jp/service/kamigori/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(64);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000020481.gif" alt="姫路ケーブルテレビ株式会社" />
+  <a href="http://www.order-nobori.com/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(81);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024821.jpg" alt="株式会社ハクロマーク製作所" />
   </a>
 </li>
 
@@ -700,14 +686,20 @@ $(document).ready(function() {
 <ul>
 
 <li class="bnr01">
-  <a href="http://www.xn--3kq2bv77bbkgiviey3dq1g.com/area/chiba/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(83);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024870.png" alt="交通事故,弁護士,千葉県" />
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.tk.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(71);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022997.gif" alt="あんしん生命" />
   </a>
 </li>
 
 <li class="bnr02">
-  <a href="http://www.hope-inc.jp/ctr/profecto/kamigorit.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(73);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000023010.gif" alt="プロフェクト法律事務所" />
+  <a href="http://www.winknet.ne.jp/service/kamigori/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(64);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000020481.gif" alt="姫路ケーブルテレビ株式会社" />
+  </a>
+</li>
+
+<li class="bnr02">
+  <a href="http://www.xn--3kq2bv77bbkgiviey3dq1g.com/area/chiba/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(83);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024870.png" alt="交通事故,弁護士,千葉県" />
   </a>
 </li>
 
@@ -718,14 +710,14 @@ $(document).ready(function() {
 </li>
 
 <li class="bnr02">
-  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.tk.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(71);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022997.gif" alt="あんしん生命" />
+  <a href="http://www.hope-inc.jp/ctr/profecto/kamigorit.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(73);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000023010.gif" alt="プロフェクト法律事務所" />
   </a>
 </li>
 
 <li class="bnr02">
-  <a href="http://www.order-nobori.com/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(81);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024821.jpg" alt="オリジナルのぼり作るなら" />
+  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(72);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022998.gif" alt="チューリッヒ" />
   </a>
 </li>
 
@@ -742,20 +734,14 @@ $(document).ready(function() {
 </li>
 
 <li class="bnr02">
-  <a href="http://www.tabirai.net/car/hyogo/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(79);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024652.gif" alt="神戸で格安レンタカーを借りて神戸ドライブ" />
+  <a href="http://www.tabirai.net/car/hyogo/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(69);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022995.gif" alt="格安レンタカーで兵庫・神戸を巡る" />
   </a>
 </li>
 
 <li class="bnr02">
-  <a href="http://www.hope-inc.jp/ctr/ine/hokennavi.html"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(72);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000022998.gif" alt="チューリッヒ" />
-  </a>
-</li>
-
-<li class="bnr02">
-  <a href="http://www.winknet.ne.jp/service/kamigori/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(64);">
-    <img src="/cms-sypher/open_imgs/banner/0000000221_0000020481.gif" alt="姫路ケーブルテレビ株式会社" />
+  <a href="http://www.order-nobori.com/"  title="別ウィンドウが開きます" target="_blank"  onclick="bannerClickUpdate(81);">
+    <img src="/cms-sypher/open_imgs/banner/0000000221_0000024821.jpg" alt="株式会社ハクロマーク製作所" />
   </a>
 </li>
 

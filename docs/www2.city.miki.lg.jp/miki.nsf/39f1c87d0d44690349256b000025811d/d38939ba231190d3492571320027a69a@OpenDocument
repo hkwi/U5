@@ -693,20 +693,20 @@ div.fontChange p a.fntChange { width:200px; background: url(/miki.nsf/image/CBA2
 ul#glovalNavigation { width: 862px;margin: 0 0 0 4px;padding: 0;list-style: none;clear: both; }
 ul#glovalNavigation li { float: left;margin: 3px 2px 0 0;padding: 0; }
 ul#glovalNavigation li a { margin: 0;padding: 0;height: 34px;text-indent: -9999pt;display: block; text-decoration: none; }
-ul#glovalNavigation li a.top { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_top.gif) no-repeat; text-decoration: none; }/*トップページ*/
-ul#glovalNavigation li a.kurashi { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shimin.gif) no-repeat; text-decoration: none; }/*市民向け情報*/
-ul#glovalNavigation li a.mikicity { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_mikicity.gif) no-repeat; text-decoration: none; }/*三木市について*/
-ul#glovalNavigation li a.gyosei { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_gyosei.gif) no-repeat; text-decoration: none; }/*行政情報*/
-ul#glovalNavigation li a.jigyo { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_jigyo.gif) no-repeat; text-decoration: none; }/*事業者向け情報*/
-ul#glovalNavigation li a.shisetsu { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shisetsu.gif) no-repeat; text-decoration: none; }/*施設ガイド*/
-ul#glovalNavigation li a.kanko { width:118px; background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_bunka.gif) no-repeat; text-decoration: none;}/*文化・観光*/
-span.topOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_top_on.gif) no-repeat; }
-span.kurashiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shimin_on.gif) no-repeat;	}
-span.mikiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_mikicity_on.gif) no-repeat; }
-span.gyoseiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_gyosei_on.gif) no-repeat; }
-span.jigyoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_jigyo_on.gif) no-repeat; }
-span.shisetsuOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_shisetsu_on.gif) no-repeat; }
-span.kankoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/navi_bunka_on.gif) no-repeat; }
+ul#glovalNavigation li a.top { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_top.gif) no-repeat; text-decoration: none; }/*トップページ*/
+ul#glovalNavigation li a.kurashi { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_shimin.gif) no-repeat; text-decoration: none; }/*市民向け情報*/
+ul#glovalNavigation li a.mikicity { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_mikicity.gif) no-repeat; text-decoration: none; }/*三木市について*/
+ul#glovalNavigation li a.gyosei { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_gyosei.gif) no-repeat; text-decoration: none; }/*行政情報*/
+ul#glovalNavigation li a.jigyo { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_jigyo.gif) no-repeat; text-decoration: none; }/*事業者向け情報*/
+ul#glovalNavigation li a.shisetsu { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_shisetsu.gif) no-repeat; text-decoration: none; }/*施設ガイド*/
+ul#glovalNavigation li a.kanko { width:118px; background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_bunka.gif) no-repeat; text-decoration: none;}/*文化・観光*/
+span.topOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_top_on.gif) no-repeat; }
+span.kurashiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_shimin_on.gif) no-repeat;	}
+span.mikiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_mikicity_on.gif) no-repeat; }
+span.gyoseiOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_gyosei_on.gif) no-repeat; }
+span.jigyoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_jigyo_on.gif) no-repeat; }
+span.shisetsuOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_shisetsu_on.gif) no-repeat; }
+span.kankoOn { width: 139px;height: 34px;text-indent: -9999pt;display: block;background: url(/miki.nsf/image/A54CFBCE09F4892A492576F5000991A1/$FILE/navi_bunka_on.gif) no-repeat; }
 /*サイト検索-----------------------------------------------------------*/
 form { margin: 0;padding: 0; }
 div.search { margin: 0;font-size: 80%;padding: 7px 10px;border-top: 5px solid #72A835;text-align: right;background: #FFFFFF url(/miki.nsf/image/CBA237A06E7CE60C49256CA8001C511D/$FILE/srch_background.gif) repeat-x;clear: both;vertical-align: top; }
@@ -892,7 +892,6 @@ a:hover, a:visited:hover { color: #FF0033; text-decoration: underline; }
 <tr valign="top"><td width="71" bgcolor="#008040" valign="middle"><div align="center"><font color="#FFFFFF">E-mail</font></div></td><td width="188" bgcolor="#8CFFFF" valign="middle"><a href="mailto:shugakuzen@city.miki.lg.jp">shugakuzen<u>@city.miki.lg.jp</u></a></td></tr>
 </table>
 </div>
-<BR>
 <BR>
 <CENTER><FONT size="-1">Copyright(c)1996-<SCRIPT language=JavaScript>
 //<!--Start//

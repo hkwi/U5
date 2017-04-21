@@ -6,6 +6,8 @@ https://hkwi.github.io/U5/scheme#FAX番号
 https://hkwi.github.io/U5/scheme#No
 https://hkwi.github.io/U5/scheme#code
 https://hkwi.github.io/U5/scheme#ref
+https://hkwi.github.io/U5/scheme#■児童定員５６名
+https://hkwi.github.io/U5/scheme#〔創立〕昭和５９年５月１日
 https://hkwi.github.io/U5/scheme#オムツ替え
 https://hkwi.github.io/U5/scheme#バス送迎
 https://hkwi.github.io/U5/scheme#ファクス番号
@@ -41,6 +43,7 @@ https://hkwi.github.io/U5/scheme#入園してから必要なもの
 https://hkwi.github.io/U5/scheme#入園に必要なもの
 https://hkwi.github.io/U5/scheme#入園区域
 https://hkwi.github.io/U5/scheme#入園対象年齢
+https://hkwi.github.io/U5/scheme#入所の可能性
 https://hkwi.github.io/U5/scheme#入所対象年齢
 https://hkwi.github.io/U5/scheme#入所年齢
 https://hkwi.github.io/U5/scheme#入所年齢（歳）
@@ -64,6 +67,7 @@ https://hkwi.github.io/U5/scheme#受入開始月齢
 https://hkwi.github.io/U5/scheme#各園のホームページ
 https://hkwi.github.io/U5/scheme#名称
 https://hkwi.github.io/U5/scheme#嘱託医医院名
+https://hkwi.github.io/U5/scheme#四番町3丁目４－４９０７８－５７７－７５３６
 https://hkwi.github.io/U5/scheme#園バス
 https://hkwi.github.io/U5/scheme#園名
 https://hkwi.github.io/U5/scheme#園庭開放
@@ -108,6 +112,7 @@ https://hkwi.github.io/U5/scheme#産休明け保育
 https://hkwi.github.io/U5/scheme#申込児童数
 https://hkwi.github.io/U5/scheme#番号
 https://hkwi.github.io/U5/scheme#病児・病後児保育
+https://hkwi.github.io/U5/scheme#神戸市東灘区御影本町６丁目５番７号電話０７８－８２１－９５７１信用金庫ＦＡＸ０７８－８２１－９５７１■児童定員９０名※生後６カ月過ぎより就学前まで入所可能■職員構成所長、保育士（主任・担当）、調理士、管理員、補助職員、嘱託医等■休所日日曜日・国民の休日および祝日浜御影保育所年末年始（１２月２９日～１月３日）■保育時間７：００～１９：００7:007:308:3016:3018:3
 https://hkwi.github.io/U5/scheme#科目
 https://hkwi.github.io/U5/scheme#種類
 https://hkwi.github.io/U5/scheme#組織
@@ -144,5 +149,6 @@ https://hkwi.github.io/U5/scheme#電話番号（079）
 https://hkwi.github.io/U5/scheme#預かり保育
 https://hkwi.github.io/U5/scheme#預かり保育の実施
 https://hkwi.github.io/U5/scheme#類型
+https://hkwi.github.io/U5/scheme#０７８－８０１－２２５０９０名カ月より就学前まで入所可能
 https://hkwi.github.io/U5/scheme#４歳児定員
 https://hkwi.github.io/U5/scheme#５歳児定員

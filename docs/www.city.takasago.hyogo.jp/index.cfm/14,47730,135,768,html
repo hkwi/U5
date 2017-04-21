@@ -119,10 +119,6 @@
 										<a href="/index.cfm/14,0,135,760,html"  class="subCategoryMenu">妊娠・出産</a>
 									</li>
 								
-									<li class="localSecondaryMenu" id="crg761">
-										<a href="/index.cfm/14,0,135,761,html"  class="subCategoryMenu">教室・講習会</a>
-									</li>
-								
 									<li class="localSecondaryMenu" id="crg763">
 										<a href="/index.cfm/14,0,135,763,html"  class="subCategoryMenu">訪問指導</a>
 									</li>
@@ -162,7 +158,7 @@
 						</li>
 					
 						<li class="localPrimaryMenu" id="cat136">
-							<a href="/index.cfm/14,0,136,html"  class="categoryMenu">教育委員会</a>
+							<a href="/index.cfm/14,0,136,html"  class="categoryMenu">教育</a>
 					
 						</li>
 					
@@ -172,7 +168,7 @@
 						</li>
 					
 						<li class="localPrimaryMenu" id="cat138">
-							<a href="/index.cfm/14,0,138,html"  class="categoryMenu">青少年育成</a>
+							<a href="/index.cfm/14,0,138,html"  class="categoryMenu">若者・青少年育成</a>
 					
 						</li>
 					
@@ -244,7 +240,7 @@
 
 		<div class="pageTopOption">
 			
-			<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=5721', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧">
+			<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=3992', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧">
 				<img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0">
 			</a>
 			
@@ -367,22 +363,22 @@
             <td style="text-align: center">電話番号</td>
         </tr>
         <tr>
-            <td><a title="高砂西保育園" target="_blank" href="/index.cfm/14,15448,135,768,html">高砂こども園</a></td>
+            <td>&nbsp;<a title="高砂西保育園" target="_blank" href="/index.cfm/14,15448,135,768,html">高砂こども園</a></td>
             <td><span style="font-size: small">西畑1丁目2番8号</span></td>
             <td><span style="font-size: small">079-442-0041</span></td>
         </tr>
         <tr>
-            <td><a title="さつき保育園" target="_blank" href="/index.cfm/14,15531,135,768,html">中筋こども園</a></td>
+            <td>&nbsp;<a title="さつき保育園" target="_blank" href="/index.cfm/14,15531,135,768,html">中筋こども園</a></td>
             <td><span style="font-size: small">中筋1丁目2番35号</span></td>
             <td><span style="font-size: small">079-447-5578</span></td>
         </tr>
         <tr>
-            <td><a title="阿弥陀保育園" target="_blank" href="/index.cfm/14,15534,135,768,html">&nbsp;阿弥陀こども園</a></td>
+            <td>&nbsp;<a title="阿弥陀保育園" target="_blank" href="/index.cfm/14,15534,135,768,html">阿弥陀こども園</a></td>
             <td><span style="font-size: small">阿弥陀町阿弥陀1178番地の1</span></td>
             <td><span style="font-size: small">079-447-5775&nbsp;</span></td>
         </tr>
         <tr>
-            <td><a title="北浜保育園" target="_blank" href="/index.cfm/14,15533,135,768,html">北浜こども園</a></td>
+            <td>&nbsp;<a title="北浜保育園" target="_blank" href="/index.cfm/14,15533,135,768,html">北浜こども園</a></td>
             <td><span style="font-size: small">北浜町北脇252番地の1</span></td>
             <td><span style="font-size: small">079-254-1558&nbsp;</span></td>
         </tr>
@@ -391,7 +387,7 @@
 <p>&nbsp;</p>
 <p><span style="font-size: medium">開所時間</span></p>
 <p><span style="font-size: small">　</span><span style="font-size: small">平日　8時から18時まで</span></p>
-<p><span style="font-size: small">　土曜　8時から13時まで</span></p>
+<p><span style="font-size: small">　土曜　8時から17時まで</span></p>
 <p><a title="公立保育所　活動の様子 [2935KB pdfファイル]" href="http://www.city.takasago.lg.jp/index.cfm/14,47730,c,html/47730/20151023-164732.pdf">公立　保育所・認定こども園　活動の様子 </a><a title="公立保育所　活動の様子 [2935KB pdfファイル]" href="http://www.city.takasago.lg.jp/index.cfm/14,47730,c,html/47730/20151023-164732.pdf"><img border="0" alt="" src="/images/icons/pdf.gif" ></a>&nbsp;</p>
 <p>&nbsp;</p>
 <h3>私立　教育・保育施設</h3>
@@ -419,7 +415,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="白兎愛育園" href="http://www.ans.co.jp/n/shirousagi/">白兎愛育園</a></p>
+            <p>&nbsp;<a title="白兎愛育園" href="http://www.ans.co.jp/n/shirousagi/">白兎愛育園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">荒井町千鳥2丁目23番12号</span></p>
@@ -438,7 +434,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="中筋保育園" target="_blank" href="http://www.nakasuji-ns.ed.jp/">中筋保育園</a></p>
+            <p>&nbsp;<a title="中筋保育園" target="_blank" href="http://www.nakasuji-ns.ed.jp/">中筋保育園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">中筋2丁目1番7号 </span></p>
@@ -457,7 +453,7 @@
         </tr>
         <tr>
             <td>
-            <p>子供の園保育園</p>
+            <p>&nbsp;子供の園保育園</p>
             </td>
             <td>
             <p><span style="font-size: small">曽根町788番地の1 </span></p>
@@ -476,7 +472,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="真浄寺きくなみ保育園" target="_blank" href="http://www.shinjoji-nursery.ed.jp/kikunami/">真浄寺きくなみ保育園</a></p>
+            <p>&nbsp;<a title="真浄寺きくなみ保育園" target="_blank" href="http://www.shinjoji-nursery.ed.jp/kikunami/">真浄寺きくなみ保育園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">高砂町松波町440番地の4</span></p>
@@ -495,7 +491,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="米田西保育園" href="http://hyogo.yoiko-net.jp/yoikonet/user/yonedan/blog/showDetail.do">米田西保育園</a></p>
+            <p>&nbsp;<a title="米田西保育園" href="http://hyogo.yoiko-net.jp/yoikonet/user/yonedan/blog/showDetail.do">米田西保育園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">米田町米田190</span></p>
@@ -527,7 +523,7 @@
             <td style="text-align: center"><span style="font-size: small">休日保育</span></td>
         </tr>
         <tr>
-            <td><a title="さいしゅうじこども園" target="_blank" href="http://saisyuji-hoikuen.ed.jp/aboutus/aboutus.html">さいしゅうじこども園</a></td>
+            <td>&nbsp;<a title="さいしゅうじこども園" target="_blank" href="http://saisyuji-hoikuen.ed.jp/aboutus/aboutus.html">さいしゅうじこども園</a></td>
             <td>
             <p><span style="font-size: small">伊保崎5丁目7番1号</span></p>
             <p><span style="font-size: small">　079－447－5209</span></p>
@@ -541,8 +537,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="認定こども園正連寺保育園" target="_blank" href="http://shorenji.com/">認定こども園　</a></p>
-            <p><a title="認定こども園正連寺保育園" target="_blank" href="http://shorenji.com/">正蓮寺保育園</a></p>
+            <p>&nbsp;<a title="認定こども園正連寺保育園" target="_blank" href="http://shorenji.com/">正蓮寺こども園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">阿弥陀町魚橋1674番地</span></p>
@@ -557,8 +552,8 @@
         </tr>
         <tr>
             <td>
-            <p><a title="真浄寺保育園" target="_blank" href="http://www.shinjoji-nursery.ed.jp/shinjoji/">認定こども園</a></p>
-            <p><a title="真浄寺保育園" target="_blank" href="http://www.shinjoji-nursery.ed.jp/shinjoji/">真浄寺保育園</a></p>
+            <p>&nbsp;<a title="真浄寺保育園" target="_blank" href="http://www.shinjoji-nursery.ed.jp/shinjoji/">認定こども園</a></p>
+            <p>&nbsp;<a title="真浄寺保育園" target="_blank" href="http://www.shinjoji-nursery.ed.jp/shinjoji/">真浄寺保育園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">伊保3丁目15番17号 </span></p>
@@ -573,7 +568,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="美保里保育園" target="_blank" href="http://mihonosato-kids.jp/mihonosato/index.html">美保里こども園</a></p>
+            <p>&nbsp;<a title="美保里保育園" target="_blank" href="http://mihonosato-kids.jp/mihonosato/index.html">美保里こども園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">美保里13番1号 </span></p>
@@ -588,7 +583,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="聖パウロ保育園" href="http://www.seipaulo.com/">聖パウロこども園</a></p>
+            <p>&nbsp;<a title="聖パウロ保育園" href="http://www.seipaulo.com/">聖パウロこども園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">阿弥陀町魚橋686番地 </span></p>
@@ -603,7 +598,7 @@
         </tr>
         <tr>
             <td>
-            <p><a title="みどり丘保育園" target="_blank" href="http://mihonosato-kids.jp/midorigaoka/aboutus/index.html">みどり丘こども園</a></p>
+            <p>&nbsp;<a title="みどり丘保育園" target="_blank" href="http://mihonosato-kids.jp/midorigaoka/aboutus/index.html">みどり丘こども園</a></p>
             </td>
             <td>
             <p><span style="font-size: small">緑丘1丁目1番14号 </span></p>
@@ -639,17 +634,17 @@
 			</div>
 		
 					<div class="contentFooter">
-						<h5>福祉部 子育て支援室</h5>
+						<h5>こども未来部 子育て支援室 幼児保育課</h5>
 <ul>
     <li>郵便番号：676-8501 </li>
     <li>住所：兵庫県高砂市荒井町千鳥1丁目1番1号 </li>
-    <li>電話：（子育て支援）079-443-9024　（保育所）079-443-9025 </li>
+    <li>電話：079-443-9025 </li>
     <li>Email：<a title="" href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#116;&#x61;c&#116;2512&#64;c&#105;&#116;&#x79;&#x2e;&#116;&#x61;k&#x61;&#x73;&#x61;&#103;&#x6f;&#x2e;&#108;&#103;&#x2e;j&#x70;">&#116;&#x61;c&#116;2512&#64;c&#105;&#116;&#x79;&#x2e;&#116;&#x61;k&#x61;&#x73;&#x61;&#103;&#x6f;&#x2e;&#108;&#103;&#x2e;j&#x70;</a> <br></li>
 </ul>
 					</div>
 				
 				<div class="contentFooterLink">
-					この組織から検索: &nbsp;<a href="/sections/index.cfm?footer=55">福祉部/子育て支援室</a>
+					この組織から検索: &nbsp;<a href="/sections/index.cfm?footer=55">こども未来部/子育て支援室 幼児保育課</a>
 					
 				</div>
 			
@@ -658,7 +653,7 @@
 				
 					<div class="contentDate">
 						登録日:&nbsp;2016年1月13日&nbsp;/&nbsp;
-						更新日:&nbsp;2017年1月24日
+						更新日:&nbsp;2017年3月24日
 					</div>
 				
 			</div>
@@ -669,7 +664,7 @@
 			
 				&nbsp;
 			
-			&nbsp;<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=9319', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧"><img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0"></a>
+			&nbsp;<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=6308', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧"><img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0"></a>
 		
 			&nbsp;<a href="javascript:history.back()" title="戻る"><img src="/designs/default_lower/images/back.gif" align="middle" alt="戻る" border="0"></a>
 			
@@ -686,23 +681,17 @@
 		
 					<li><a href="/index.cfm/14,43712,135,768,html" >幼稚園・保育所・認定こども園を利用するには？</a></li>
 				
-					<li><a href="/index.cfm/14,53000,135,768,html" >公立認定こども園3歳児（1号認定子ども）の入所申し込み</a></li>
-				
-					<li><a href="/index.cfm/14,52406,135,768,html" >公立幼稚園・公立認定こども園（1号認定子ども）の入所申し込み</a></li>
-				
 					<li><a href="/index.cfm/14,46083,135,768,html" >保育所・認定こども園（2・3号認定子ども）の入所申し込み</a></li>
 				
 					<li><a href="/index.cfm/14,773,135,768,html" >幼稚園、保育所、認定こども園の利用者負担額（保育料）</a></li>
 				
 					<li class="current">教育・保育施設一覧</li>
 				
+					<li><a href="/index.cfm/14,53853,135,768,html" >平成29年4月から幼稚園に通われる保護者の皆様へ</a></li>
+				
 					<li><a href="/index.cfm/14,43964,135,768,html" >認可外保育施設</a></li>
 				
 					<li><a href="/index.cfm/14,776,135,768,html" >休日保育</a></li>
-				
-					<li><a href="/index.cfm/14,54007,135,768,html" >平成29年4月入所（保育所・認定こども園）の受付</a></li>
-				
-					<li><a href="/index.cfm/14,53853,135,768,html" >平成29年4月から幼稚園に通われる保護者の皆様へ</a></li>
 				
 					<li><a href="/index.cfm/14,14955,135,768,html" >高砂市の幼稚園・保育園の幼保一体化</a></li>
 				
