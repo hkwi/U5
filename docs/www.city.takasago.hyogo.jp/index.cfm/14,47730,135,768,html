@@ -240,7 +240,7 @@
 
 		<div class="pageTopOption">
 			
-			<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=3992', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧">
+			<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=7578', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧">
 				<img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0">
 			</a>
 			
@@ -664,7 +664,7 @@
 			
 				&nbsp;
 			
-			&nbsp;<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=6308', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧"><img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0"></a>
+			&nbsp;<a href="javascript:msgWindow=window.open('/handlers/printcontent.cfm?GroupID=14&amp;ContentID=47730&amp;ThisPageURL=http%3A%2F%2Fwww%2Ecity%2Etakasago%2Elg%2Ejp%2Findex%2Ecfm%2F14%2C47730%2C135%2C768%2Chtml&amp;EntryCode=7232', 'displayWindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=650,height=540').focus();" title="このページを印刷する - 教育・保育施設一覧"><img src="/designs/default_lower/images/print.gif" align="middle" alt="このページを印刷する - 教育・保育施設一覧" border="0"></a>
 		
 			&nbsp;<a href="javascript:history.back()" title="戻る"><img src="/designs/default_lower/images/back.gif" align="middle" alt="戻る" border="0"></a>
 			
@@ -786,7 +786,7 @@
 〒676-8501　兵庫県高砂市荒井町千鳥1丁目1番1号<br>
 Tel：079-442-2101 （代表）　Fax：079-442-2229（代表）<br>
 開庁時間：月曜日から金曜日　8時30分から17時15分まで（祝日、年末年始を除く）<br>
-人口：92,770人　世帯数：39,359世帯（平成29年1月1日現在、外国籍人口を含む）</div>
+人口：92,448人　世帯数：39,369世帯（平成29年4月1日現在、外国籍人口を含む）</div>
 <p class="copyright">&copy; 2015 TAKASAGO CITY, All rights reserved.</p>
 </div>
 <span class="contentBodyEndClear" style="height: 0px; clear: both; display: block; line-height: 0"><img border="0" alt="" width="1" height="1" src="images/shim.gif" ></span></div> <span style="display: block; clear: both; height: 0; line-height: 0;" class="contentBodyEndClear"><img src="/images/shim.gif" width="1" height="1" alt="" border="0"></span> 

@@ -19291,7 +19291,7 @@
     ns1:地区 "甲東" ;
     ns1:定員 "45" ;
     ns1:施設名 "あんず保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "A" ;
     ns1:電話番号 "0798-53-7512" .
 
@@ -19303,7 +19303,7 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "浜町2-11" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
@@ -19368,7 +19368,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "60" ;
     ns1:施設名 "ちどり保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "A" ;
     ns1:電話番号 "0798-41-2510" .
 
@@ -19392,7 +19392,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "30" ;
     ns1:施設名 "つぼみ夢保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-74-9614" .
 
@@ -19404,7 +19404,7 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "西宮浜4丁目13-3" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
@@ -19437,13 +19437,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "樋之池町4-21" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
     ns1:定員 "60" ;
     ns1:施設名 "のぞみ夢保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-71-9614" .
 
@@ -19458,25 +19458,25 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "上大市4丁目12-3" ;
     ns1:公私 "私立" ;
     ns1:地区 "甲東" ;
     ns1:定員 "90" ;
     ns1:施設名 "ひかり保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-52-9081" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "甲子園口6丁目1-36" ;
     ns1:公私 "私立" ;
     ns1:地区 "瓦木" ;
     ns1:定員 "120" ;
     ns1:施設名 "まつぼっくり保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-68-1010" .
 
@@ -19489,13 +19489,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "今津山中町12-28" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
     ns1:定員 "90" ;
     ns1:施設名 "みどり園保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-22-1376" .
 
@@ -19542,7 +19542,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "90" ;
     ns1:施設名 "むつみ保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-66-0505" .
 
@@ -19561,7 +19561,7 @@
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
     ns1:一時預かり "なし" ;
-    ns1:住所 "大屋町8-28" ;
+    ns1:住所 "大屋町28-8" ;
     ns1:公私 "私立" ;
     ns1:地区 "瓦木" ;
     ns1:定員 "30" ;
@@ -19584,13 +19584,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "石在町16－25" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
     ns1:定員 "50" ;
     ns1:施設名 "ゆめっこ保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｃ" ;
     ns1:電話番号 "0798-35-2758" .
 
@@ -19685,7 +19685,7 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "南郷町8-12" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
@@ -19834,7 +19834,7 @@
     ns1:地区 "瓦木" ;
     ns1:定員 "100" ;
     ns1:施設名 "上之町保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-64-0053" .
 
@@ -19885,7 +19885,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "80" ;
     ns1:施設名 "今津南保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-23-5011" .
 
@@ -19897,7 +19897,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "90" ;
     ns1:施設名 "今津文協保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-22-3320" .
 
@@ -19959,7 +19959,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "120" ;
     ns1:施設名 "北夙川保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-72-3711" .
 
@@ -20023,7 +20023,7 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "千歳町4-19" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
@@ -20059,7 +20059,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "60" ;
     ns1:施設名 "夙川夢保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-73-9614" .
 
@@ -20071,13 +20071,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "鷲林寺2丁目3-2" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
     ns1:定員 "90" ;
     ns1:施設名 "夙川宝プリスクール" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-72-7234" .
 
@@ -20089,7 +20089,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "120" ;
     ns1:施設名 "大社保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-73-4703" .
 
@@ -20109,7 +20109,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "90" ;
     ns1:施設名 "学文殿保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-41-1083" .
 
@@ -20127,7 +20127,7 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "安井町4-15" ;
     ns1:公私 "私立" ;
     ns1:地区 "本庁" ;
@@ -20166,7 +20166,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "120" ;
     ns1:施設名 "小松朝日保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-41-0618" .
 
@@ -20222,19 +20222,19 @@
     ns1:地区 "本庁" ;
     ns1:定員 "90" ;
     ns1:施設名 "建石保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-22-4468" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "門戸東町3-15" ;
     ns1:公私 "私立" ;
     ns1:地区 "甲東" ;
     ns1:定員 "90" ;
     ns1:施設名 "新甲東保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-57-5235" .
 
@@ -20246,7 +20246,7 @@
     ns1:地区 "瓦木" ;
     ns1:定員 "107" ;
     ns1:施設名 "日野の森こども園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "E" ;
     ns1:電話番号 "0798-64-7560" .
 
@@ -20310,7 +20310,7 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "東山台1丁目106-2" ;
     ns1:公私 "私立" ;
     ns1:地区 "北部" ;
@@ -20340,13 +20340,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "鳴尾町4丁目14-29" ;
     ns1:公私 "私立" ;
     ns1:地区 "鳴尾" ;
     ns1:定員 "90" ;
     ns1:施設名 "武庫川女子大学附属保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798‐44‐3025" .
 
@@ -20364,7 +20364,7 @@
     ns1:地区 "甲東" ;
     ns1:定員 "120" ;
     ns1:施設名 "段上保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-52-7979" .
 
@@ -20382,7 +20382,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "90" ;
     ns1:施設名 "津門保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-35-6204" .
 
@@ -20394,7 +20394,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "90" ;
     ns1:施設名 "浜甲子園保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-41-0086" .
 
@@ -20412,7 +20412,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "120" ;
     ns1:施設名 "浜脇保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-35-2358" .
 
@@ -20432,7 +20432,7 @@
     ns1:地区 "瓦木" ;
     ns1:定員 "130" ;
     ns1:施設名 "瓦木みのり保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-65-4400" .
 
@@ -20444,7 +20444,7 @@
     ns1:地区 "瓦木" ;
     ns1:定員 "90" ;
     ns1:施設名 "瓦木北保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-67-4050" .
 
@@ -20472,7 +20472,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "60" ;
     ns1:施設名 "用海保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-33-0757" .
 
@@ -20529,7 +20529,7 @@
     ns1:地区 "甲東" ;
     ns1:定員 "90" ;
     ns1:施設名 "甲東北保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-52-8412" .
 
@@ -20565,7 +20565,7 @@
     ns1:地区 "甲東" ;
     ns1:定員 "120" ;
     ns1:施設名 "聖和乳幼児保育センター" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "A" ;
     ns1:電話番号 "0798-53-2656" .
 
@@ -20589,7 +20589,7 @@
     ns1:地区 "本庁" ;
     ns1:定員 "120" ;
     ns1:施設名 "芦原保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-67-3577" .
 
@@ -20614,25 +20614,25 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "高畑町1-47" ;
     ns1:公私 "私立" ;
     ns1:地区 "瓦木" ;
     ns1:定員 "90" ;
     ns1:施設名 "西北セリジェ保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "B" ;
     ns1:電話番号 "0798-64-5514" .
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "長田町4-8" ;
     ns1:公私 "私立" ;
     ns1:地区 "瓦木" ;
     ns1:定員 "100" ;
     ns1:施設名 "西北夢保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｃ" ;
     ns1:電話番号 "0798-65-9614" .
 
@@ -20670,13 +20670,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "戸崎町4-12" ;
     ns1:公私 "私立" ;
     ns1:地区 "瓦木" ;
     ns1:定員 "90" ;
     ns1:施設名 "西宮セリジェ保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "B" ;
     ns1:電話番号 "0798-39-7863" .
 
@@ -20688,13 +20688,13 @@
 
 [] ns1:code "282049" ;
     ns1:ref <http://www.nishi.or.jp/contents/0000193600030008700514.html> ;
-    ns1:一時預かり "○" ;
+    ns1:一時預かり "あり" ;
     ns1:住所 "南甲子園1丁目10－15" ;
     ns1:公私 "私立" ;
     ns1:地区 "鳴尾" ;
     ns1:定員 "60" ;
     ns1:施設名 "西宮夢保育園" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ｂ" ;
     ns1:電話番号 "0798-45-9614" .
 
@@ -20789,7 +20789,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "120" ;
     ns1:施設名 "高須東保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-49-5643" .
 
@@ -20801,7 +20801,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "120" ;
     ns1:施設名 "高須西保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-48-2840" .
 
@@ -20821,7 +20821,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "120" ;
     ns1:施設名 "鳴尾保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-41-0754" .
 
@@ -20833,7 +20833,7 @@
     ns1:地区 "瓦木" ;
     ns1:定員 "80" ;
     ns1:施設名 "鳴尾北保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-65-1022" .
 
@@ -20853,7 +20853,7 @@
     ns1:地区 "鳴尾" ;
     ns1:定員 "80" ;
     ns1:施設名 "鳴尾東保育所" ;
-    ns1:産休明け保育 "○" ;
+    ns1:産休明け保育 "あり" ;
     ns1:開所時間 "Ａ" ;
     ns1:電話番号 "0798-47-3062" .
 
@@ -20913,7 +20913,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "東山町29番19号ジェットビルB1" ;
-    ns1:保育所名 "HANA保育園(22-5066)" ;
+    ns1:保育所名 """HANA保育園\r
+            (22-5066)""" ;
     ns1:嘱託医医院名 "芦屋やまもとクリニック" ;
     ns1:科目 "小児科・アレルギー科" ;
     ns1:電話 "23-3715" .
@@ -20944,7 +20945,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "月若町8番2-2号アマーレ芦屋川1F" ;
-    ns1:保育所名 "あゆみSEIDO保育園(22-2678)" ;
+    ns1:保育所名 """あゆみSEIDO保育園\r
+            (22-2678)""" ;
     ns1:嘱託医医院名 "ひよこキッズクリニック" ;
     ns1:科目 "小児科" ;
     ns1:電話 "22-1450" .
@@ -20973,7 +20975,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "岩園町7番26号" ;
-    ns1:保育所名 "あゆみ保育園(31-2000)" ;
+    ns1:保育所名 """あゆみ保育園\r
+            (31-2000)""" ;
     ns1:嘱託医医院名 "筋師医院" ;
     ns1:科目 "内科・消化器内科" ;
     ns1:電話 "23-0627" .
@@ -20993,7 +20996,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "津知町3番12号" ;
-    ns1:保育所名 "さくら保育園(31-7788)" ;
+    ns1:保育所名 """さくら保育園\r
+            (31-7788)""" ;
     ns1:嘱託医医院名 "ながれたに内科クリニック" ;
     ns1:科目 "内科" ;
     ns1:電話 "22-4592" .
@@ -21046,7 +21050,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "東山町29番19号ジェットビルB1" ;
-    ns1:保育所名 "ニチイキッズ芦屋保育園(25-1861)" ;
+    ns1:保育所名 """ニチイキッズ芦屋保育園\r
+            (25-1861)""" ;
     ns1:嘱託医医院名 "芦屋やまもとクリニック" ;
     ns1:科目 "小児科・アレルギー科" ;
     ns1:電話 "23-3715" .
@@ -21066,7 +21071,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "楠町8番13号" ;
-    ns1:保育所名 "ポピンズ小規模保育園芦屋(32-8530)" ;
+    ns1:保育所名 """ポピンズ小規模保育園芦屋\r
+            (32-8530)""" ;
     ns1:嘱託医医院名 "京極小児科" ;
     ns1:科目 "小児科" ;
     ns1:電話 "31-2735" .
@@ -21105,7 +21111,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大東町8番26号" ;
-    ns1:保育所名 "夢咲保育園(34-9614）" ;
+    ns1:保育所名 """夢咲保育園\r
+            (34-9614）""" ;
     ns1:嘱託医医院名 "青い鳥クリニック" ;
     ns1:科目 "小児科・アレルギー科" ;
     ns1:電話 "21-6330" .
@@ -21134,7 +21141,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "高浜町7番2-105号" ;
-    ns1:保育所名 "大東保育所(22-0089)" ;
+    ns1:保育所名 """大東保育所\r
+            (22-0089)""" ;
     ns1:嘱託医医院名 "鈴木小児科" ;
     ns1:科目 "小児科" ;
     ns1:電話 "34-0766" .
@@ -21166,7 +21174,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大東町8番26号" ;
-    ns1:保育所名 "山手夢保育園(23-9646）" ;
+    ns1:保育所名 """山手夢保育園\r
+            (23-9646）""" ;
     ns1:嘱託医医院名 "青い鳥クリニック" ;
     ns1:科目 "小児科・アレルギー科" ;
     ns1:電話 "21-6330" .
@@ -21189,7 +21198,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "楠町8番13号" ;
-    ns1:保育所名 "岩園保育所(31-0335)" ;
+    ns1:保育所名 """岩園保育所\r
+            (31-0335)""" ;
     ns1:嘱託医医院名 "京極小児科" ;
     ns1:科目 "小児科" ;
     ns1:電話 "31-2735" .
@@ -21219,6 +21229,15 @@
     ns1:電話 "32-7579" .
 
 [] ns1:code "282065" ;
+    ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
+    ns1:住所 "公光町10番20号" ;
+    ns1:保育所名 """愛光幼稚園\r
+            (22-5481)""" ;
+    ns1:嘱託医医院名 "富永医院" ;
+    ns1:科目 "内科" ;
+    ns1:電話 "22-3823" .
+
+[] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/ichiran_02.html> ;
     ns1:ファクス番号 "23-5680" ;
     ns1:延長保育 "18時00分～19時00分" ;
@@ -21230,16 +21249,9 @@
 
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
-    ns1:住所 "公光町10番20号" ;
-    ns1:保育所名 "愛光幼稚園（22-5481)" ;
-    ns1:嘱託医医院名 "富永医院" ;
-    ns1:科目 "内科" ;
-    ns1:電話 "22-3823" .
-
-[] ns1:code "282065" ;
-    ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大原町15番14号" ;
-    ns1:保育所名 "打出保育所(22-5725)" ;
+    ns1:保育所名 """打出保育所\r
+            (22-5725)""" ;
     ns1:嘱託医医院名 "みむらクリニック" ;
     ns1:科目 "内科・小児科・アレルギー科" ;
     ns1:電話 "32-5172" .
@@ -21257,7 +21269,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "高浜町7番2-105号" ;
-    ns1:保育所名 "新浜保育所(32-0410)" ;
+    ns1:保育所名 """新浜保育所\r
+            (32-0410)""" ;
     ns1:嘱託医医院名 "鈴木小児科" ;
     ns1:科目 "小児科" ;
     ns1:電話 "34-0766" .
@@ -21290,6 +21303,13 @@
     ns1:電話番号 "26-7010" .
 
 [] ns1:code "282065" ;
+    ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
+    ns1:住所 "高浜町7番2-105号" ;
+    ns1:保育所名 "浜風あすの保育園(26-7010)" ;
+    ns1:嘱託医医院名 "鈴木小児科" ;
+    ns1:科目 "小児科" .
+
+[] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/ichiran_02.html> ;
     ns1:児童の年齢別定員 "15" ;
     ns1:施設名 "浜風あすの保育園" ;
@@ -21298,7 +21318,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大東町8番26号" ;
-    ns1:保育所名 "浜風夢保育園(25-9614)" ;
+    ns1:保育所名 """浜風夢保育園\r
+            (25-9614)""" ;
     ns1:嘱託医医院名 "青い鳥クリニック" ;
     ns1:科目 "小児科・アレルギー科" ;
     ns1:電話 "21-6330" .
@@ -21327,7 +21348,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "竹園町6番22号" ;
-    ns1:保育所名 "精道保育所(32-0510)" ;
+    ns1:保育所名 """精道保育所\r
+            (32-0510)""" ;
     ns1:嘱託医医院名 "かわもり小児科" ;
     ns1:科目 "小児科・アレルギー科" ;
     ns1:電話 "34-6321" .
@@ -21353,7 +21375,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "打出小槌町13番5号" ;
-    ns1:保育所名 "緑保育所(34-0715)" ;
+    ns1:保育所名 """緑保育所\r
+            (34-0715)""" ;
     ns1:嘱託医医院名 "多田医院" ;
     ns1:科目 "内科・小児科" ;
     ns1:電話 "32-3884" .
@@ -21381,7 +21404,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "月若町8番2-2号アマーレ芦屋川1F" ;
-    ns1:保育所名 "芦屋こばとぽっぽ保育園(23-3100)" ;
+    ns1:保育所名 """芦屋こばとぽっぽ保育園\r
+            (23-3100)""" ;
     ns1:嘱託医医院名 "ひよこキッズクリニック" ;
     ns1:科目 "内科" ;
     ns1:電話 "22-1450" .
@@ -21394,11 +21418,11 @@
 
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
-    ns1:住所 "楠町8番13号" ;
+    ns1:住所 "月若町8番2-2号アマーレ芦屋川1F" ;
     ns1:保育所名 "芦屋こばと保育園(31-3338)" ;
-    ns1:嘱託医医院名 "京極小児科" ;
+    ns1:嘱託医医院名 "ひよこキッズクリニック" ;
     ns1:科目 "小児科" ;
-    ns1:電話 "31-2735" .
+    ns1:電話 "22-1450" .
 
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/ichiran_02.html> ;
@@ -21448,7 +21472,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "茶屋之町3番2号" ;
-    ns1:保育所名 "茶屋保育園(25-5552)" ;
+    ns1:保育所名 """茶屋保育園\r
+            (25-5552)""" ;
     ns1:嘱託医医院名 "芦屋こころとからだのクリニック" ;
     ns1:科目 "内科" ;
     ns1:電話 "22-5525" .
@@ -21480,7 +21505,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大原町15番14号" ;
-    ns1:保育所名 "蓮美幼児学園芦屋山手ナーサリー(25-1152)" ;
+    ns1:保育所名 """蓮美幼児学園芦屋山手ナーサリー\r
+            (25-1152)""" ;
     ns1:嘱託医医院名 "みむらクリニック" ;
     ns1:科目 "内科・小児科・アレルギー科" ;
     ns1:電話 "32-5172" .
@@ -21503,7 +21529,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大原町15番14号" ;
-    ns1:保育所名 "蓮美幼児学園芦屋川ナーサリー(35-4152)" ;
+    ns1:保育所名 """蓮美幼児学園芦屋川ナーサリー\r
+            (35-4152)""" ;
     ns1:嘱託医医院名 "みむらクリニック" ;
     ns1:科目 "内科・小児科・アレルギー科" ;
     ns1:電話 "32-5172" .
@@ -21517,7 +21544,8 @@
 [] ns1:code "282065" ;
     ns1:ref <http://www.city.ashiya.lg.jp/kodomo/shokutakui.html> ;
     ns1:住所 "大原町15番14号" ;
-    ns1:保育所名 "蓮美幼児学園芦屋打出プリメール(31-4152)" ;
+    ns1:保育所名 """蓮美幼児学園芦屋打出プリメール\r
+            (31-4152)""" ;
     ns1:嘱託医医院名 "みむらクリニック" ;
     ns1:科目 "内科・小児科・アレルギー科" ;
     ns1:電話 "32-5172" .
@@ -22583,44 +22611,60 @@
     ns1:電話番号 "0795-28-2072" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "湯本町４－８ ℡ ８５－７７０１" ;
-    ns1:施設の名称 "にじの森保育園宝塚南口" .
+    ns1:施設の名称 "にじの森保育園宝塚南口" ;
+    ns1:最寄駅等 "阪急宝塚南口駅" ;
+    ns1:認定定員 "２９人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "山本丸橋２丁目１０ ℡ ８８－３５９１" ;
-    ns1:施設の名称 "パディントンハウス" .
+    ns1:施設の名称 "パディントンハウス" ;
+    ns1:最寄駅等 "阪急山本駅" ;
+    ns1:認定定員 "４６人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "中山寺１丁目１３－２５ ℡ ８１－４７７５" ;
-    ns1:施設の名称 "ポプリ宝塚" .
+    ns1:施設の名称 "ポプリ宝塚" ;
+    ns1:最寄駅等 "阪急中山観音駅（メゾンド中山２階）" ;
+    ns1:認定定員 "３４人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "栄町１丁目６－２ ℡ ８６－００６７" ;
-    ns1:施設の名称 "ポレ・ポレ宝塚花のみち保育ルーム" .
+    ns1:施設の名称 "ポレ・ポレ宝塚花のみち保育ルーム" ;
+    ns1:最寄駅等 "阪急宝塚駅（花のみちセルカ２番館３階）" ;
+    ns1:認定定員 "２５人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "小林２丁目６－１２ ℡ ７２－５５６６" ;
-    ns1:施設の名称 "保育所ぴよぴよルームおばやし園" .
+    ns1:施設の名称 "保育所ぴよぴよルームおばやし園" ;
+    ns1:最寄駅等 "阪急小林駅（小林駅前ビル2Ｆ）" ;
+    ns1:認定定員 "３６人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "平井５丁目１－４４ ℡ ８８－０９７５" ;
-    ns1:施設の名称 "晴 保 育 所" .
+    ns1:施設の名称 "晴 保   育 所" ;
+    ns1:最寄駅等 "阪急山本駅" ;
+    ns1:認定定員 "６５人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "安倉南１－２４－１１ ℡ ８３－１０８０" ;
-    ns1:施設の名称 "都市型保育園ポポラー宝塚あくら園" .
+    ns1:施設の名称 "都市型保育園ポポラー宝塚あくら園" ;
+    ns1:最寄駅等 "阪神バス安倉又は安倉下ノ池(岡本ビル2F)" ;
+    ns1:認定定員 "３８人" .
 
 [] ns1:code "282146" ;
-    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/sitei_itirann.pdf> ;
+    ns1:ref <http://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/000/540/shitei2904.pdf> ;
     ns1:所在地 "山本東３－８－１６ ℡ ８２－１０９０" ;
-    ns1:施設の名称 "都市型保育園ポポラー宝塚山本園" .
+    ns1:施設の名称 "都市型保育園ポポラー宝塚山本園" ;
+    ns1:最寄駅等 "阪急山本駅（栄光ビル２階）" ;
+    ns1:認定定員 "３３人" .
 
 [] ns1:code "282162" ;
     ns1:ref <http://www.city.takasago.hyogo.jp/index.cfm/14,47730,135,768,html> ;
@@ -22773,15 +22817,6 @@
 [] ns1:code "282171" ;
     ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
     ns1:ファクス番号 "ファクス自動切替" ;
-    ns1:保育所名 "JR川西池田キッズルーム" ;
-    ns1:区分 "認可外保育所" ;
-    ns1:所在地 "川西市栄根2-6-26" ;
-    ns1:郵便番号 "666-0021" ;
-    ns1:電話番号 "072-755-8056" .
-
-[] ns1:code "282171" ;
-    ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
-    ns1:ファクス番号 "ファクス自動切替" ;
     ns1:保育所名 "K・Iキッズ保育園" ;
     ns1:区分 "地域保育園" ;
     ns1:所在地 "川西市鼓が滝1-4-18" ;
@@ -22930,6 +22965,15 @@
     ns1:幼稚園名 "加茂幼稚園" ;
     ns1:所在地 "川西市加茂1-4-5" ;
     ns1:電話番号 "072-759-7205" .
+
+[] ns1:code "282171" ;
+    ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
+    ns1:ファクス番号 "744-0426" ;
+    <https://hkwi.github.io/U5/scheme#定員（2.3号認定）> "90人" ;
+    ns1:所在地 "向陽台3丁目11番地の64" ;
+    ns1:認定こども園名 "向陽台あすのこども園" ;
+    ns1:運営主体 "社会福祉法人" ;
+    ns1:電話番号 "744-0425" .
 
 [] ns1:code "282171" ;
     ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
@@ -23125,7 +23169,7 @@
 [] ns1:code "282171" ;
     ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/9780/youchien_ichiran.html> ;
     ns1:幼稚園名 "緑台幼稚園" ;
-    ns1:所在地 "川西市緑台4-1-.27" ;
+    ns1:所在地 "川西市緑台4-1-27" ;
     ns1:電話番号 "072-793-0970" .
 
 [] ns1:code "282171" ;
@@ -23268,12 +23312,6 @@
     ns1:電話番号 "63-7010" .
 
 [] ns1:code "282197" ;
-    ns1:ref <http://www.city.sanda.lg.jp/kodomoshien/ninteikodomoen.html> ;
-    ns1:園名 "ふじ幼稚園(平成29年4月1日認定こども園へ移行予定）" ;
-    ns1:所在地 "富士が丘2-16" ;
-    ns1:電話番号 "079-562-8122" .
-
-[] ns1:code "282197" ;
     ns1:ref <http://www.city.sanda.lg.jp/kyouiku/shiritsu.html> ;
     ns1:園名 "ふじ幼稚園" ;
     ns1:所在地 "富士が丘2-16" ;
@@ -23296,6 +23334,12 @@
     ns1:園名 "神戸親和女子大学附属親和幼稚園" ;
     ns1:所在地 "ゆりのき台5-43" ;
     ns1:電話番号 "079-565-5506" .
+
+[] ns1:code "282197" ;
+    ns1:ref <http://www.city.sanda.lg.jp/kodomoshien/ninteikodomoen.html> ;
+    ns1:園名 "認定こども園ふじ幼稚園" ;
+    ns1:所在地 "富士が丘2-16" ;
+    ns1:電話番号 "079-562-8122" .
 
 [] ns1:code "282197" ;
     ns1:ref <http://www.city.sanda.lg.jp/kodomoshien/ninteikodomoen.html> ;
@@ -23332,15 +23376,6 @@
     ns1:園名 "認定こども園湊川短期大学附属北摂第一幼稚園" ;
     ns1:所在地 "武庫が丘4丁目10" ;
     ns1:電話番号 "079-563-7557" .
-
-[] ns1:code "282201" ;
-    ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
-    ns1:ファクス番号 "ファクス自動切替" ;
-    ns1:保育所名 "JR川西池田キッズルーム" ;
-    ns1:区分 "認可外保育所" ;
-    ns1:所在地 "川西市栄根2-6-26" ;
-    ns1:郵便番号 "666-0021" ;
-    ns1:電話番号 "072-755-8056" .
 
 [] ns1:code "282201" ;
     ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
@@ -23494,6 +23529,15 @@
     ns1:幼稚園名 "加茂幼稚園" ;
     ns1:所在地 "川西市加茂1-4-5" ;
     ns1:電話番号 "072-759-7205" .
+
+[] ns1:code "282201" ;
+    ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
+    ns1:ファクス番号 "744-0426" ;
+    <https://hkwi.github.io/U5/scheme#定員（2.3号認定）> "90人" ;
+    ns1:所在地 "向陽台3丁目11番地の64" ;
+    ns1:認定こども園名 "向陽台あすのこども園" ;
+    ns1:運営主体 "社会福祉法人" ;
+    ns1:電話番号 "744-0425" .
 
 [] ns1:code "282201" ;
     ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/hoikusyo/h_annai0/index.html> ;
@@ -23690,7 +23734,7 @@
 [] ns1:code "282201" ;
     ns1:ref <http://www.city.kawanishi.hyogo.jp/kodomo/9780/youchien_ichiran.html> ;
     ns1:幼稚園名 "緑台幼稚園" ;
-    ns1:所在地 "川西市緑台4-1-.27" ;
+    ns1:所在地 "川西市緑台4-1-27" ;
     ns1:電話番号 "072-793-0970" .
 
 [] ns1:code "282201" ;
@@ -24282,65 +24326,138 @@
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "さくら保育園" ;
-    ns1:定員 "60" ;
+    ns1:定員 "60人" ;
     ns1:所在地 "加東市岡本1572番地7" ;
+    ns1:施設名 "さくら保育園" ;
     ns1:経営主体 "私" ;
     ns1:電話番号 "0795-46-0415" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "みやま保育園" ;
-    ns1:定員 "40" ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "15人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "90人" ;
+    ns1:所在地 "加東市上滝野746番地" ;
+    ns1:施設名 "たきの愛児園" ;
+    ns1:経営主体 "私" ;
+    ns1:電話番号 "0795-48-2090" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    ns1:定員 "40人" ;
     ns1:所在地 "小野市中谷町200番地2" ;
+    ns1:施設名 "みやま保育園" ;
     ns1:経営主体 "私" ;
     ns1:電話番号 "0794-67-0158" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "東条保育園" ;
-    ns1:定員 "90" ;
-    ns1:所在地 "加東市掎鹿谷263番地1" ;
-    ns1:経営主体 "私" ;
-    ns1:電話番号 "0795-47-1601" .
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "6人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "89人" ;
+    ns1:所在地 "加東市上三草160番地" ;
+    ns1:施設名 "三草こども園" ;
+    ns1:経営主体 "公" ;
+    ns1:電話番号 "0795-42-0677" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "椿山保育園" ;
-    ns1:定員 "80" ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "10人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "90人" ;
+    ns1:所在地 "加東市北野235番地1" ;
+    ns1:施設名 "加茂こども園" ;
+    ns1:経営主体 "私" ;
+    ns1:電話番号 "0795-48-5000" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "15人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "60人" ;
+    ns1:所在地 "加東市東古瀬634番地2" ;
+    ns1:施設名 "東古瀬こども園" ;
+    ns1:経営主体 "私" ;
+    ns1:電話番号 "0795-42-1078" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "15人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "85人" ;
+    ns1:所在地 "加東市掎鹿谷263番地1" ;
+    ns1:施設名 "東条こども園" ;
+    ns1:経営主体 "私" ;
+    ns1:電話番号 "0795‐47‐1601" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    ns1:定員 "80人" ;
     ns1:所在地 "加東市山国1559番地" ;
+    ns1:施設名 "椿山保育園" ;
     ns1:経営主体 "私" ;
     ns1:電話番号 "0795-42-6001" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "河高保育園" ;
-    ns1:定員 "70" ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "15人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "80人" ;
+    ns1:所在地 "加東市上田842番地2" ;
+    ns1:施設名 "正覚坊こども園" ;
+    ns1:経営主体 "私" ;
+    ns1:電話番号 "0795-42-2692" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    ns1:定員 "70人" ;
     ns1:所在地 "加東市河高2116番地" ;
+    ns1:施設名 "河高保育園" ;
     ns1:経営主体 "私" ;
     ns1:電話番号 "0795-48-2398" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "泉保育園" ;
-    ns1:定員 "70" ;
+    ns1:定員 "70人" ;
     ns1:所在地 "加東市西垂水105番地" ;
+    ns1:施設名 "泉保育園" ;
     ns1:経営主体 "私" ;
     ns1:電話番号 "0795-42-0100" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "秋津保育園" ;
-    ns1:定員 "45" ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "6人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "159人" ;
+    ns1:所在地 "加東市木梨1129番地" ;
+    ns1:施設名 "社こども園" ;
+    ns1:経営主体 "公" ;
+    ns1:電話番号 "0795-42-0573" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    ns1:定員 "45人" ;
     ns1:所在地 "加東市秋津940番地4" ;
+    ns1:施設名 "秋津保育園" ;
     ns1:経営主体 "私" ;
     ns1:電話番号 "0795-47-0745" .
 
 [] ns1:code "282286" ;
     ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
-    ns1:保育所名 "鴨川保育園" ;
-    ns1:定員 "20" ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "3人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "57人" ;
+    ns1:所在地 "加東市上久米272番地2" ;
+    ns1:施設名 "米田こども園" ;
+    ns1:経営主体 "公" ;
+    ns1:電話番号 "0795-44-0101" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    <https://hkwi.github.io/U5/scheme#定員(1号)> "15人" ;
+    <https://hkwi.github.io/U5/scheme#定員(2・3号)> "60人" ;
+    ns1:所在地 "加東市高岡912番地2" ;
+    ns1:施設名 "高岡育児園" ;
+    ns1:経営主体 "私" ;
+    ns1:電話番号 "0795-48-2624" .
+
+[] ns1:code "282286" ;
+    ns1:ref <http://www.city.kato.lg.jp/kurashi/kosodate/shien/1466986100555.html> ;
+    ns1:定員 "20人" ;
     ns1:所在地 "加東市平木1308番地" ;
+    ns1:施設名 "鴨川保育園" ;
     ns1:経営主体 "公" ;
     ns1:電話番号 "0795-45-0271" .
 
@@ -24425,7 +24542,7 @@
 [] ns1:code "282294" ;
     ns1:ref <http://www.city.tatsuno.lg.jp/kurashi/ninshin/hoikuen/youtienhoikusyokodomoen.html> ;
     ns1:所在地 "新宮町仙正187-4" ;
-    ns1:施設名 "心光こども園" ;
+    ns1:施設名 "心光こども園（外部サイトへリンク）" ;
     ns1:電話番号 "0791-75-3318" .
 
 [] ns1:code "282294" ;
@@ -24592,17 +24709,27 @@
 
 [] ns1:code "283819" ;
     ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
-    ns1:名称 "※いなみ虹保育園の定員のうち、地域枠は5名となります。（地域枠とは、従業員以外の方の入所定員枠）" .
+    ns1:名称 "※いなみ虹保育園の定員のうち、地域枠は7名となります。（地域枠とは、従業員以外の方の入所定員枠）" .
+
+[] ns1:code "283819" ;
+    ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
+    ns1:事業内容 "【対象児童】生後6ヵ月から小学6年生【定員】6名【利用日時】月曜日から金曜日／8時～18時【利用料】市内2,000円／市外3,000円" ;
+    ns1:施設名等 "あだちこども診療所　病児保育室アインス所在地：加古川市加古川町美乃利368－1　　　　ベストピア加古川3　304号室電　話：079－423－2567" .
 
 [] ns1:code "283819" ;
     ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
     ns1:一時預かり "〇" ;
-    ns1:名称 "いなみ虹保育園    （平成28（2016）年7月1日開所）" ;
-    ns1:定員 "19人" ;
+    ns1:名称 "いなみ虹保育園" ;
+    ns1:定員 "30人" ;
     ns1:延長保育 "〇" ;
     ns1:所在地 "稲美町国安1256番地" ;
     ns14:病後児保育 "－" ;
     ns1:電話 "079-441-8423    （社会福祉法人日の出福祉会　法人本部）" .
+
+[] ns1:code "283819" ;
+    ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
+    ns1:事業内容 "【対象児童】生後6ヵ月から小学6年生【定員】3名【利用日時】月曜日から金曜日／7時30分～18時【利用料】市内2,000円／市外3,000円" ;
+    ns1:施設名等 "なかよし保育園所在地：明石市朝霧台3783－134電　話：078－917－1866" .
 
 [] ns1:code "283819" ;
     ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
@@ -24619,7 +24746,7 @@
     ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
     ns1:一時預かり "〇" ;
     ns1:名称 "バンビ第二保育園" ;
-    ns1:定員 "120人" ;
+    ns1:定員 "140人" ;
     ns1:延長保育 "〇" ;
     ns1:所在地 "稲美町岡916番地の1" ;
     ns14:病後児保育 "－" ;
@@ -24724,6 +24851,11 @@
     ns1:幼稚園名 "母里幼稚園" ;
     ns1:郵便番号 "675-1104" ;
     ns1:電話番号 "079-495-0411" .
+
+[] ns1:code "283819" ;
+    ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=881> ;
+    ns1:事業内容 "【対象児童】生後6ヵ月から小学6年生【定員】4名【利用日時】月曜日から金曜日／7時30分～18時【利用料】市内2,000円／市外3,000円" ;
+    ns1:施設名等 "病児保育園ふたば所在地：明石市大久保町西島742－3電　話：078－947－9700" .
 
 [] ns1:code "283819" ;
     ns1:ref <http://www.town.hyogo-inami.lg.jp/contents_detail.php?co=kak&frmId=958> ;

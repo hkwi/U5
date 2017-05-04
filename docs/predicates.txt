@@ -23,6 +23,7 @@ https://hkwi.github.io/U5/scheme#一時預り
 https://hkwi.github.io/U5/scheme#中学校名
 https://hkwi.github.io/U5/scheme#乳児の受入
 https://hkwi.github.io/U5/scheme#乳児受入
+https://hkwi.github.io/U5/scheme#事業内容
 https://hkwi.github.io/U5/scheme#休所日
 https://hkwi.github.io/U5/scheme#休日保育
 https://hkwi.github.io/U5/scheme#会場
@@ -82,6 +83,8 @@ https://hkwi.github.io/U5/scheme#学校名
 https://hkwi.github.io/U5/scheme#学級
 https://hkwi.github.io/U5/scheme#学級名
 https://hkwi.github.io/U5/scheme#定員
+https://hkwi.github.io/U5/scheme#定員(1号)
+https://hkwi.github.io/U5/scheme#定員(2・3号)
 https://hkwi.github.io/U5/scheme#定員1号2号3号
 https://hkwi.github.io/U5/scheme#定員2号3号
 https://hkwi.github.io/U5/scheme#定員（2.3号認定）
@@ -100,11 +103,13 @@ https://hkwi.github.io/U5/scheme#授乳室
 https://hkwi.github.io/U5/scheme#施設の名称
 https://hkwi.github.io/U5/scheme#施設名
 https://hkwi.github.io/U5/scheme#施設名住所
+https://hkwi.github.io/U5/scheme#施設名等
 https://hkwi.github.io/U5/scheme#施設所在地
 https://hkwi.github.io/U5/scheme#時間外
 https://hkwi.github.io/U5/scheme#時間外の有無
 https://hkwi.github.io/U5/scheme#時間預かり
 https://hkwi.github.io/U5/scheme#時間預り
+https://hkwi.github.io/U5/scheme#最寄駅等
 https://hkwi.github.io/U5/scheme#朝の預かり保育開始時間
 https://hkwi.github.io/U5/scheme#未就園児教室
 https://hkwi.github.io/U5/scheme#満3歳児
@@ -130,6 +135,7 @@ https://hkwi.github.io/U5/scheme#認可外保育施設指導監督基準適合�
 https://hkwi.github.io/U5/scheme#認可外保育施設指導監者督基準適合状況
 https://hkwi.github.io/U5/scheme#認可定員(全体)
 https://hkwi.github.io/U5/scheme#認定こども園名
+https://hkwi.github.io/U5/scheme#認定定員
 https://hkwi.github.io/U5/scheme#運営
 https://hkwi.github.io/U5/scheme#運営主体
 https://hkwi.github.io/U5/scheme#郵便番号

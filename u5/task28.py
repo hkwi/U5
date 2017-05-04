@@ -318,11 +318,10 @@ def 兵庫県_朝来市():
 def 兵庫県_淡路市():
 	# 兵庫県 淡路市
 	# 保育所
-	for a in links("http://www.city.awaji.lg.jp/life/2/20/77/"):
+	for a in links("http://www.city.awaji.lg.jp/soshiki/kosodate/2010060010.html"):
 		if "保育所" in a.text_content():
-			for a2 in links(a.get("href")):
-				if "一覧" in a2.text_content():
-					yield res(a2.get("href"))
+			yield res(a.get("href"))
+			# XXX: table in docx
 
 @task
 @env(code="282278", css="#contentsIn")
