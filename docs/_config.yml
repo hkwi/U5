@@ -23,6 +23,7 @@ baseurl: "/U5" # the subpath of your site, e.g. /blog
 url: "https://hkwi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kwi
 github_username:  hkwi
+google_analytics: UA-1881914-12
 
 # Build settings
 markdown: kramdown
